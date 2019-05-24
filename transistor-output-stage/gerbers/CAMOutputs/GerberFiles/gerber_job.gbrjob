@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-05-07T21:47:02Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.2.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.640844,
+        "LayerNumber": 4,
+        "Name": {
+            "ProjectId": "transistor-test"
+        },
+        "Owner": "Theodore Yapo <ted.yapo@gmail.com>",
+        "Size": {
+            "X": 38.1,
+            "Y": 34.29
+        }
+    }
+}

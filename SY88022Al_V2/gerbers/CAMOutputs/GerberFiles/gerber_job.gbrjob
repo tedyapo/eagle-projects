@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-04-23T16:11:32Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.2.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.640844,
+        "LayerNumber": 4,
+        "Name": {
+            "ProjectId": "SY88022AL_V2"
+        },
+        "Owner": "Theodore Yapo <ted.yapo@gmail.com>",
+        "Size": {
+            "X": 39.37,
+            "Y": 24.13
+        }
+    }
+}

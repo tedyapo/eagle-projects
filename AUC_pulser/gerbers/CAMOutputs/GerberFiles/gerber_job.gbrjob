@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2018-12-14T04:26:32Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.2.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.671119,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "auc_pulser"
+        },
+        "Owner": "Theodore Yapo <ted.yapo@gmail.com>",
+        "Size": {
+            "X": 38.08,
+            "Y": 16.4975
+        }
+    }
+}
