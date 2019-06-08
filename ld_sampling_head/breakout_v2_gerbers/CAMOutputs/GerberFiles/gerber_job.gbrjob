@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-05-29T22:16:49Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.4.1"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.640844,
+        "LayerNumber": 4,
+        "Name": {
+            "ProjectId": "sy88932l_breakout_v2"
+        },
+        "Owner": "Theodore Yapo <ted.yapo@gmail.com>",
+        "Size": {
+            "X": 31.75,
+            "Y": 26.035
+        }
+    }
+}
