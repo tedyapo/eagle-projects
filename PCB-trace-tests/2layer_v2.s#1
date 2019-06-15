@@ -145,7 +145,7 @@
 <pad name="GND@17" x="2.413" y="1.651" drill="0.3" stop="no"/>
 <rectangle x1="0" y1="-2.032" x2="4.572" y2="2.032" layer="41"/>
 <smd name="BOTTOM_GND" x="2.286" y="0" dx="4.572" dy="9.144" layer="16"/>
-<text x="4.953" y="2.159" size="1.27" layer="21">40/10</text>
+<text x="4.953" y="3.429" size="1.27" layer="21">40/10</text>
 </package>
 <package name="SMA_EDGE_LAUNCH_2L_4015">
 <smd name="GND_PAD2" x="2.286" y="-3.302" dx="4.572" dy="2.54" layer="1"/>
@@ -201,7 +201,7 @@
 <pad name="GND@17" x="2.413" y="1.651" drill="0.3" stop="no"/>
 <rectangle x1="0" y1="-2.032" x2="4.572" y2="2.032" layer="41"/>
 <smd name="BOTTOM_GND" x="2.286" y="0" dx="4.572" dy="9.144" layer="16"/>
-<text x="4.953" y="2.159" size="1.27" layer="21">40/15</text>
+<text x="4.953" y="3.429" size="1.27" layer="21">40/15</text>
 </package>
 <package name="SMA_EDGE_LAUNCH_2L_4020">
 <smd name="GND_PAD2" x="2.286" y="-3.302" dx="4.572" dy="2.54" layer="1"/>
@@ -257,7 +257,7 @@
 <pad name="GND@17" x="2.413" y="1.651" drill="0.3" stop="no"/>
 <rectangle x1="0" y1="-2.032" x2="4.572" y2="2.032" layer="41"/>
 <smd name="BOTTOM_GND" x="2.286" y="0" dx="4.572" dy="9.144" layer="16"/>
-<text x="4.953" y="2.159" size="1.27" layer="21">40/20</text>
+<text x="4.953" y="3.429" size="1.27" layer="21">40/20</text>
 </package>
 <package name="SMA_EDGE_LAUNCH_2L_4025">
 <smd name="GND_PAD2" x="2.286" y="-3.302" dx="4.572" dy="2.54" layer="1"/>
@@ -313,7 +313,7 @@
 <pad name="GND@17" x="2.413" y="1.651" drill="0.3" stop="no"/>
 <rectangle x1="0" y1="-2.032" x2="4.572" y2="2.032" layer="41"/>
 <smd name="BOTTOM_GND" x="2.286" y="0" dx="4.572" dy="9.144" layer="16"/>
-<text x="4.953" y="2.159" size="1.27" layer="21">40/25</text>
+<text x="4.953" y="3.429" size="1.27" layer="21">40/25</text>
 </package>
 <package name="SMA_EDGE_LAUNCH_2L_4030">
 <smd name="GND_PAD2" x="2.286" y="-3.302" dx="4.572" dy="2.54" layer="1"/>
@@ -369,7 +369,7 @@
 <pad name="GND@17" x="2.413" y="1.651" drill="0.3" diameter="0.762" stop="no"/>
 <rectangle x1="0" y1="-2.032" x2="4.572" y2="2.032" layer="41"/>
 <smd name="BOTTOM_GND" x="2.286" y="0" dx="4.572" dy="9.144" layer="16"/>
-<text x="4.953" y="2.159" size="1.27" layer="21">40/30</text>
+<text x="4.953" y="3.429" size="1.27" layer="21">40/30</text>
 </package>
 <package name="SMA_EDGE_LAUNCH_2L_4035">
 <smd name="GND_PAD2" x="2.286" y="-3.302" dx="4.572" dy="2.54" layer="1"/>
@@ -425,7 +425,7 @@
 <pad name="GND@17" x="2.413" y="1.778" drill="0.3" diameter="0.762" stop="no"/>
 <rectangle x1="0" y1="-2.032" x2="4.572" y2="2.032" layer="41"/>
 <smd name="BOTTOM_GND" x="2.286" y="0" dx="4.572" dy="9.144" layer="16"/>
-<text x="4.953" y="2.159" size="1.27" layer="21">40/35</text>
+<text x="4.953" y="3.429" size="1.27" layer="21">40/35</text>
 </package>
 <package name="SMA_EDGE_LAUNCH_2L_4040">
 <smd name="GND_PAD2" x="2.286" y="-3.302" dx="4.572" dy="2.54" layer="1"/>
@@ -481,7 +481,7 @@
 <pad name="GND@17" x="2.413" y="1.905" drill="0.3" diameter="0.762" stop="no"/>
 <rectangle x1="0" y1="-2.032" x2="4.572" y2="2.032" layer="41"/>
 <smd name="BOTTOM_GND" x="2.286" y="0" dx="4.572" dy="9.144" layer="16"/>
-<text x="4.953" y="2.159" size="1.27" layer="21">40/40</text>
+<text x="4.953" y="3.429" size="1.27" layer="21">40/40</text>
 </package>
 </packages>
 <symbols>

@@ -502,7 +502,7 @@
 <clearance class="7" value="0.1524"/>
 </class>
 </classes>
-<designrules name="oshpark-2layer">
+<designrules name="oshpark-2layer *">
 <description language="en">&lt;b&gt;OSH Park Design Rules&lt;/b&gt;
 &lt;p&gt;
 Please make sure your boards conform to these design rules.
@@ -564,7 +564,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <param name="mlMaxStopFrame" value="2.5mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="0mil"/>
+<param name="mlViaStopLimit" value="20mil"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
@@ -1096,7 +1096,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="N$1" class="7">
 <contactref element="J2" pad="CENTER@1"/>
 <contactref element="J1" pad="CENTER@1"/>
-<wire x1="2.286" y1="6.985" x2="97.409" y2="6.985" width="0.8382" layer="1"/>
+<wire x1="2.286" y1="6.985" x2="97.409" y2="6.985" width="0.6858" layer="1"/>
 </signal>
 <signal name="N$2" class="6">
 <contactref element="J4" pad="CENTER@1"/>

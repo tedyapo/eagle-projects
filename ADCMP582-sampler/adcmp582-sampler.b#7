@@ -414,6 +414,23 @@
 <package name="PAD_50MIL">
 <smd name="P$1" x="0" y="0" dx="1.27" dy="1.27" layer="1"/>
 </package>
+<package name="SSOP8">
+<smd name="2" x="-0.325" y="-1.7" dx="1.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="1" x="-0.975" y="-1.7" dx="1.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="3" x="0.325" y="-1.7" dx="1.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="4" x="0.975" y="-1.7" dx="1.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="7" x="-0.325" y="1.7" dx="1.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="8" x="-0.975" y="1.7" dx="1.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="6" x="0.325" y="1.7" dx="1.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="5" x="0.975" y="1.7" dx="1.6" dy="0.3" layer="1" rot="R90"/>
+<wire x1="-1.3" y1="1.5" x2="-1.6" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="1.5" x2="-1.6" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="-1.4" x2="-1.3" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="1.3" y1="1.5" x2="1.6" y2="1.5" width="0.127" layer="21"/>
+<wire x1="1.6" y1="1.5" x2="1.6" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="1.6" y1="-1.4" x2="1.3" y2="-1.4" width="0.127" layer="21"/>
+<circle x="-2" y="-1.7" radius="0.316225" width="0" layer="21"/>
+</package>
 </packages>
 </library>
 </libraries>
@@ -814,6 +831,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="C18" library="yapo" package="C0402_NO_THERMALS" value="" x="6.858" y="54.356" smashed="yes" rot="R90"/>
 <element name="C19" library="yapo" package="C0603" value="" x="10.922" y="64.008" smashed="yes" rot="R270"/>
+<element name="IC14" library="yapo" package="SSOP8" value="" x="-10.922" y="2.667" smashed="yes"/>
+<element name="IC15" library="yapo" package="SSOP8" value="" x="-14.986" y="2.667" smashed="yes"/>
+<element name="U$90" library="yapo" package="SOT23-5" value="74LVC1G04" x="-15.748" y="-4.445" smashed="yes">
+<attribute name="NAME" x="-13.208" y="-1.905" size="1.27" layer="25"/>
+<attribute name="VALUE" x="-13.208" y="-3.175" size="1.27" layer="27"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -910,6 +933,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="6.477" y="58.801" extent="1-16" drill="0.254"/>
 <via x="7.747" y="59.7154" extent="1-16" drill="0.254"/>
 <contactref element="C19" pad="P$1"/>
+<contactref element="IC15" pad="4"/>
+<contactref element="IC14" pad="4"/>
+<contactref element="U$90" pad="3"/>
 <wire x1="58.94" y1="76.454" x2="63.12" y2="76.835" width="0" layer="19" extent="1-1"/>
 <wire x1="61.48" y1="72.771" x2="63.12" y2="76.835" width="0" layer="19" extent="1-1"/>
 <wire x1="66.433" y1="72.263" x2="61.48" y2="72.771" width="0" layer="19" extent="1-1"/>
@@ -1002,6 +1028,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="33.655" y1="24.03" x2="28.575" y2="29.31" width="0" layer="19" extent="1-1"/>
 <wire x1="22.225" y1="24.03" x2="17.145" y2="29.31" width="0" layer="19" extent="1-1"/>
 <wire x1="38.514" y1="34.925" x2="29.718" y2="33.565" width="0" layer="19" extent="1-1"/>
+<wire x1="-9.947" y1="0.967" x2="10.541" y2="24.097" width="0" layer="19" extent="1-1"/>
+<wire x1="-14.011" y1="0.967" x2="-9.947" y2="0.967" width="0" layer="19" extent="1-1"/>
+<wire x1="-14.798" y1="-5.645" x2="-14.011" y2="0.967" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="U$1" pad="2"/>
@@ -1111,6 +1140,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </polygon>
 <via x="11.303" y="58.674" extent="1-16" drill="0.254"/>
 <via x="11.811" y="58.674" extent="1-16" drill="0.254"/>
+<contactref element="IC15" pad="8"/>
+<contactref element="IC14" pad="8"/>
+<contactref element="IC14" pad="2"/>
+<contactref element="IC14" pad="7"/>
+<contactref element="IC15" pad="6"/>
+<contactref element="IC15" pad="7"/>
+<contactref element="U$90" pad="5"/>
 <wire x1="26.195" y1="82.169" x2="26.195" y2="84.709" width="0" layer="19" extent="1-1"/>
 <wire x1="13.114" y1="91.821" x2="26.195" y2="84.709" width="0" layer="19" extent="1-1"/>
 <wire x1="16.51" y1="62.447" x2="26.195" y2="82.169" width="0" layer="19" extent="1-1"/>
@@ -1133,6 +1169,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="31.369" y1="40.095" x2="23.095" y2="41.23" width="0" layer="19" extent="1-1"/>
 <wire x1="31.369" y1="33.565" x2="31.369" y2="40.095" width="0" layer="19" extent="1-1"/>
 <wire x1="38.514" y1="38.735" x2="31.369" y2="40.095" width="0" layer="19" extent="1-1"/>
+<wire x1="-11.247" y1="4.367" x2="11.811" y2="24.097" width="0" layer="19" extent="1-1"/>
+<wire x1="-11.897" y1="4.367" x2="-11.247" y2="4.367" width="0" layer="19" extent="1-1"/>
+<wire x1="-14.661" y1="4.367" x2="-11.897" y2="4.367" width="0" layer="19" extent="1-1"/>
+<wire x1="-15.311" y1="4.367" x2="-14.661" y2="4.367" width="0" layer="19" extent="1-1"/>
+<wire x1="-15.961" y1="4.367" x2="-15.311" y2="4.367" width="0" layer="19" extent="1-1"/>
+<wire x1="-11.247" y1="0.967" x2="-11.247" y2="4.367" width="0" layer="19" extent="1-1"/>
+<wire x1="-16.698" y1="-3.245" x2="-11.247" y2="0.967" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="U$1" pad="11"/>
@@ -1520,6 +1563,32 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="12.21235" y1="36.5633" x2="7.7216" y2="41.05405" width="0.3302" layer="1"/>
 <wire x1="7.751" y1="56.106" x2="7.751" y2="55.5284" width="0.3048" layer="1"/>
 <wire x1="7.751" y1="55.5284" x2="7.7216" y2="55.499" width="0.3302" layer="1"/>
+</signal>
+<signal name="N$38">
+<contactref element="IC14" pad="5"/>
+<contactref element="IC15" pad="2"/>
+<wire x1="-9.947" y1="4.367" x2="-15.311" y2="0.967" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$39">
+<contactref element="IC15" pad="3"/>
+<contactref element="IC14" pad="6"/>
+<wire x1="-10.597" y1="4.367" x2="-14.661" y2="0.967" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$40">
+<contactref element="IC15" pad="1"/>
+</signal>
+<signal name="N$41">
+<contactref element="IC14" pad="1"/>
+</signal>
+<signal name="N$42">
+<contactref element="IC15" pad="5"/>
+<contactref element="U$90" pad="2"/>
+<wire x1="-14.011" y1="4.367" x2="-15.748" y2="-5.645" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$36">
+<contactref element="U$90" pad="4"/>
+<contactref element="IC4" pad="7"/>
+<wire x1="-14.798" y1="-3.245" x2="38.514" y2="37.465" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

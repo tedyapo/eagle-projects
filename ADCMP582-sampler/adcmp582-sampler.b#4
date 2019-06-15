@@ -1376,6 +1376,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="D0">
 <contactref element="IC3" pad="23"/>
+<contactref element="IC8" pad="7"/>
+<wire x1="18.415" y1="29.31" x2="19.095" y2="34.83" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D1">
 <contactref element="IC3" pad="25"/>
@@ -1479,9 +1481,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="34.29" y1="26.67" x2="34.925" y2="26.035" width="0.254" layer="1"/>
 <wire x1="34.925" y1="26.035" x2="34.925" y2="24.03" width="0.254" layer="1"/>
 <wire x1="24.13" y1="26.67" x2="26.67" y2="26.67" width="0.254" layer="16"/>
-</signal>
-<signal name="N$26">
-<contactref element="IC8" pad="7"/>
 </signal>
 <signal name="D9">
 <contactref element="IC3" pad="2"/>

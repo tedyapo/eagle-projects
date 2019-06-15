@@ -1577,7 +1577,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="N$40">
 <contactref element="IC15" pad="1"/>
 </signal>
-<signal name="TRIGGER-EN">
+<signal name="TRIG-EN">
 <contactref element="IC14" pad="1"/>
 </signal>
 <signal name="N$42">

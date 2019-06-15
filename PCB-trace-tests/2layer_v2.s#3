@@ -577,14 +577,26 @@
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
-<class number="1" name="41-8" width="1.0414" drill="0">
-<clearance class="1" value="0.2032"/>
+<class number="1" name="33-6" width="0.8382" drill="0">
+<clearance class="1" value="0.1524"/>
 </class>
 <class number="2" name="32-6" width="0.8128" drill="0">
 <clearance class="2" value="0.1524"/>
 </class>
-<class number="3" name="misc-8" width="0" drill="0">
-<clearance class="3" value="0.2032"/>
+<class number="3" name="31-6" width="0.7874" drill="0">
+<clearance class="3" value="0.1524"/>
+</class>
+<class number="4" name="30-6" width="0.762" drill="0">
+<clearance class="4" value="0.1524"/>
+</class>
+<class number="5" name="29-6" width="0.7366" drill="0">
+<clearance class="5" value="0.1524"/>
+</class>
+<class number="6" name="28-6" width="0.7112" drill="0">
+<clearance class="6" value="0.1524"/>
+</class>
+<class number="7" name="27-6" width="0.6858" drill="0">
+<clearance class="7" value="0.1524"/>
 </class>
 </classes>
 <parts>
@@ -754,28 +766,28 @@
 <pinref part="U$14" gate="G$1" pin="GND"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="N$1" class="7">
 <segment>
 <pinref part="J2" gate="G$1" pin="CENTER"/>
 <pinref part="J1" gate="G$1" pin="CENTER"/>
 <wire x1="38.1" y1="60.96" x2="142.24" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="N$2" class="6">
 <segment>
 <pinref part="J4" gate="G$1" pin="CENTER"/>
 <pinref part="J3" gate="G$1" pin="CENTER"/>
 <wire x1="38.1" y1="35.56" x2="142.24" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$3" class="1">
+<net name="N$3" class="4">
 <segment>
 <pinref part="J6" gate="G$1" pin="CENTER"/>
 <pinref part="J5" gate="G$1" pin="CENTER"/>
 <wire x1="38.1" y1="10.16" x2="142.24" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$4" class="1">
+<net name="N$4" class="3">
 <segment>
 <pinref part="J8" gate="G$1" pin="CENTER"/>
 <pinref part="J7" gate="G$1" pin="CENTER"/>
@@ -789,14 +801,14 @@
 <wire x1="38.1" y1="-43.18" x2="142.24" y2="-43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$6" class="2">
+<net name="N$6" class="1">
 <segment>
 <pinref part="J12" gate="G$1" pin="CENTER"/>
 <pinref part="J11" gate="G$1" pin="CENTER"/>
 <wire x1="38.1" y1="-15.24" x2="142.24" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$7" class="1">
+<net name="N$7" class="5">
 <segment>
 <pinref part="J14" gate="G$1" pin="CENTER"/>
 <pinref part="J13" gate="G$1" pin="CENTER"/>

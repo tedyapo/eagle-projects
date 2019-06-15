@@ -1589,6 +1589,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="IC4" pad="7"/>
 <wire x1="41.345" y1="37.272" x2="38.514" y2="37.465" width="0" layer="19" extent="1-1"/>
 </signal>
+<signal name="ACQUIRED">
+<contactref element="IC14" pad="3"/>
+</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
