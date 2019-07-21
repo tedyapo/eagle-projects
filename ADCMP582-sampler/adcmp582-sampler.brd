@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.1">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1146,18 +1146,24 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="11.811" y="58.674" extent="1-16" drill="0.254"/>
 <contactref element="IC15" pad="8"/>
 <contactref element="IC14" pad="8"/>
-<contactref element="IC14" pad="2"/>
 <contactref element="IC14" pad="7"/>
 <contactref element="IC15" pad="6"/>
 <contactref element="IC15" pad="7"/>
 <contactref element="U$90" pad="5"/>
+<contactref element="IC14" pad="6"/>
 <wire x1="26.195" y1="82.169" x2="26.195" y2="84.709" width="0" layer="19" extent="1-1"/>
 <wire x1="13.114" y1="91.821" x2="26.195" y2="84.709" width="0" layer="19" extent="1-1"/>
 <wire x1="16.51" y1="62.447" x2="26.195" y2="82.169" width="0" layer="19" extent="1-1"/>
 <wire x1="18.448" y1="59.436" x2="16.51" y2="62.447" width="0" layer="19" extent="1-1"/>
 <wire x1="23.679" y1="59.116" x2="18.448" y2="59.436" width="0" layer="19" extent="1-1"/>
 <wire x1="11.811" y1="58.674" x2="16.51" y2="62.447" width="0" layer="19" extent="1-1"/>
+<wire x1="11.303" y1="58.674" x2="11.811" y2="58.674" width="0" layer="19" extent="1-1"/>
+<wire x1="10.541" y1="58.682" x2="11.303" y2="58.674" width="0" layer="19" extent="1-1"/>
+<wire x1="9.426" y1="58.281" x2="10.541" y2="58.682" width="0" layer="19" extent="1-1"/>
 <wire x1="9.426" y1="56.781" x2="9.426" y2="58.281" width="0" layer="19" extent="1-1"/>
+<wire x1="10.541" y1="56.38" x2="9.426" y2="56.781" width="0" layer="19" extent="1-1"/>
+<wire x1="11.303" y1="56.388" x2="10.541" y2="56.38" width="0" layer="19" extent="1-1"/>
+<wire x1="11.811" y1="56.388" x2="11.303" y2="56.388" width="0" layer="19" extent="1-1"/>
 <wire x1="12.446" y1="51.98" x2="11.811" y2="56.388" width="0" layer="19" extent="1-1"/>
 <wire x1="14.732" y1="52.615" x2="12.446" y2="51.98" width="0" layer="19" extent="1-1"/>
 <wire x1="23.095" y1="41.23" x2="14.732" y2="52.615" width="0" layer="19" extent="1-1"/>
@@ -1177,9 +1183,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="46.687" y1="35.5756" x2="41.3196" y2="35.5752" width="0" layer="19" extent="1-1"/>
 <wire x1="46.687" y1="36.2256" x2="46.687" y2="35.5756" width="0" layer="19" extent="1-1"/>
 <wire x1="46.687" y1="36.8756" x2="46.687" y2="36.2256" width="0" layer="19" extent="1-1"/>
-<wire x1="53.6974" y1="36.2256" x2="46.687" y2="36.2256" width="0" layer="19" extent="1-1"/>
-<wire x1="53.6974" y1="35.5756" x2="53.6974" y2="36.2256" width="0" layer="19" extent="1-1"/>
-<wire x1="57.0974" y1="36.2256" x2="53.6974" y2="36.2256" width="0" layer="19" extent="1-1"/>
+<wire x1="53.6974" y1="35.5756" x2="46.687" y2="35.5756" width="0" layer="19" extent="1-1"/>
+<wire x1="53.6974" y1="36.2256" x2="53.6974" y2="35.5756" width="0" layer="19" extent="1-1"/>
+<wire x1="53.6974" y1="36.8756" x2="53.6974" y2="36.2256" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="U$1" pad="11"/>
@@ -1587,16 +1593,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="52.5174" y1="37.5256" x2="53.6974" y2="37.5256" width="0.254" layer="1"/>
 <wire x1="51.181" y1="38.862" x2="52.5174" y2="37.5256" width="0.254" layer="1"/>
 </signal>
-<signal name="N$39">
-<contactref element="IC15" pad="3"/>
-<contactref element="IC14" pad="6"/>
-<wire x1="53.6974" y1="36.8756" x2="50.087" y2="36.8756" width="0.254" layer="1"/>
-</signal>
 <signal name="N$40">
 <contactref element="IC15" pad="1"/>
-</signal>
-<signal name="TRIG-EN">
 <contactref element="IC14" pad="1"/>
+<wire x1="50.087" y1="35.5756" x2="57.0974" y2="35.5756" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$42">
 <contactref element="IC15" pad="5"/>
@@ -1610,9 +1610,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="IC4" pad="7"/>
 <wire x1="41.3196" y1="37.4752" x2="38.5242" y2="37.4752" width="0.254" layer="1"/>
 <wire x1="38.5242" y1="37.4752" x2="38.514" y2="37.465" width="0.254" layer="1"/>
-</signal>
-<signal name="ACQUIRED">
-<contactref element="IC14" pad="3"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

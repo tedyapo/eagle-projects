@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.1">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2374,14 +2374,14 @@
 <pinref part="IC14" gate="G$1" pin="VCC"/>
 <pinref part="U$89" gate="G$1" pin="+3.3V"/>
 <wire x1="30.48" y1="111.76" x2="30.48" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="IC14" gate="G$1" pin="D"/>
-<wire x1="17.78" y1="93.98" x2="12.7" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="93.98" x2="12.7" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="101.6" x2="12.7" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="109.22" x2="30.48" y2="109.22" width="0.1524" layer="91"/>
 <junction x="30.48" y="109.22"/>
 <pinref part="IC14" gate="G$1" pin="S"/>
 <wire x1="17.78" y1="101.6" x2="12.7" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="IC14" gate="G$1" pin="R"/>
+<wire x1="17.78" y1="81.28" x2="12.7" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="81.28" x2="12.7" y2="101.6" width="0.1524" layer="91"/>
 <junction x="12.7" y="101.6"/>
 </segment>
 <segment>
@@ -2937,30 +2937,17 @@
 <wire x1="68.58" y1="93.98" x2="81.28" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$39" class="0">
-<segment>
-<pinref part="IC15" gate="G$1" pin="!Q!"/>
-<wire x1="106.68" y1="86.36" x2="111.76" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="86.36" x2="111.76" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="66.04" x2="12.7" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="66.04" x2="12.7" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="IC14" gate="G$1" pin="R"/>
-<wire x1="12.7" y1="81.28" x2="17.78" y2="81.28" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$40" class="0">
 <segment>
 <pinref part="IC15" gate="G$1" pin="CP"/>
 <wire x1="81.28" y1="88.9" x2="68.58" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="88.9" x2="68.58" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="60.96" x2="-2.54" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="TRIG-EN" class="0">
-<segment>
+<wire x1="68.58" y1="60.96" x2="2.54" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="60.96" x2="2.54" y2="88.9" width="0.1524" layer="91"/>
+<junction x="2.54" y="60.96"/>
 <pinref part="IC14" gate="G$1" pin="CP"/>
-<wire x1="17.78" y1="88.9" x2="-2.54" y2="88.9" width="0.1524" layer="91"/>
-<label x="-2.54" y="88.9" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="2.54" y1="88.9" x2="17.78" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="60.96" x2="-30.48" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$42" class="0">
@@ -2975,13 +2962,6 @@
 <pinref part="U$90" gate="G$1" pin="OUT"/>
 <pinref part="IC4" gate="G$1" pin="D"/>
 <wire x1="147.32" y1="96.52" x2="149.86" y2="96.52" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="ACQUIRED" class="0">
-<segment>
-<pinref part="IC14" gate="G$1" pin="!Q!"/>
-<wire x1="43.18" y1="86.36" x2="48.26" y2="86.36" width="0.1524" layer="91"/>
-<label x="48.26" y="86.36" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
