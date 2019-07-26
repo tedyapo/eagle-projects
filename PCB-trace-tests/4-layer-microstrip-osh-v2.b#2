@@ -68,9 +68,7 @@
 <wire x1="152.4" y1="9.525" x2="0" y2="9.525" width="0" layer="20"/>
 <wire x1="0" y1="9.525" x2="0" y2="0" width="0" layer="20"/>
 <text x="6.35" y="1.905" size="1.4224" layer="21" ratio="12">12.5/6 CPWG</text>
-<text x="6.35" y="6.35" size="1.4224" layer="21" ratio="12">CINCH-142-0761-881</text>
-<text x="140.97" y="6.35" size="1.4224" layer="21" ratio="12">Yapo</text>
-<text x="140.97" y="1.905" size="1.4224" layer="21" ratio="12">2019</text>
+<text x="47.625" y="1.905" size="1.4224" layer="21" ratio="12">CINCH-142-0761-881</text>
 </plain>
 <libraries>
 <library name="yapo">

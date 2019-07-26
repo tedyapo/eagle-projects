@@ -63,1102 +63,114 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="sma_footprint_2l">
+<library name="yapo">
 <packages>
-<package name="SMA_EDGE_LAUNCH_2L_4010">
-<smd name="GND_PAD2" x="2.286" y="-3.302" dx="4.572" dy="2.54" layer="1"/>
-<smd name="GND_PAD1" x="2.286" y="3.302" dx="4.572" dy="2.54" layer="1"/>
-<smd name="CENTER@1" x="2.286" y="0" dx="1.016" dy="4.572" layer="1" rot="R90"/>
-<polygon width="0.0254" layer="1">
-<vertex x="0" y="2.032"/>
-<vertex x="0" y="0.762"/>
-<vertex x="4.572" y="0.762"/>
-<vertex x="4.572" y="2.032"/>
-</polygon>
-<polygon width="0.0254" layer="1">
-<vertex x="0" y="-2.032"/>
-<vertex x="0" y="-0.762"/>
-<vertex x="4.572" y="-0.762"/>
-<vertex x="4.572" y="-2.032"/>
-</polygon>
-<pad name="GND@3" x="1.143" y="1.651" drill="0.3" stop="no"/>
-<pad name="GND@5" x="1.143" y="-1.651" drill="0.3" stop="no"/>
-<pad name="GND@4" x="3.683" y="1.651" drill="0.3" stop="no"/>
-<pad name="GND@6" x="3.683" y="-1.651" drill="0.3" stop="no"/>
-<pad name="GND@7" x="1.143" y="-3.937" drill="0.3"/>
-<pad name="GND@8" x="3.683" y="-3.937" drill="0.3"/>
-<pad name="GND@1" x="1.143" y="3.937" drill="0.3"/>
-<pad name="GND@2" x="3.683" y="3.937" drill="0.3"/>
-<wire x1="-1.5762" y1="-2.625" x2="-9.0762" y2="-2.625" width="0.127" layer="21"/>
-<wire x1="-1.5762" y1="2.625" x2="-7.9512" y2="2.625" width="0.127" layer="21"/>
-<wire x1="-9.0762" y1="-2.625" x2="-9.0762" y2="2.625" width="0.127" layer="51"/>
-<wire x1="-9.0762" y1="2.625" x2="-7.9238" y2="2.625" width="0.127" layer="51"/>
-<wire x1="-4.4512" y1="-2.875" x2="-4.8262" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-5.0762" y1="-2.875" x2="-5.4512" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-5.7012" y1="-2.875" x2="-6.0762" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-6.3262" y1="-2.875" x2="-6.7012" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-6.9512" y1="-2.875" x2="-7.3262" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-7.5762" y1="-2.875" x2="-7.9512" y2="2.875" width="0.127" layer="51"/>
-<wire x1="0" y1="3.2512" x2="-1.5748" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="-1.5748" y1="3.2512" x2="-1.5748" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="-1.5748" y1="-3.2512" x2="0" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="0" y1="-2.286" x2="0" y2="2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="3.2512" x2="4.064" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="4.064" y1="3.2512" x2="4.064" y2="2.286" width="0.127" layer="51"/>
-<wire x1="4.064" y1="2.286" x2="0" y2="2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="2.286" x2="0" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="0" y1="-3.2512" x2="4.064" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="4.064" y1="-3.2512" x2="4.064" y2="-2.286" width="0.127" layer="51"/>
-<wire x1="4.064" y1="-2.286" x2="0" y2="-2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="-2.286" x2="0" y2="-3.2512" width="0.127" layer="51"/>
-<smd name="GND@11" x="4.445" y="1.143" dx="0.0508" dy="0.0508" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="GND@12" x="4.445" y="-1.143" dx="0.0508" dy="0.0508" layer="1" stop="no" thermals="no" cream="no"/>
-<pad name="GND@14" x="2.413" y="3.937" drill="0.3"/>
-<pad name="GND@15" x="2.413" y="-3.937" drill="0.3"/>
-<pad name="GND@16" x="2.413" y="-1.651" drill="0.3" stop="no"/>
-<pad name="GND@17" x="2.413" y="1.651" drill="0.3" stop="no"/>
-<rectangle x1="0" y1="-2.032" x2="4.572" y2="2.032" layer="41"/>
-<smd name="BOTTOM_GND" x="2.286" y="0" dx="4.572" dy="9.144" layer="16"/>
-<text x="4.953" y="3.429" size="1.27" layer="21">40/10</text>
-</package>
-<package name="SMA_EDGE_LAUNCH_2L_4015">
-<smd name="GND_PAD2" x="2.286" y="-3.302" dx="4.572" dy="2.54" layer="1"/>
-<smd name="GND_PAD1" x="2.286" y="3.302" dx="4.572" dy="2.54" layer="1"/>
-<smd name="CENTER@1" x="2.286" y="0" dx="1.016" dy="4.572" layer="1" rot="R90"/>
-<polygon width="0.0254" layer="1">
-<vertex x="0" y="2.032"/>
-<vertex x="0" y="0.889"/>
-<vertex x="4.572" y="0.889"/>
-<vertex x="4.572" y="2.032"/>
-</polygon>
-<polygon width="0.0254" layer="1">
-<vertex x="0" y="-2.032"/>
-<vertex x="0" y="-0.889"/>
-<vertex x="4.572" y="-0.889"/>
-<vertex x="4.572" y="-2.032"/>
-</polygon>
-<pad name="GND@3" x="1.143" y="1.651" drill="0.3" stop="no"/>
-<pad name="GND@5" x="1.143" y="-1.651" drill="0.3" stop="no"/>
-<pad name="GND@4" x="3.683" y="1.651" drill="0.3" stop="no"/>
-<pad name="GND@6" x="3.683" y="-1.651" drill="0.3" stop="no"/>
-<pad name="GND@7" x="1.143" y="-3.937" drill="0.3"/>
-<pad name="GND@8" x="3.683" y="-3.937" drill="0.3"/>
-<pad name="GND@1" x="1.143" y="3.937" drill="0.3"/>
-<pad name="GND@2" x="3.683" y="3.937" drill="0.3"/>
-<wire x1="-1.5762" y1="-2.625" x2="-9.0762" y2="-2.625" width="0.127" layer="21"/>
-<wire x1="-1.5762" y1="2.625" x2="-7.9512" y2="2.625" width="0.127" layer="21"/>
-<wire x1="-9.0762" y1="-2.625" x2="-9.0762" y2="2.625" width="0.127" layer="51"/>
-<wire x1="-9.0762" y1="2.625" x2="-7.9238" y2="2.625" width="0.127" layer="51"/>
-<wire x1="-4.4512" y1="-2.875" x2="-4.8262" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-5.0762" y1="-2.875" x2="-5.4512" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-5.7012" y1="-2.875" x2="-6.0762" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-6.3262" y1="-2.875" x2="-6.7012" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-6.9512" y1="-2.875" x2="-7.3262" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-7.5762" y1="-2.875" x2="-7.9512" y2="2.875" width="0.127" layer="51"/>
-<wire x1="0" y1="3.2512" x2="-1.5748" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="-1.5748" y1="3.2512" x2="-1.5748" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="-1.5748" y1="-3.2512" x2="0" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="0" y1="-2.286" x2="0" y2="2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="3.2512" x2="4.064" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="4.064" y1="3.2512" x2="4.064" y2="2.286" width="0.127" layer="51"/>
-<wire x1="4.064" y1="2.286" x2="0" y2="2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="2.286" x2="0" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="0" y1="-3.2512" x2="4.064" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="4.064" y1="-3.2512" x2="4.064" y2="-2.286" width="0.127" layer="51"/>
-<wire x1="4.064" y1="-2.286" x2="0" y2="-2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="-2.286" x2="0" y2="-3.2512" width="0.127" layer="51"/>
-<smd name="GND@11" x="4.445" y="1.143" dx="0.0508" dy="0.0508" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="GND@12" x="4.445" y="-1.143" dx="0.0508" dy="0.0508" layer="1" stop="no" thermals="no" cream="no"/>
-<pad name="GND@14" x="2.413" y="3.937" drill="0.3"/>
-<pad name="GND@15" x="2.413" y="-3.937" drill="0.3"/>
-<pad name="GND@16" x="2.413" y="-1.651" drill="0.3" stop="no"/>
-<pad name="GND@17" x="2.413" y="1.651" drill="0.3" stop="no"/>
-<rectangle x1="0" y1="-2.032" x2="4.572" y2="2.032" layer="41"/>
-<smd name="BOTTOM_GND" x="2.286" y="0" dx="4.572" dy="9.144" layer="16"/>
-<text x="4.953" y="3.429" size="1.27" layer="21">40/15</text>
-</package>
-<package name="SMA_EDGE_LAUNCH_2L_4020">
-<smd name="GND_PAD2" x="2.286" y="-3.302" dx="4.572" dy="2.54" layer="1"/>
-<smd name="GND_PAD1" x="2.286" y="3.302" dx="4.572" dy="2.54" layer="1"/>
-<smd name="CENTER@1" x="2.286" y="0" dx="1.016" dy="4.572" layer="1" rot="R90"/>
-<polygon width="0.0254" layer="1">
-<vertex x="0" y="2.032"/>
-<vertex x="0" y="1.016"/>
-<vertex x="4.572" y="1.016"/>
-<vertex x="4.572" y="2.032"/>
-</polygon>
-<polygon width="0.0254" layer="1">
-<vertex x="0" y="-2.032"/>
-<vertex x="0" y="-1.016"/>
-<vertex x="4.572" y="-1.016"/>
-<vertex x="4.572" y="-2.032"/>
-</polygon>
-<pad name="GND@3" x="1.143" y="1.651" drill="0.3" stop="no"/>
-<pad name="GND@5" x="1.143" y="-1.651" drill="0.3" stop="no"/>
-<pad name="GND@4" x="3.683" y="1.651" drill="0.3" stop="no"/>
-<pad name="GND@6" x="3.683" y="-1.651" drill="0.3" stop="no"/>
-<pad name="GND@7" x="1.143" y="-3.937" drill="0.3"/>
-<pad name="GND@8" x="3.683" y="-3.937" drill="0.3"/>
-<pad name="GND@1" x="1.143" y="3.937" drill="0.3"/>
-<pad name="GND@2" x="3.683" y="3.937" drill="0.3"/>
-<wire x1="-1.5762" y1="-2.625" x2="-9.0762" y2="-2.625" width="0.127" layer="21"/>
-<wire x1="-1.5762" y1="2.625" x2="-7.9512" y2="2.625" width="0.127" layer="21"/>
-<wire x1="-9.0762" y1="-2.625" x2="-9.0762" y2="2.625" width="0.127" layer="51"/>
-<wire x1="-9.0762" y1="2.625" x2="-7.9238" y2="2.625" width="0.127" layer="51"/>
-<wire x1="-4.4512" y1="-2.875" x2="-4.8262" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-5.0762" y1="-2.875" x2="-5.4512" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-5.7012" y1="-2.875" x2="-6.0762" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-6.3262" y1="-2.875" x2="-6.7012" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-6.9512" y1="-2.875" x2="-7.3262" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-7.5762" y1="-2.875" x2="-7.9512" y2="2.875" width="0.127" layer="51"/>
-<wire x1="0" y1="3.2512" x2="-1.5748" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="-1.5748" y1="3.2512" x2="-1.5748" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="-1.5748" y1="-3.2512" x2="0" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="0" y1="-2.286" x2="0" y2="2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="3.2512" x2="4.064" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="4.064" y1="3.2512" x2="4.064" y2="2.286" width="0.127" layer="51"/>
-<wire x1="4.064" y1="2.286" x2="0" y2="2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="2.286" x2="0" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="0" y1="-3.2512" x2="4.064" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="4.064" y1="-3.2512" x2="4.064" y2="-2.286" width="0.127" layer="51"/>
-<wire x1="4.064" y1="-2.286" x2="0" y2="-2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="-2.286" x2="0" y2="-3.2512" width="0.127" layer="51"/>
-<smd name="GND@11" x="4.445" y="1.143" dx="0.0508" dy="0.0508" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="GND@12" x="4.445" y="-1.143" dx="0.0508" dy="0.0508" layer="1" stop="no" thermals="no" cream="no"/>
-<pad name="GND@14" x="2.413" y="3.937" drill="0.3"/>
-<pad name="GND@15" x="2.413" y="-3.937" drill="0.3"/>
-<pad name="GND@16" x="2.413" y="-1.651" drill="0.3" stop="no"/>
-<pad name="GND@17" x="2.413" y="1.651" drill="0.3" stop="no"/>
-<rectangle x1="0" y1="-2.032" x2="4.572" y2="2.032" layer="41"/>
-<smd name="BOTTOM_GND" x="2.286" y="0" dx="4.572" dy="9.144" layer="16"/>
-<text x="4.953" y="3.429" size="1.27" layer="21">40/20</text>
-</package>
-<package name="SMA_EDGE_LAUNCH_2L_4025">
-<smd name="GND_PAD2" x="2.286" y="-3.302" dx="4.572" dy="2.54" layer="1"/>
-<smd name="GND_PAD1" x="2.286" y="3.302" dx="4.572" dy="2.54" layer="1"/>
-<smd name="CENTER@1" x="2.286" y="0" dx="1.016" dy="4.572" layer="1" rot="R90"/>
-<polygon width="0.0254" layer="1">
-<vertex x="0" y="2.032"/>
-<vertex x="0" y="1.143"/>
-<vertex x="4.572" y="1.143"/>
-<vertex x="4.572" y="2.032"/>
-</polygon>
-<polygon width="0.0254" layer="1">
-<vertex x="0" y="-2.032"/>
-<vertex x="0" y="-1.143"/>
-<vertex x="4.572" y="-1.143"/>
-<vertex x="4.572" y="-2.032"/>
-</polygon>
-<pad name="GND@3" x="1.143" y="1.651" drill="0.3" stop="no"/>
-<pad name="GND@5" x="1.143" y="-1.651" drill="0.3" stop="no"/>
-<pad name="GND@4" x="3.683" y="1.651" drill="0.3" stop="no"/>
-<pad name="GND@6" x="3.683" y="-1.651" drill="0.3" stop="no"/>
-<pad name="GND@7" x="1.143" y="-3.937" drill="0.3"/>
-<pad name="GND@8" x="3.683" y="-3.937" drill="0.3"/>
-<pad name="GND@1" x="1.143" y="3.937" drill="0.3"/>
-<pad name="GND@2" x="3.683" y="3.937" drill="0.3"/>
-<wire x1="-1.5762" y1="-2.625" x2="-9.0762" y2="-2.625" width="0.127" layer="21"/>
-<wire x1="-1.5762" y1="2.625" x2="-7.9512" y2="2.625" width="0.127" layer="21"/>
-<wire x1="-9.0762" y1="-2.625" x2="-9.0762" y2="2.625" width="0.127" layer="51"/>
-<wire x1="-9.0762" y1="2.625" x2="-7.9238" y2="2.625" width="0.127" layer="51"/>
-<wire x1="-4.4512" y1="-2.875" x2="-4.8262" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-5.0762" y1="-2.875" x2="-5.4512" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-5.7012" y1="-2.875" x2="-6.0762" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-6.3262" y1="-2.875" x2="-6.7012" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-6.9512" y1="-2.875" x2="-7.3262" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-7.5762" y1="-2.875" x2="-7.9512" y2="2.875" width="0.127" layer="51"/>
-<wire x1="0" y1="3.2512" x2="-1.5748" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="-1.5748" y1="3.2512" x2="-1.5748" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="-1.5748" y1="-3.2512" x2="0" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="0" y1="-2.286" x2="0" y2="2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="3.2512" x2="4.064" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="4.064" y1="3.2512" x2="4.064" y2="2.286" width="0.127" layer="51"/>
-<wire x1="4.064" y1="2.286" x2="0" y2="2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="2.286" x2="0" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="0" y1="-3.2512" x2="4.064" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="4.064" y1="-3.2512" x2="4.064" y2="-2.286" width="0.127" layer="51"/>
-<wire x1="4.064" y1="-2.286" x2="0" y2="-2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="-2.286" x2="0" y2="-3.2512" width="0.127" layer="51"/>
-<smd name="GND@11" x="4.445" y="1.143" dx="0.0508" dy="0.0508" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="GND@12" x="4.445" y="-1.143" dx="0.0508" dy="0.0508" layer="1" stop="no" thermals="no" cream="no"/>
-<pad name="GND@14" x="2.413" y="3.937" drill="0.3"/>
-<pad name="GND@15" x="2.413" y="-3.937" drill="0.3"/>
-<pad name="GND@16" x="2.413" y="-1.651" drill="0.3" stop="no"/>
-<pad name="GND@17" x="2.413" y="1.651" drill="0.3" stop="no"/>
-<rectangle x1="0" y1="-2.032" x2="4.572" y2="2.032" layer="41"/>
-<smd name="BOTTOM_GND" x="2.286" y="0" dx="4.572" dy="9.144" layer="16"/>
-<text x="4.953" y="3.429" size="1.27" layer="21">40/25</text>
-</package>
-<package name="SMA_EDGE_LAUNCH_2L_4030">
-<smd name="GND_PAD2" x="2.286" y="-3.302" dx="4.572" dy="2.54" layer="1"/>
-<smd name="GND_PAD1" x="2.286" y="3.302" dx="4.572" dy="2.54" layer="1"/>
-<smd name="CENTER@1" x="2.286" y="0" dx="1.016" dy="4.572" layer="1" rot="R90"/>
-<polygon width="0.0254" layer="1">
-<vertex x="0" y="2.032"/>
-<vertex x="0" y="1.27"/>
-<vertex x="4.572" y="1.27"/>
-<vertex x="4.572" y="2.032"/>
-</polygon>
-<polygon width="0.0254" layer="1">
-<vertex x="0" y="-2.032"/>
-<vertex x="0" y="-1.27"/>
-<vertex x="4.572" y="-1.27"/>
-<vertex x="4.572" y="-2.032"/>
-</polygon>
-<pad name="GND@3" x="1.143" y="1.651" drill="0.3" diameter="0.762" stop="no"/>
-<pad name="GND@5" x="1.143" y="-1.651" drill="0.3" diameter="0.762" stop="no"/>
-<pad name="GND@4" x="3.683" y="1.651" drill="0.3" diameter="0.762" stop="no"/>
-<pad name="GND@6" x="3.683" y="-1.651" drill="0.3" diameter="0.762" stop="no"/>
-<pad name="GND@7" x="1.143" y="-3.937" drill="0.3"/>
-<pad name="GND@8" x="3.683" y="-3.937" drill="0.3"/>
-<pad name="GND@1" x="1.143" y="3.937" drill="0.3"/>
-<pad name="GND@2" x="3.683" y="3.937" drill="0.3"/>
-<wire x1="-1.5762" y1="-2.625" x2="-9.0762" y2="-2.625" width="0.127" layer="21"/>
-<wire x1="-1.5762" y1="2.625" x2="-7.9512" y2="2.625" width="0.127" layer="21"/>
-<wire x1="-9.0762" y1="-2.625" x2="-9.0762" y2="2.625" width="0.127" layer="51"/>
-<wire x1="-9.0762" y1="2.625" x2="-7.9238" y2="2.625" width="0.127" layer="51"/>
-<wire x1="-4.4512" y1="-2.875" x2="-4.8262" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-5.0762" y1="-2.875" x2="-5.4512" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-5.7012" y1="-2.875" x2="-6.0762" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-6.3262" y1="-2.875" x2="-6.7012" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-6.9512" y1="-2.875" x2="-7.3262" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-7.5762" y1="-2.875" x2="-7.9512" y2="2.875" width="0.127" layer="51"/>
-<wire x1="0" y1="3.2512" x2="-1.5748" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="-1.5748" y1="3.2512" x2="-1.5748" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="-1.5748" y1="-3.2512" x2="0" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="0" y1="-2.286" x2="0" y2="2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="3.2512" x2="4.064" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="4.064" y1="3.2512" x2="4.064" y2="2.286" width="0.127" layer="51"/>
-<wire x1="4.064" y1="2.286" x2="0" y2="2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="2.286" x2="0" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="0" y1="-3.2512" x2="4.064" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="4.064" y1="-3.2512" x2="4.064" y2="-2.286" width="0.127" layer="51"/>
-<wire x1="4.064" y1="-2.286" x2="0" y2="-2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="-2.286" x2="0" y2="-3.2512" width="0.127" layer="51"/>
-<smd name="GND@11" x="4.445" y="1.524" dx="0.0508" dy="0.0508" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="GND@12" x="4.445" y="-1.397" dx="0.0508" dy="0.0508" layer="1" stop="no" thermals="no" cream="no"/>
-<pad name="GND@14" x="2.413" y="3.937" drill="0.3"/>
-<pad name="GND@15" x="2.413" y="-3.937" drill="0.3"/>
-<pad name="GND@16" x="2.413" y="-1.651" drill="0.3" diameter="0.762" stop="no"/>
-<pad name="GND@17" x="2.413" y="1.651" drill="0.3" diameter="0.762" stop="no"/>
-<rectangle x1="0" y1="-2.032" x2="4.572" y2="2.032" layer="41"/>
-<smd name="BOTTOM_GND" x="2.286" y="0" dx="4.572" dy="9.144" layer="16"/>
-<text x="4.953" y="3.429" size="1.27" layer="21">40/30</text>
-</package>
-<package name="SMA_EDGE_LAUNCH_2L_4035">
-<smd name="GND_PAD2" x="2.286" y="-3.302" dx="4.572" dy="2.54" layer="1"/>
-<smd name="GND_PAD1" x="2.286" y="3.302" dx="4.572" dy="2.54" layer="1"/>
-<smd name="CENTER@1" x="2.286" y="0" dx="1.016" dy="4.572" layer="1" rot="R90"/>
-<polygon width="0.0254" layer="1">
-<vertex x="0" y="2.032"/>
-<vertex x="0" y="1.397"/>
-<vertex x="4.572" y="1.397"/>
-<vertex x="4.572" y="2.032"/>
-</polygon>
-<polygon width="0.0254" layer="1">
-<vertex x="0" y="-2.032"/>
-<vertex x="0" y="-1.397"/>
-<vertex x="4.572" y="-1.397"/>
-<vertex x="4.572" y="-2.032"/>
-</polygon>
-<pad name="GND@3" x="1.143" y="1.778" drill="0.3" diameter="0.762" stop="no"/>
-<pad name="GND@5" x="1.143" y="-1.778" drill="0.3" diameter="0.762" stop="no"/>
-<pad name="GND@4" x="3.683" y="1.778" drill="0.3" diameter="0.762" stop="no"/>
-<pad name="GND@6" x="3.683" y="-1.778" drill="0.3" diameter="0.762" stop="no"/>
-<pad name="GND@7" x="1.143" y="-3.937" drill="0.3"/>
-<pad name="GND@8" x="3.683" y="-3.937" drill="0.3"/>
-<pad name="GND@1" x="1.143" y="3.937" drill="0.3"/>
-<pad name="GND@2" x="3.683" y="3.937" drill="0.3"/>
-<wire x1="-1.5762" y1="-2.625" x2="-9.0762" y2="-2.625" width="0.127" layer="21"/>
-<wire x1="-1.5762" y1="2.625" x2="-7.9512" y2="2.625" width="0.127" layer="21"/>
-<wire x1="-9.0762" y1="-2.625" x2="-9.0762" y2="2.625" width="0.127" layer="51"/>
-<wire x1="-9.0762" y1="2.625" x2="-7.9238" y2="2.625" width="0.127" layer="51"/>
-<wire x1="-4.4512" y1="-2.875" x2="-4.8262" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-5.0762" y1="-2.875" x2="-5.4512" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-5.7012" y1="-2.875" x2="-6.0762" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-6.3262" y1="-2.875" x2="-6.7012" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-6.9512" y1="-2.875" x2="-7.3262" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-7.5762" y1="-2.875" x2="-7.9512" y2="2.875" width="0.127" layer="51"/>
-<wire x1="0" y1="3.2512" x2="-1.5748" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="-1.5748" y1="3.2512" x2="-1.5748" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="-1.5748" y1="-3.2512" x2="0" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="0" y1="-2.286" x2="0" y2="2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="3.2512" x2="4.064" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="4.064" y1="3.2512" x2="4.064" y2="2.286" width="0.127" layer="51"/>
-<wire x1="4.064" y1="2.286" x2="0" y2="2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="2.286" x2="0" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="0" y1="-3.2512" x2="4.064" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="4.064" y1="-3.2512" x2="4.064" y2="-2.286" width="0.127" layer="51"/>
-<wire x1="4.064" y1="-2.286" x2="0" y2="-2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="-2.286" x2="0" y2="-3.2512" width="0.127" layer="51"/>
-<smd name="GND@11" x="4.445" y="1.651" dx="0.0508" dy="0.0508" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="GND@12" x="4.445" y="-1.651" dx="0.0508" dy="0.0508" layer="1" stop="no" thermals="no" cream="no"/>
-<pad name="GND@14" x="2.413" y="3.937" drill="0.3"/>
-<pad name="GND@15" x="2.413" y="-3.937" drill="0.3"/>
-<pad name="GND@16" x="2.413" y="-1.778" drill="0.3" diameter="0.762" stop="no"/>
-<pad name="GND@17" x="2.413" y="1.778" drill="0.3" diameter="0.762" stop="no"/>
-<rectangle x1="0" y1="-2.032" x2="4.572" y2="2.032" layer="41"/>
-<smd name="BOTTOM_GND" x="2.286" y="0" dx="4.572" dy="9.144" layer="16"/>
-<text x="4.953" y="3.429" size="1.27" layer="21">40/35</text>
-</package>
-<package name="SMA_EDGE_LAUNCH_2L_4040">
-<smd name="GND_PAD2" x="2.286" y="-3.302" dx="4.572" dy="2.54" layer="1"/>
-<smd name="GND_PAD1" x="2.286" y="3.302" dx="4.572" dy="2.54" layer="1"/>
-<smd name="CENTER@1" x="2.286" y="0" dx="1.016" dy="4.572" layer="1" rot="R90"/>
-<polygon width="0.0254" layer="1">
-<vertex x="0" y="2.032"/>
-<vertex x="0" y="1.524"/>
-<vertex x="4.572" y="1.524"/>
-<vertex x="4.572" y="2.032"/>
-</polygon>
-<polygon width="0.0254" layer="1">
-<vertex x="0" y="-2.032"/>
-<vertex x="0" y="-1.524"/>
-<vertex x="4.572" y="-1.524"/>
-<vertex x="4.572" y="-2.032"/>
-</polygon>
-<pad name="GND@3" x="1.143" y="1.905" drill="0.3" diameter="0.762" stop="no"/>
-<pad name="GND@5" x="1.143" y="-1.905" drill="0.3" diameter="0.762" stop="no"/>
-<pad name="GND@4" x="3.683" y="1.905" drill="0.3" diameter="0.762" stop="no"/>
-<pad name="GND@6" x="3.683" y="-1.905" drill="0.3" diameter="0.762" stop="no"/>
-<pad name="GND@7" x="1.143" y="-3.937" drill="0.3"/>
-<pad name="GND@8" x="3.683" y="-3.937" drill="0.3"/>
-<pad name="GND@1" x="1.143" y="3.937" drill="0.3"/>
-<pad name="GND@2" x="3.683" y="3.937" drill="0.3"/>
-<wire x1="-1.5762" y1="-2.625" x2="-9.0762" y2="-2.625" width="0.127" layer="21"/>
-<wire x1="-1.5762" y1="2.625" x2="-7.9512" y2="2.625" width="0.127" layer="21"/>
-<wire x1="-9.0762" y1="-2.625" x2="-9.0762" y2="2.625" width="0.127" layer="51"/>
-<wire x1="-9.0762" y1="2.625" x2="-7.9238" y2="2.625" width="0.127" layer="51"/>
-<wire x1="-4.4512" y1="-2.875" x2="-4.8262" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-5.0762" y1="-2.875" x2="-5.4512" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-5.7012" y1="-2.875" x2="-6.0762" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-6.3262" y1="-2.875" x2="-6.7012" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-6.9512" y1="-2.875" x2="-7.3262" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-7.5762" y1="-2.875" x2="-7.9512" y2="2.875" width="0.127" layer="51"/>
-<wire x1="0" y1="3.2512" x2="-1.5748" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="-1.5748" y1="3.2512" x2="-1.5748" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="-1.5748" y1="-3.2512" x2="0" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="0" y1="-2.286" x2="0" y2="2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="3.2512" x2="4.064" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="4.064" y1="3.2512" x2="4.064" y2="2.286" width="0.127" layer="51"/>
-<wire x1="4.064" y1="2.286" x2="0" y2="2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="2.286" x2="0" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="0" y1="-3.2512" x2="4.064" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="4.064" y1="-3.2512" x2="4.064" y2="-2.286" width="0.127" layer="51"/>
-<wire x1="4.064" y1="-2.286" x2="0" y2="-2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="-2.286" x2="0" y2="-3.2512" width="0.127" layer="51"/>
-<smd name="GND@11" x="4.445" y="1.651" dx="0.0508" dy="0.0508" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="GND@12" x="4.445" y="-1.651" dx="0.0508" dy="0.0508" layer="1" stop="no" thermals="no" cream="no"/>
-<pad name="GND@14" x="2.413" y="3.937" drill="0.3"/>
-<pad name="GND@15" x="2.413" y="-3.937" drill="0.3"/>
-<pad name="GND@16" x="2.413" y="-1.905" drill="0.3" diameter="0.762" stop="no"/>
-<pad name="GND@17" x="2.413" y="1.905" drill="0.3" diameter="0.762" stop="no"/>
-<rectangle x1="0" y1="-2.032" x2="4.572" y2="2.032" layer="41"/>
-<smd name="BOTTOM_GND" x="2.286" y="0" dx="4.572" dy="9.144" layer="16"/>
-<text x="4.953" y="3.429" size="1.27" layer="21">40/40</text>
-</package>
-<package name="SMA_EDGE_LAUNCH_2L_4020_TAPER">
-<smd name="GND_PAD2" x="2.286" y="-3.302" dx="4.572" dy="2.54" layer="1"/>
-<smd name="GND_PAD1" x="2.286" y="3.302" dx="4.572" dy="2.54" layer="1"/>
-<smd name="CENTER@1" x="1.905" y="0" dx="1.016" dy="3.81" layer="1" rot="R90"/>
-<polygon width="0.0254" layer="1">
-<vertex x="0" y="2.032"/>
-<vertex x="0" y="1.016"/>
-<vertex x="4.572" y="1.016"/>
-<vertex x="4.572" y="2.032"/>
-</polygon>
-<polygon width="0.0254" layer="1">
-<vertex x="0" y="-2.032"/>
-<vertex x="0" y="-1.016"/>
-<vertex x="4.572" y="-1.016"/>
-<vertex x="4.572" y="-2.032"/>
-</polygon>
-<pad name="GND@3" x="1.143" y="1.651" drill="0.3" stop="no"/>
-<pad name="GND@5" x="1.143" y="-1.651" drill="0.3" stop="no"/>
-<pad name="GND@4" x="3.683" y="1.651" drill="0.3" stop="no"/>
-<pad name="GND@6" x="3.683" y="-1.651" drill="0.3" stop="no"/>
-<pad name="GND@7" x="1.143" y="-3.937" drill="0.3"/>
-<pad name="GND@8" x="3.683" y="-3.937" drill="0.3"/>
-<pad name="GND@1" x="1.143" y="3.937" drill="0.3"/>
-<pad name="GND@2" x="3.683" y="3.937" drill="0.3"/>
-<wire x1="-1.5762" y1="-2.625" x2="-9.0762" y2="-2.625" width="0.127" layer="21"/>
-<wire x1="-1.5762" y1="2.625" x2="-7.9512" y2="2.625" width="0.127" layer="21"/>
-<wire x1="-9.0762" y1="-2.625" x2="-9.0762" y2="2.625" width="0.127" layer="51"/>
-<wire x1="-9.0762" y1="2.625" x2="-7.9238" y2="2.625" width="0.127" layer="51"/>
-<wire x1="-4.4512" y1="-2.875" x2="-4.8262" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-5.0762" y1="-2.875" x2="-5.4512" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-5.7012" y1="-2.875" x2="-6.0762" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-6.3262" y1="-2.875" x2="-6.7012" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-6.9512" y1="-2.875" x2="-7.3262" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-7.5762" y1="-2.875" x2="-7.9512" y2="2.875" width="0.127" layer="51"/>
-<wire x1="0" y1="3.2512" x2="-1.5748" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="-1.5748" y1="3.2512" x2="-1.5748" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="-1.5748" y1="-3.2512" x2="0" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="0" y1="-2.286" x2="0" y2="2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="3.2512" x2="4.064" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="4.064" y1="3.2512" x2="4.064" y2="2.286" width="0.127" layer="51"/>
-<wire x1="4.064" y1="2.286" x2="0" y2="2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="2.286" x2="0" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="0" y1="-3.2512" x2="4.064" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="4.064" y1="-3.2512" x2="4.064" y2="-2.286" width="0.127" layer="51"/>
-<wire x1="4.064" y1="-2.286" x2="0" y2="-2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="-2.286" x2="0" y2="-3.2512" width="0.127" layer="51"/>
-<pad name="GND@14" x="2.413" y="3.937" drill="0.3"/>
-<pad name="GND@15" x="2.413" y="-3.937" drill="0.3"/>
-<pad name="GND@16" x="2.413" y="-1.651" drill="0.3" stop="no"/>
-<pad name="GND@17" x="2.413" y="1.651" drill="0.3" stop="no"/>
-<rectangle x1="0" y1="-2.032" x2="4.572" y2="2.032" layer="41"/>
-<smd name="BOTTOM_GND" x="2.286" y="0" dx="4.572" dy="9.144" layer="16"/>
-<text x="4.953" y="3.429" size="1.27" layer="21">40/20</text>
-<polygon width="0.254" layer="1">
-<vertex x="3.81" y="0.381"/>
-<vertex x="4.445" y="0.254"/>
-<vertex x="4.445" y="-0.254"/>
-<vertex x="3.81" y="-0.381"/>
-</polygon>
-<polygon width="0.127" layer="1">
-<vertex x="3.683" y="1.143"/>
-<vertex x="4.5212" y="0.635"/>
-<vertex x="4.5212" y="1.143"/>
-</polygon>
-<polygon width="0.127" layer="1">
-<vertex x="4.5212" y="-1.143"/>
-<vertex x="4.5212" y="-0.635"/>
-<vertex x="3.683" y="-1.143"/>
-</polygon>
-<smd name="P$1" x="4.318" y="1.016" dx="0.127" dy="0.127" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="P$2" x="4.318" y="-1.016" dx="0.127" dy="0.127" layer="1" stop="no" thermals="no" cream="no"/>
-</package>
-<package name="SMA_EDGE_LAUNCH_4L_4030_TAPER">
-<smd name="GND_PAD2" x="2.286" y="-3.302" dx="4.572" dy="2.54" layer="1"/>
-<smd name="GND_PAD1" x="2.286" y="3.302" dx="4.572" dy="2.54" layer="1"/>
-<smd name="CENTER@1" x="1.905" y="0" dx="1.016" dy="3.81" layer="1" rot="R90"/>
-<polygon width="0.0254" layer="1">
-<vertex x="0" y="2.032"/>
-<vertex x="0" y="1.27"/>
-<vertex x="4.572" y="1.27"/>
-<vertex x="4.572" y="2.032"/>
-</polygon>
-<polygon width="0.0254" layer="1">
-<vertex x="0" y="-2.032"/>
-<vertex x="0" y="-1.27"/>
-<vertex x="4.572" y="-1.27"/>
-<vertex x="4.572" y="-2.032"/>
-</polygon>
-<pad name="GND@3" x="1.143" y="1.651" drill="0.3" stop="no"/>
-<pad name="GND@5" x="1.143" y="-1.651" drill="0.3" stop="no"/>
-<pad name="GND@4" x="3.683" y="1.651" drill="0.3" stop="no"/>
-<pad name="GND@6" x="3.683" y="-1.651" drill="0.3" stop="no"/>
-<pad name="GND@7" x="1.143" y="-3.937" drill="0.3"/>
-<pad name="GND@8" x="3.683" y="-3.937" drill="0.3"/>
-<pad name="GND@1" x="1.143" y="3.937" drill="0.3"/>
-<pad name="GND@2" x="3.683" y="3.937" drill="0.3"/>
-<wire x1="-1.5762" y1="-2.625" x2="-9.0762" y2="-2.625" width="0.127" layer="21"/>
-<wire x1="-1.5762" y1="2.625" x2="-7.9512" y2="2.625" width="0.127" layer="21"/>
-<wire x1="-9.0762" y1="-2.625" x2="-9.0762" y2="2.625" width="0.127" layer="51"/>
-<wire x1="-9.0762" y1="2.625" x2="-7.9238" y2="2.625" width="0.127" layer="51"/>
-<wire x1="-4.4512" y1="-2.875" x2="-4.8262" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-5.0762" y1="-2.875" x2="-5.4512" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-5.7012" y1="-2.875" x2="-6.0762" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-6.3262" y1="-2.875" x2="-6.7012" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-6.9512" y1="-2.875" x2="-7.3262" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-7.5762" y1="-2.875" x2="-7.9512" y2="2.875" width="0.127" layer="51"/>
-<wire x1="0" y1="3.2512" x2="-1.5748" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="-1.5748" y1="3.2512" x2="-1.5748" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="-1.5748" y1="-3.2512" x2="0" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="0" y1="-2.286" x2="0" y2="2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="3.2512" x2="4.064" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="4.064" y1="3.2512" x2="4.064" y2="2.286" width="0.127" layer="51"/>
-<wire x1="4.064" y1="2.286" x2="0" y2="2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="2.286" x2="0" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="0" y1="-3.2512" x2="4.064" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="4.064" y1="-3.2512" x2="4.064" y2="-2.286" width="0.127" layer="51"/>
-<wire x1="4.064" y1="-2.286" x2="0" y2="-2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="-2.286" x2="0" y2="-3.2512" width="0.127" layer="51"/>
-<pad name="GND@14" x="2.413" y="3.937" drill="0.3"/>
-<pad name="GND@15" x="2.413" y="-3.937" drill="0.3"/>
-<pad name="GND@16" x="2.413" y="-1.651" drill="0.3" stop="no"/>
-<pad name="GND@17" x="2.413" y="1.651" drill="0.3" stop="no"/>
-<rectangle x1="0" y1="-2.032" x2="4.572" y2="2.032" layer="41"/>
-<smd name="BOTTOM_GND" x="2.286" y="0" dx="4.572" dy="9.144" layer="16"/>
-<text x="4.953" y="3.429" size="1.27" layer="21">40/30</text>
-<polygon width="0.1016" layer="1">
-<vertex x="3.81" y="0.4572"/>
-<vertex x="4.5212" y="0.127"/>
-<vertex x="4.5212" y="-0.127"/>
-<vertex x="3.81" y="-0.4572"/>
-</polygon>
-<smd name="P$1" x="4.318" y="1.397" dx="0.127" dy="0.127" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="P$2" x="4.318" y="-1.397" dx="0.127" dy="0.127" layer="1" stop="no" thermals="no" cream="no"/>
-<polygon width="0.127" layer="2" pour="cutout">
-<vertex x="0" y="1.27"/>
-<vertex x="3.556" y="1.27"/>
-<vertex x="4.445" y="0.381"/>
-<vertex x="4.445" y="-0.381"/>
-<vertex x="3.556" y="-1.27"/>
-<vertex x="0" y="-1.27"/>
-</polygon>
-<polygon width="0.127" layer="15" pour="cutout">
-<vertex x="0" y="2.286"/>
-<vertex x="4.445" y="2.286"/>
-<vertex x="4.445" y="-2.286"/>
-<vertex x="0" y="-2.286"/>
-</polygon>
-</package>
-<package name="SMA_EDGE_LAUNCH_4L_4035_TAPER">
-<smd name="GND_PAD2" x="2.286" y="-3.302" dx="4.572" dy="2.54" layer="1"/>
-<smd name="GND_PAD1" x="2.286" y="3.302" dx="4.572" dy="2.54" layer="1"/>
-<smd name="CENTER@1" x="1.905" y="0" dx="1.016" dy="3.81" layer="1" rot="R90"/>
-<polygon width="0.0254" layer="1">
-<vertex x="0" y="2.032"/>
-<vertex x="0" y="1.397"/>
-<vertex x="4.572" y="1.397"/>
-<vertex x="4.572" y="2.032"/>
-</polygon>
-<polygon width="0.0254" layer="1">
-<vertex x="0" y="-2.032"/>
-<vertex x="0" y="-1.397"/>
-<vertex x="4.572" y="-1.397"/>
-<vertex x="4.572" y="-2.032"/>
-</polygon>
-<pad name="GND@3" x="1.143" y="1.651" drill="0.3" stop="no"/>
-<pad name="GND@5" x="1.143" y="-1.651" drill="0.3" stop="no"/>
-<pad name="GND@4" x="3.683" y="1.651" drill="0.3" stop="no"/>
-<pad name="GND@6" x="3.683" y="-1.651" drill="0.3" stop="no"/>
-<pad name="GND@7" x="1.143" y="-3.937" drill="0.3"/>
-<pad name="GND@8" x="3.683" y="-3.937" drill="0.3"/>
-<pad name="GND@1" x="1.143" y="3.937" drill="0.3"/>
-<pad name="GND@2" x="3.683" y="3.937" drill="0.3"/>
-<wire x1="-1.5762" y1="-2.625" x2="-9.0762" y2="-2.625" width="0.127" layer="21"/>
-<wire x1="-1.5762" y1="2.625" x2="-7.9512" y2="2.625" width="0.127" layer="21"/>
-<wire x1="-9.0762" y1="-2.625" x2="-9.0762" y2="2.625" width="0.127" layer="51"/>
-<wire x1="-9.0762" y1="2.625" x2="-7.9238" y2="2.625" width="0.127" layer="51"/>
-<wire x1="-4.4512" y1="-2.875" x2="-4.8262" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-5.0762" y1="-2.875" x2="-5.4512" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-5.7012" y1="-2.875" x2="-6.0762" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-6.3262" y1="-2.875" x2="-6.7012" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-6.9512" y1="-2.875" x2="-7.3262" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-7.5762" y1="-2.875" x2="-7.9512" y2="2.875" width="0.127" layer="51"/>
-<wire x1="0" y1="3.2512" x2="-1.5748" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="-1.5748" y1="3.2512" x2="-1.5748" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="-1.5748" y1="-3.2512" x2="0" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="0" y1="-2.286" x2="0" y2="2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="3.2512" x2="4.064" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="4.064" y1="3.2512" x2="4.064" y2="2.286" width="0.127" layer="51"/>
-<wire x1="4.064" y1="2.286" x2="0" y2="2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="2.286" x2="0" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="0" y1="-3.2512" x2="4.064" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="4.064" y1="-3.2512" x2="4.064" y2="-2.286" width="0.127" layer="51"/>
-<wire x1="4.064" y1="-2.286" x2="0" y2="-2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="-2.286" x2="0" y2="-3.2512" width="0.127" layer="51"/>
-<pad name="GND@14" x="2.413" y="3.937" drill="0.3"/>
-<pad name="GND@15" x="2.413" y="-3.937" drill="0.3"/>
-<pad name="GND@16" x="2.413" y="-1.651" drill="0.3" stop="no"/>
-<pad name="GND@17" x="2.413" y="1.651" drill="0.3" stop="no"/>
-<rectangle x1="0" y1="-2.032" x2="4.572" y2="2.032" layer="41"/>
-<smd name="BOTTOM_GND" x="2.286" y="0" dx="4.572" dy="9.144" layer="16"/>
-<text x="4.953" y="3.429" size="1.27" layer="21">40/35</text>
-<polygon width="0.1016" layer="1">
-<vertex x="3.81" y="0.4572"/>
-<vertex x="4.5212" y="0.127"/>
-<vertex x="4.5212" y="-0.127"/>
-<vertex x="3.81" y="-0.4572"/>
-</polygon>
-<smd name="P$1" x="4.318" y="1.651" dx="0.127" dy="0.127" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="P$2" x="4.318" y="-1.651" dx="0.127" dy="0.127" layer="1" stop="no" thermals="no" cream="no"/>
-<polygon width="0.127" layer="2" pour="cutout">
-<vertex x="0" y="1.397"/>
-<vertex x="3.429" y="1.397"/>
-<vertex x="4.445" y="0.381"/>
-<vertex x="4.445" y="-0.381"/>
-<vertex x="3.429" y="-1.397"/>
-<vertex x="0" y="-1.397"/>
-</polygon>
-<polygon width="0.127" layer="15" pour="cutout">
-<vertex x="0" y="2.286"/>
-<vertex x="4.445" y="2.286"/>
-<vertex x="4.445" y="-2.286"/>
-<vertex x="0" y="-2.286"/>
-</polygon>
-</package>
-<package name="SMA_EDGE_LAUNCH_4L_4040_TAPER">
-<smd name="GND_PAD2" x="2.286" y="-3.302" dx="4.572" dy="2.54" layer="1"/>
-<smd name="GND_PAD1" x="2.286" y="3.302" dx="4.572" dy="2.54" layer="1"/>
-<smd name="CENTER@1" x="1.905" y="0" dx="1.016" dy="3.81" layer="1" rot="R90"/>
-<polygon width="0.0254" layer="1">
-<vertex x="0" y="2.032"/>
-<vertex x="0" y="1.524"/>
-<vertex x="4.572" y="1.524"/>
-<vertex x="4.572" y="2.032"/>
-</polygon>
-<polygon width="0.0254" layer="1">
-<vertex x="0" y="-2.032"/>
-<vertex x="0" y="-1.524"/>
-<vertex x="4.572" y="-1.524"/>
-<vertex x="4.572" y="-2.032"/>
-</polygon>
-<pad name="GND@3" x="1.143" y="1.651" drill="0.3" stop="no"/>
-<pad name="GND@5" x="1.143" y="-1.651" drill="0.3" stop="no"/>
-<pad name="GND@4" x="3.683" y="1.651" drill="0.3" stop="no"/>
-<pad name="GND@6" x="3.683" y="-1.651" drill="0.3" stop="no"/>
-<pad name="GND@7" x="1.143" y="-3.937" drill="0.3"/>
-<pad name="GND@8" x="3.683" y="-3.937" drill="0.3"/>
-<pad name="GND@1" x="1.143" y="3.937" drill="0.3"/>
-<pad name="GND@2" x="3.683" y="3.937" drill="0.3"/>
-<wire x1="-1.5762" y1="-2.625" x2="-9.0762" y2="-2.625" width="0.127" layer="21"/>
-<wire x1="-1.5762" y1="2.625" x2="-7.9512" y2="2.625" width="0.127" layer="21"/>
-<wire x1="-9.0762" y1="-2.625" x2="-9.0762" y2="2.625" width="0.127" layer="51"/>
-<wire x1="-9.0762" y1="2.625" x2="-7.9238" y2="2.625" width="0.127" layer="51"/>
-<wire x1="-4.4512" y1="-2.875" x2="-4.8262" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-5.0762" y1="-2.875" x2="-5.4512" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-5.7012" y1="-2.875" x2="-6.0762" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-6.3262" y1="-2.875" x2="-6.7012" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-6.9512" y1="-2.875" x2="-7.3262" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-7.5762" y1="-2.875" x2="-7.9512" y2="2.875" width="0.127" layer="51"/>
-<wire x1="0" y1="3.2512" x2="-1.5748" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="-1.5748" y1="3.2512" x2="-1.5748" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="-1.5748" y1="-3.2512" x2="0" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="0" y1="-2.286" x2="0" y2="2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="3.2512" x2="4.064" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="4.064" y1="3.2512" x2="4.064" y2="2.286" width="0.127" layer="51"/>
-<wire x1="4.064" y1="2.286" x2="0" y2="2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="2.286" x2="0" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="0" y1="-3.2512" x2="4.064" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="4.064" y1="-3.2512" x2="4.064" y2="-2.286" width="0.127" layer="51"/>
-<wire x1="4.064" y1="-2.286" x2="0" y2="-2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="-2.286" x2="0" y2="-3.2512" width="0.127" layer="51"/>
-<pad name="GND@14" x="2.413" y="3.937" drill="0.3"/>
-<pad name="GND@15" x="2.413" y="-3.937" drill="0.3"/>
-<pad name="GND@16" x="2.413" y="-1.651" drill="0.3" stop="no"/>
-<pad name="GND@17" x="2.413" y="1.651" drill="0.3" stop="no"/>
-<rectangle x1="0" y1="-2.032" x2="4.572" y2="2.032" layer="41"/>
-<smd name="BOTTOM_GND" x="2.286" y="0" dx="4.572" dy="9.144" layer="16"/>
-<text x="4.953" y="3.429" size="1.27" layer="21">40/40</text>
-<polygon width="0.1016" layer="1">
-<vertex x="3.81" y="0.4572"/>
-<vertex x="4.5212" y="0.127"/>
-<vertex x="4.5212" y="-0.127"/>
-<vertex x="3.81" y="-0.4572"/>
-</polygon>
-<smd name="P$1" x="4.318" y="1.651" dx="0.127" dy="0.127" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="P$2" x="4.318" y="-1.651" dx="0.127" dy="0.127" layer="1" stop="no" thermals="no" cream="no"/>
-<polygon width="0.127" layer="2" pour="cutout">
-<vertex x="0" y="1.524"/>
-<vertex x="3.302" y="1.524"/>
-<vertex x="4.445" y="0.381"/>
-<vertex x="4.445" y="-0.381"/>
-<vertex x="3.302" y="-1.524"/>
-<vertex x="0" y="-1.524"/>
-</polygon>
-<polygon width="0.127" layer="15" pour="cutout">
-<vertex x="0" y="2.286"/>
-<vertex x="4.445" y="2.286"/>
-<vertex x="4.445" y="-2.286"/>
-<vertex x="0" y="-2.286"/>
-</polygon>
-</package>
-<package name="SMA_EDGE_LAUNCH_4L_4025_TAPER">
-<smd name="GND_PAD2" x="2.286" y="-3.302" dx="4.572" dy="2.54" layer="1"/>
-<smd name="GND_PAD1" x="2.286" y="3.302" dx="4.572" dy="2.54" layer="1"/>
-<smd name="CENTER@1" x="1.905" y="0" dx="1.016" dy="3.81" layer="1" rot="R90"/>
-<polygon width="0.0254" layer="1">
-<vertex x="0" y="2.032"/>
-<vertex x="0" y="1.143"/>
-<vertex x="4.572" y="1.143"/>
-<vertex x="4.572" y="2.032"/>
-</polygon>
-<polygon width="0.0254" layer="1">
-<vertex x="0" y="-2.032"/>
-<vertex x="0" y="-1.143"/>
-<vertex x="4.572" y="-1.143"/>
-<vertex x="4.572" y="-2.032"/>
-</polygon>
-<pad name="GND@3" x="1.143" y="1.651" drill="0.3" stop="no"/>
-<pad name="GND@5" x="1.143" y="-1.651" drill="0.3" stop="no"/>
-<pad name="GND@4" x="3.683" y="1.651" drill="0.3" stop="no"/>
-<pad name="GND@6" x="3.683" y="-1.651" drill="0.3" stop="no"/>
-<pad name="GND@7" x="1.143" y="-3.937" drill="0.3"/>
-<pad name="GND@8" x="3.683" y="-3.937" drill="0.3"/>
-<pad name="GND@1" x="1.143" y="3.937" drill="0.3"/>
-<pad name="GND@2" x="3.683" y="3.937" drill="0.3"/>
-<wire x1="-1.5762" y1="-2.625" x2="-9.0762" y2="-2.625" width="0.127" layer="21"/>
-<wire x1="-1.5762" y1="2.625" x2="-7.9512" y2="2.625" width="0.127" layer="21"/>
-<wire x1="-9.0762" y1="-2.625" x2="-9.0762" y2="2.625" width="0.127" layer="51"/>
-<wire x1="-9.0762" y1="2.625" x2="-7.9238" y2="2.625" width="0.127" layer="51"/>
-<wire x1="-4.4512" y1="-2.875" x2="-4.8262" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-5.0762" y1="-2.875" x2="-5.4512" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-5.7012" y1="-2.875" x2="-6.0762" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-6.3262" y1="-2.875" x2="-6.7012" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-6.9512" y1="-2.875" x2="-7.3262" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-7.5762" y1="-2.875" x2="-7.9512" y2="2.875" width="0.127" layer="51"/>
-<wire x1="0" y1="3.2512" x2="-1.5748" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="-1.5748" y1="3.2512" x2="-1.5748" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="-1.5748" y1="-3.2512" x2="0" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="0" y1="-2.286" x2="0" y2="2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="3.2512" x2="4.064" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="4.064" y1="3.2512" x2="4.064" y2="2.286" width="0.127" layer="51"/>
-<wire x1="4.064" y1="2.286" x2="0" y2="2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="2.286" x2="0" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="0" y1="-3.2512" x2="4.064" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="4.064" y1="-3.2512" x2="4.064" y2="-2.286" width="0.127" layer="51"/>
-<wire x1="4.064" y1="-2.286" x2="0" y2="-2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="-2.286" x2="0" y2="-3.2512" width="0.127" layer="51"/>
-<pad name="GND@14" x="2.413" y="3.937" drill="0.3"/>
-<pad name="GND@15" x="2.413" y="-3.937" drill="0.3"/>
-<pad name="GND@16" x="2.413" y="-1.651" drill="0.3" stop="no"/>
-<pad name="GND@17" x="2.413" y="1.651" drill="0.3" stop="no"/>
-<rectangle x1="0" y1="-2.032" x2="4.572" y2="2.032" layer="41"/>
-<smd name="BOTTOM_GND" x="2.286" y="0" dx="4.572" dy="9.144" layer="16"/>
-<text x="4.953" y="3.429" size="1.27" layer="21">40/25</text>
-<polygon width="0.1016" layer="1">
-<vertex x="3.81" y="0.4572"/>
-<vertex x="4.5212" y="0.127"/>
-<vertex x="4.5212" y="-0.127"/>
-<vertex x="3.81" y="-0.4572"/>
-</polygon>
-<smd name="P$1" x="4.318" y="1.651" dx="0.127" dy="0.127" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="P$2" x="4.318" y="-1.651" dx="0.127" dy="0.127" layer="1" stop="no" thermals="no" cream="no"/>
-<polygon width="0.127" layer="2" pour="cutout">
-<vertex x="0" y="1.143"/>
-<vertex x="3.683" y="1.143"/>
-<vertex x="4.445" y="0.381"/>
-<vertex x="4.445" y="-0.381"/>
-<vertex x="3.683" y="-1.143"/>
-<vertex x="0" y="-1.143"/>
-</polygon>
-<polygon width="0.127" layer="15" pour="cutout">
-<vertex x="0" y="2.286"/>
-<vertex x="4.445" y="2.286"/>
-<vertex x="4.445" y="-2.286"/>
-<vertex x="0" y="-2.286"/>
-</polygon>
-</package>
-<package name="SMA_EDGE_LAUNCH_4L_4020_TAPER">
-<smd name="GND_PAD2" x="2.286" y="-3.302" dx="4.572" dy="2.54" layer="1"/>
-<smd name="GND_PAD1" x="2.286" y="3.302" dx="4.572" dy="2.54" layer="1"/>
-<smd name="CENTER@1" x="1.905" y="0" dx="1.016" dy="3.81" layer="1" rot="R90"/>
-<polygon width="0.0254" layer="1">
-<vertex x="0" y="2.032"/>
-<vertex x="0" y="1.016"/>
-<vertex x="4.572" y="1.016"/>
-<vertex x="4.572" y="2.032"/>
-</polygon>
-<polygon width="0.0254" layer="1">
-<vertex x="0" y="-2.032"/>
-<vertex x="0" y="-1.016"/>
-<vertex x="4.572" y="-1.016"/>
-<vertex x="4.572" y="-2.032"/>
-</polygon>
-<pad name="GND@3" x="1.143" y="1.651" drill="0.3" stop="no"/>
-<pad name="GND@5" x="1.143" y="-1.651" drill="0.3" stop="no"/>
-<pad name="GND@4" x="3.683" y="1.651" drill="0.3" stop="no"/>
-<pad name="GND@6" x="3.683" y="-1.651" drill="0.3" stop="no"/>
-<pad name="GND@7" x="1.143" y="-3.937" drill="0.3"/>
-<pad name="GND@8" x="3.683" y="-3.937" drill="0.3"/>
-<pad name="GND@1" x="1.143" y="3.937" drill="0.3"/>
-<pad name="GND@2" x="3.683" y="3.937" drill="0.3"/>
-<wire x1="-1.5762" y1="-2.625" x2="-9.0762" y2="-2.625" width="0.127" layer="21"/>
-<wire x1="-1.5762" y1="2.625" x2="-7.9512" y2="2.625" width="0.127" layer="21"/>
-<wire x1="-9.0762" y1="-2.625" x2="-9.0762" y2="2.625" width="0.127" layer="51"/>
-<wire x1="-9.0762" y1="2.625" x2="-7.9238" y2="2.625" width="0.127" layer="51"/>
-<wire x1="-4.4512" y1="-2.875" x2="-4.8262" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-5.0762" y1="-2.875" x2="-5.4512" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-5.7012" y1="-2.875" x2="-6.0762" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-6.3262" y1="-2.875" x2="-6.7012" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-6.9512" y1="-2.875" x2="-7.3262" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-7.5762" y1="-2.875" x2="-7.9512" y2="2.875" width="0.127" layer="51"/>
-<wire x1="0" y1="3.2512" x2="-1.5748" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="-1.5748" y1="3.2512" x2="-1.5748" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="-1.5748" y1="-3.2512" x2="0" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="0" y1="-2.286" x2="0" y2="2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="3.2512" x2="4.064" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="4.064" y1="3.2512" x2="4.064" y2="2.286" width="0.127" layer="51"/>
-<wire x1="4.064" y1="2.286" x2="0" y2="2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="2.286" x2="0" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="0" y1="-3.2512" x2="4.064" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="4.064" y1="-3.2512" x2="4.064" y2="-2.286" width="0.127" layer="51"/>
-<wire x1="4.064" y1="-2.286" x2="0" y2="-2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="-2.286" x2="0" y2="-3.2512" width="0.127" layer="51"/>
-<pad name="GND@14" x="2.413" y="3.937" drill="0.3"/>
-<pad name="GND@15" x="2.413" y="-3.937" drill="0.3"/>
-<pad name="GND@16" x="2.413" y="-1.651" drill="0.3" stop="no"/>
-<pad name="GND@17" x="2.413" y="1.651" drill="0.3" stop="no"/>
-<rectangle x1="0" y1="-2.032" x2="4.572" y2="2.032" layer="41"/>
-<smd name="BOTTOM_GND" x="2.286" y="0" dx="4.572" dy="9.144" layer="16"/>
-<text x="4.953" y="3.429" size="1.27" layer="21">40/20</text>
-<polygon width="0.1016" layer="1">
-<vertex x="3.81" y="0.4572"/>
-<vertex x="4.5212" y="0.127"/>
-<vertex x="4.5212" y="-0.127"/>
-<vertex x="3.81" y="-0.4572"/>
-</polygon>
-<smd name="P$1" x="4.318" y="1.651" dx="0.127" dy="0.127" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="P$2" x="4.318" y="-1.651" dx="0.127" dy="0.127" layer="1" stop="no" thermals="no" cream="no"/>
-<polygon width="0.127" layer="2" pour="cutout">
-<vertex x="0" y="1.016"/>
-<vertex x="3.81" y="1.016"/>
-<vertex x="4.445" y="0.381"/>
-<vertex x="4.445" y="-0.381"/>
-<vertex x="3.81" y="-1.016"/>
-<vertex x="0" y="-1.016"/>
-</polygon>
-<polygon width="0.127" layer="15" pour="cutout">
-<vertex x="0" y="2.286"/>
-<vertex x="4.445" y="2.286"/>
-<vertex x="4.445" y="-2.286"/>
-<vertex x="0" y="-2.286"/>
-</polygon>
-</package>
-<package name="SMA_EDGE_LAUNCH_4L_4045_TAPER">
-<smd name="GND_PAD2" x="2.286" y="-3.302" dx="4.572" dy="2.54" layer="1"/>
-<smd name="GND_PAD1" x="2.286" y="3.302" dx="4.572" dy="2.54" layer="1"/>
-<smd name="CENTER@1" x="1.905" y="0" dx="1.016" dy="3.81" layer="1" rot="R90"/>
-<polygon width="0.0254" layer="1">
-<vertex x="0" y="2.032"/>
-<vertex x="0" y="1.651"/>
-<vertex x="4.572" y="1.651"/>
-<vertex x="4.572" y="2.032"/>
-</polygon>
-<polygon width="0.0254" layer="1">
-<vertex x="0" y="-2.032"/>
-<vertex x="0" y="-1.651"/>
-<vertex x="4.572" y="-1.651"/>
-<vertex x="4.572" y="-2.032"/>
-</polygon>
-<pad name="GND@3" x="1.143" y="1.651" drill="0.3" stop="no"/>
-<pad name="GND@5" x="1.143" y="-1.651" drill="0.3" stop="no"/>
-<pad name="GND@4" x="3.683" y="1.651" drill="0.3" stop="no"/>
-<pad name="GND@6" x="3.683" y="-1.651" drill="0.3" stop="no"/>
-<pad name="GND@7" x="1.143" y="-3.937" drill="0.3"/>
-<pad name="GND@8" x="3.683" y="-3.937" drill="0.3"/>
-<pad name="GND@1" x="1.143" y="3.937" drill="0.3"/>
-<pad name="GND@2" x="3.683" y="3.937" drill="0.3"/>
-<wire x1="-1.5762" y1="-2.625" x2="-9.0762" y2="-2.625" width="0.127" layer="21"/>
-<wire x1="-1.5762" y1="2.625" x2="-7.9512" y2="2.625" width="0.127" layer="21"/>
-<wire x1="-9.0762" y1="-2.625" x2="-9.0762" y2="2.625" width="0.127" layer="51"/>
-<wire x1="-9.0762" y1="2.625" x2="-7.9238" y2="2.625" width="0.127" layer="51"/>
-<wire x1="-4.4512" y1="-2.875" x2="-4.8262" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-5.0762" y1="-2.875" x2="-5.4512" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-5.7012" y1="-2.875" x2="-6.0762" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-6.3262" y1="-2.875" x2="-6.7012" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-6.9512" y1="-2.875" x2="-7.3262" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-7.5762" y1="-2.875" x2="-7.9512" y2="2.875" width="0.127" layer="51"/>
-<wire x1="0" y1="3.2512" x2="-1.5748" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="-1.5748" y1="3.2512" x2="-1.5748" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="-1.5748" y1="-3.2512" x2="0" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="0" y1="-2.286" x2="0" y2="2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="3.2512" x2="4.064" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="4.064" y1="3.2512" x2="4.064" y2="2.286" width="0.127" layer="51"/>
-<wire x1="4.064" y1="2.286" x2="0" y2="2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="2.286" x2="0" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="0" y1="-3.2512" x2="4.064" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="4.064" y1="-3.2512" x2="4.064" y2="-2.286" width="0.127" layer="51"/>
-<wire x1="4.064" y1="-2.286" x2="0" y2="-2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="-2.286" x2="0" y2="-3.2512" width="0.127" layer="51"/>
-<pad name="GND@14" x="2.413" y="3.937" drill="0.3"/>
-<pad name="GND@15" x="2.413" y="-3.937" drill="0.3"/>
-<pad name="GND@16" x="2.413" y="-1.651" drill="0.3" stop="no"/>
-<pad name="GND@17" x="2.413" y="1.651" drill="0.3" stop="no"/>
-<rectangle x1="0" y1="-2.032" x2="4.572" y2="2.032" layer="41"/>
-<smd name="BOTTOM_GND" x="2.286" y="0" dx="4.572" dy="9.144" layer="16"/>
-<text x="4.953" y="3.429" size="1.27" layer="21">40/45</text>
-<polygon width="0.1016" layer="1">
-<vertex x="3.81" y="0.4572"/>
-<vertex x="4.5212" y="0.127"/>
-<vertex x="4.5212" y="-0.127"/>
-<vertex x="3.81" y="-0.4572"/>
-</polygon>
-<smd name="P$1" x="4.318" y="1.905" dx="0.127" dy="0.127" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="P$2" x="4.318" y="-1.905" dx="0.127" dy="0.127" layer="1" stop="no" thermals="no" cream="no"/>
-<polygon width="0.127" layer="2" pour="cutout">
-<vertex x="0" y="1.651"/>
-<vertex x="3.175" y="1.651"/>
-<vertex x="4.445" y="0.381"/>
-<vertex x="4.445" y="-0.381"/>
-<vertex x="3.175" y="-1.651"/>
-<vertex x="0" y="-1.651"/>
-</polygon>
-<polygon width="0.127" layer="15" pour="cutout">
-<vertex x="0" y="2.286"/>
-<vertex x="4.445" y="2.286"/>
-<vertex x="4.445" y="-2.286"/>
-<vertex x="0" y="-2.286"/>
-</polygon>
-</package>
-<package name="SMA_EDGE_LAUNCH_2L_4020_TAPER_FIXED">
-<smd name="GND_PAD2" x="2.286" y="-3.302" dx="4.572" dy="2.54" layer="1"/>
-<smd name="GND_PAD1" x="2.286" y="3.302" dx="4.572" dy="2.54" layer="1"/>
-<smd name="CENTER@1" x="1.905" y="0" dx="1.016" dy="3.81" layer="1" rot="R90"/>
-<polygon width="0.0254" layer="1">
-<vertex x="0" y="2.032"/>
-<vertex x="0" y="1.016"/>
-<vertex x="4.572" y="1.016"/>
-<vertex x="4.572" y="2.032"/>
-</polygon>
-<polygon width="0.0254" layer="1">
-<vertex x="0" y="-2.032"/>
-<vertex x="0" y="-1.016"/>
-<vertex x="4.572" y="-1.016"/>
-<vertex x="4.572" y="-2.032"/>
-</polygon>
-<pad name="GND@3" x="1.143" y="1.651" drill="0.3" stop="no"/>
-<pad name="GND@5" x="1.143" y="-1.651" drill="0.3" stop="no"/>
-<pad name="GND@4" x="3.683" y="1.651" drill="0.3" stop="no"/>
-<pad name="GND@6" x="3.683" y="-1.651" drill="0.3" stop="no"/>
-<pad name="GND@7" x="1.143" y="-3.937" drill="0.3"/>
-<pad name="GND@8" x="3.683" y="-3.937" drill="0.3"/>
-<pad name="GND@1" x="1.143" y="3.937" drill="0.3"/>
-<pad name="GND@2" x="3.683" y="3.937" drill="0.3"/>
-<wire x1="-1.5762" y1="-2.625" x2="-9.0762" y2="-2.625" width="0.127" layer="21"/>
-<wire x1="-1.5762" y1="2.625" x2="-7.9512" y2="2.625" width="0.127" layer="21"/>
-<wire x1="-9.0762" y1="-2.625" x2="-9.0762" y2="2.625" width="0.127" layer="51"/>
-<wire x1="-9.0762" y1="2.625" x2="-7.9238" y2="2.625" width="0.127" layer="51"/>
-<wire x1="-4.4512" y1="-2.875" x2="-4.8262" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-5.0762" y1="-2.875" x2="-5.4512" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-5.7012" y1="-2.875" x2="-6.0762" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-6.3262" y1="-2.875" x2="-6.7012" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-6.9512" y1="-2.875" x2="-7.3262" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-7.5762" y1="-2.875" x2="-7.9512" y2="2.875" width="0.127" layer="51"/>
-<wire x1="0" y1="3.2512" x2="-1.5748" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="-1.5748" y1="3.2512" x2="-1.5748" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="-1.5748" y1="-3.2512" x2="0" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="0" y1="-2.286" x2="0" y2="2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="3.2512" x2="4.064" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="4.064" y1="3.2512" x2="4.064" y2="2.286" width="0.127" layer="51"/>
-<wire x1="4.064" y1="2.286" x2="0" y2="2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="2.286" x2="0" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="0" y1="-3.2512" x2="4.064" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="4.064" y1="-3.2512" x2="4.064" y2="-2.286" width="0.127" layer="51"/>
-<wire x1="4.064" y1="-2.286" x2="0" y2="-2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="-2.286" x2="0" y2="-3.2512" width="0.127" layer="51"/>
-<pad name="GND@14" x="2.413" y="3.937" drill="0.3"/>
-<pad name="GND@15" x="2.413" y="-3.937" drill="0.3"/>
-<pad name="GND@16" x="2.413" y="-1.651" drill="0.3" stop="no"/>
-<pad name="GND@17" x="2.413" y="1.651" drill="0.3" stop="no"/>
-<smd name="BOTTOM_GND" x="2.286" y="0" dx="4.572" dy="9.144" layer="16" thermals="no" cream="no"/>
-<polygon width="0.0508" layer="1">
-<vertex x="3.81" y="0.4826"/>
-<vertex x="4.5466" y="0.254"/>
-<vertex x="4.5466" y="-0.254"/>
-<vertex x="3.81" y="-0.4826"/>
-</polygon>
-<polygon width="0.0254" layer="1">
-<vertex x="3.3528" y="1.2446"/>
-<vertex x="4.572" y="0.5588"/>
-<vertex x="4.572" y="1.2446"/>
-</polygon>
-<polygon width="0.0254" layer="1">
-<vertex x="4.572" y="-1.397"/>
-<vertex x="4.572" y="-0.5588"/>
-<vertex x="3.2766" y="-1.397"/>
-</polygon>
-<smd name="P$1" x="4.191" y="1.143" dx="0.127" dy="0.127" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="P$2" x="4.191" y="-1.143" dx="0.127" dy="0.127" layer="1" stop="no" thermals="no" cream="no"/>
-<polygon width="0.0254" layer="1" pour="cutout">
-<vertex x="0" y="1.016"/>
-<vertex x="3.7338" y="1.016"/>
-<vertex x="4.572" y="0.5588"/>
-<vertex x="4.572" y="1.651"/>
-<vertex x="0" y="1.651"/>
-</polygon>
-<polygon width="0.0254" layer="1" pour="cutout">
-<vertex x="0" y="-1.651"/>
-<vertex x="4.572" y="-1.651"/>
-<vertex x="4.572" y="-0.5588"/>
-<vertex x="3.8354" y="-1.016"/>
-<vertex x="0" y="-1.016"/>
-</polygon>
-<smd name="P$3" x="4.191" y="0" dx="0.127" dy="0.127" layer="1" stop="no" thermals="no" cream="no"/>
-</package>
-<package name="SMA_EDGE_LAUNCH_4L_4020_TAPER_FIXED">
-<smd name="GND_PAD2" x="2.286" y="-3.302" dx="4.572" dy="2.54" layer="1"/>
-<smd name="GND_PAD1" x="2.286" y="3.302" dx="4.572" dy="2.54" layer="1"/>
-<smd name="CENTER@1" x="1.905" y="0" dx="1.016" dy="3.81" layer="1" rot="R90"/>
-<polygon width="0.0254" layer="1">
-<vertex x="0" y="2.032"/>
-<vertex x="0" y="1.016"/>
-<vertex x="4.572" y="1.016"/>
-<vertex x="4.572" y="2.032"/>
-</polygon>
-<polygon width="0.0254" layer="1">
-<vertex x="0" y="-2.032"/>
-<vertex x="0" y="-1.016"/>
-<vertex x="4.572" y="-1.016"/>
-<vertex x="4.572" y="-2.032"/>
-</polygon>
-<pad name="GND@3" x="1.143" y="1.651" drill="0.3" stop="no"/>
-<pad name="GND@5" x="1.143" y="-1.651" drill="0.3" stop="no"/>
-<pad name="GND@4" x="3.683" y="1.651" drill="0.3" stop="no"/>
-<pad name="GND@6" x="3.683" y="-1.651" drill="0.3" stop="no"/>
-<pad name="GND@7" x="1.143" y="-3.937" drill="0.3"/>
-<pad name="GND@8" x="3.683" y="-3.937" drill="0.3"/>
-<pad name="GND@1" x="1.143" y="3.937" drill="0.3"/>
-<pad name="GND@2" x="3.683" y="3.937" drill="0.3"/>
-<wire x1="-1.5762" y1="-2.625" x2="-9.0762" y2="-2.625" width="0.127" layer="21"/>
-<wire x1="-1.5762" y1="2.625" x2="-7.9512" y2="2.625" width="0.127" layer="21"/>
-<wire x1="-9.0762" y1="-2.625" x2="-9.0762" y2="2.625" width="0.127" layer="51"/>
-<wire x1="-9.0762" y1="2.625" x2="-7.9238" y2="2.625" width="0.127" layer="51"/>
-<wire x1="-4.4512" y1="-2.875" x2="-4.8262" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-5.0762" y1="-2.875" x2="-5.4512" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-5.7012" y1="-2.875" x2="-6.0762" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-6.3262" y1="-2.875" x2="-6.7012" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-6.9512" y1="-2.875" x2="-7.3262" y2="2.875" width="0.127" layer="21"/>
-<wire x1="-7.5762" y1="-2.875" x2="-7.9512" y2="2.875" width="0.127" layer="51"/>
-<wire x1="0" y1="3.2512" x2="-1.5748" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="-1.5748" y1="3.2512" x2="-1.5748" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="-1.5748" y1="-3.2512" x2="0" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="0" y1="-2.286" x2="0" y2="2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="3.2512" x2="4.064" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="4.064" y1="3.2512" x2="4.064" y2="2.286" width="0.127" layer="51"/>
-<wire x1="4.064" y1="2.286" x2="0" y2="2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="2.286" x2="0" y2="3.2512" width="0.127" layer="51"/>
-<wire x1="0" y1="-3.2512" x2="4.064" y2="-3.2512" width="0.127" layer="51"/>
-<wire x1="4.064" y1="-3.2512" x2="4.064" y2="-2.286" width="0.127" layer="51"/>
-<wire x1="4.064" y1="-2.286" x2="0" y2="-2.286" width="0.127" layer="51"/>
-<wire x1="0" y1="-2.286" x2="0" y2="-3.2512" width="0.127" layer="51"/>
-<pad name="GND@14" x="2.413" y="3.937" drill="0.3"/>
-<pad name="GND@15" x="2.413" y="-3.937" drill="0.3"/>
-<pad name="GND@16" x="2.413" y="-1.651" drill="0.3" stop="no"/>
-<pad name="GND@17" x="2.413" y="1.651" drill="0.3" stop="no"/>
-<smd name="BOTTOM_GND" x="2.286" y="0" dx="4.572" dy="9.144" layer="16" thermals="no" cream="no"/>
-<polygon width="0.0508" layer="1">
-<vertex x="3.81" y="0.4826"/>
-<vertex x="4.5466" y="0.127"/>
-<vertex x="4.5466" y="-0.127"/>
-<vertex x="3.81" y="-0.4826"/>
-</polygon>
-<smd name="P$1" x="4.191" y="1.143" dx="0.127" dy="0.127" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="P$2" x="4.191" y="-1.143" dx="0.127" dy="0.127" layer="1" stop="no" thermals="no" cream="no"/>
-<polygon width="0.0254" layer="1" pour="cutout">
-<vertex x="0" y="1.016"/>
-<vertex x="3.7338" y="1.016"/>
-<vertex x="4.572" y="1.0668"/>
-<vertex x="4.572" y="1.651"/>
-<vertex x="0" y="1.651"/>
-</polygon>
-<polygon width="0.0254" layer="1" pour="cutout">
-<vertex x="0" y="-1.651"/>
-<vertex x="4.572" y="-1.651"/>
-<vertex x="4.572" y="-1.0668"/>
-<vertex x="3.8354" y="-1.016"/>
-<vertex x="0" y="-1.016"/>
-</polygon>
-<smd name="P$3" x="4.191" y="0" dx="0.127" dy="0.127" layer="1" stop="no" thermals="no" cream="no"/>
-<polygon width="0" layer="2" pour="cutout">
-<vertex x="0" y="1.016"/>
-<vertex x="4.572" y="1.016"/>
-<vertex x="4.572" y="-1.016"/>
-<vertex x="0" y="-1.016"/>
-</polygon>
-<polygon width="0" layer="15" pour="cutout">
-<vertex x="0" y="1.2446"/>
-<vertex x="4.572" y="1.2446"/>
-<vertex x="4.572" y="-1.2446"/>
-<vertex x="0" y="-1.27"/>
-</polygon>
+<package name="SMA-CINCH-142-0761-881">
+<pad name="HOLE@3" x="1.2192" y="-1.7526" drill="1.143" diameter="1.4224" shape="square" stop="no" thermals="no"/>
+<pad name="HOLE@4" x="-1.2192" y="-1.7526" drill="1.143" diameter="1.4224" shape="square" stop="no" thermals="no"/>
+<pad name="HOLE@1" x="-1.2192" y="-3.9624" drill="1.143" diameter="1.4224" shape="square" stop="no" thermals="no"/>
+<pad name="HOLE@2" x="1.2192" y="-3.9624" drill="1.143" diameter="1.4224" shape="square" stop="no" thermals="no"/>
+<smd name="CENTER" x="0" y="-2.794" dx="0.3175" dy="5.5372" layer="1" stop="no" thermals="no" cream="no"/>
+<pad name="VIA@6" x="-0.8382" y="-2.8575" drill="0.4064" diameter="0.6096" stop="no" thermals="no"/>
+<pad name="VIA@3" x="0.8382" y="-2.8575" drill="0.4064" diameter="0.6096" stop="no" thermals="no"/>
+<pad name="VIA@5" x="-0.8382" y="-0.5207" drill="0.4064" diameter="0.6096" stop="no" thermals="no"/>
+<pad name="VIA@4" x="0.8382" y="-0.5207" drill="0.4064" diameter="0.6096" stop="no" thermals="no"/>
+<pad name="VIA@2" x="0.8382" y="-5.1943" drill="0.4064" diameter="0.6096" stop="no" thermals="no"/>
+<pad name="VIA@1" x="-0.8382" y="-5.1943" drill="0.4064" diameter="0.6096" stop="no" thermals="no"/>
+<wire x1="-0.635" y1="-4.5212" x2="-3.0988" y2="-4.5212" width="0.127" layer="51"/>
+<wire x1="-3.0988" y1="-4.5212" x2="-3.0988" y2="1.6764" width="0.127" layer="51"/>
+<wire x1="-3.0988" y1="1.6764" x2="-1.4478" y2="1.6764" width="0.127" layer="51"/>
+<wire x1="-1.4478" y1="1.6764" x2="-1.4478" y2="0" width="0.127" layer="51"/>
+<wire x1="-1.4478" y1="0" x2="-1.4732" y2="0" width="0.127" layer="51"/>
+<wire x1="-1.4478" y1="0" x2="-0.635" y2="0" width="0.127" layer="51"/>
+<wire x1="-0.635" y1="0" x2="-0.635" y2="-4.5212" width="0.127" layer="51"/>
+<wire x1="-0.4064" y1="0" x2="-0.4064" y2="-0.0762" width="0.127" layer="51"/>
+<wire x1="-0.4064" y1="-0.0762" x2="-0.127" y2="-0.0762" width="0.127" layer="51"/>
+<wire x1="-0.127" y1="-0.0762" x2="-0.127" y2="-0.6858" width="0.127" layer="51"/>
+<wire x1="-0.127" y1="-0.6858" x2="0.1016" y2="-0.6858" width="0.127" layer="51"/>
+<wire x1="0.1016" y1="-0.6858" x2="0.1016" y2="-0.1016" width="0.127" layer="51"/>
+<wire x1="0.1016" y1="-0.1016" x2="0.3556" y2="-0.1016" width="0.127" layer="51"/>
+<wire x1="0.3556" y1="-0.1016" x2="0.3556" y2="0" width="0.127" layer="51"/>
+<wire x1="0.3556" y1="0" x2="-0.381" y2="0" width="0.127" layer="51"/>
+<wire x1="0.635" y1="0" x2="0.635" y2="-4.4958" width="0.127" layer="51"/>
+<wire x1="0.635" y1="-4.4958" x2="3.0988" y2="-4.4958" width="0.127" layer="51"/>
+<wire x1="3.0988" y1="-4.4958" x2="3.0988" y2="1.6764" width="0.127" layer="51"/>
+<wire x1="3.0988" y1="1.6764" x2="3.0988" y2="1.7018" width="0.127" layer="51"/>
+<wire x1="3.0988" y1="1.7018" x2="1.4478" y2="1.7018" width="0.127" layer="51"/>
+<wire x1="1.4478" y1="1.7018" x2="1.4478" y2="0" width="0.127" layer="51"/>
+<wire x1="1.4478" y1="0" x2="0.635" y2="0" width="0.127" layer="51"/>
+<wire x1="-2.54" y1="4.318" x2="2.5146" y2="4.318" width="0.127" layer="51"/>
+<wire x1="2.5146" y1="4.318" x2="2.5146" y2="2.286" width="0.127" layer="51"/>
+<wire x1="2.5146" y1="2.286" x2="-2.54" y2="2.286" width="0.127" layer="51"/>
+<wire x1="-2.54" y1="2.286" x2="-2.54" y2="4.318" width="0.127" layer="51"/>
+<wire x1="-3.0988" y1="1.7018" x2="-2.5146" y2="2.3114" width="0.127" layer="51"/>
+<wire x1="2.5146" y1="2.286" x2="3.0988" y2="1.6764" width="0.127" layer="51"/>
+<wire x1="-2.667" y1="9.4996" x2="2.667" y2="9.4996" width="0.127" layer="51"/>
+<wire x1="2.667" y1="9.4996" x2="2.667" y2="8.763" width="0.127" layer="51"/>
+<wire x1="2.667" y1="8.763" x2="-2.667" y2="8.763" width="0.127" layer="51"/>
+<wire x1="-2.667" y1="8.763" x2="-2.667" y2="9.4996" width="0.127" layer="51"/>
+<wire x1="-2.7178" y1="8.7122" x2="-3.0226" y2="8.382" width="0.127" layer="51"/>
+<wire x1="-3.0226" y1="8.382" x2="-2.7432" y2="8.1534" width="0.127" layer="51"/>
+<wire x1="-2.7432" y1="8.1534" x2="-3.1242" y2="7.8232" width="0.127" layer="51"/>
+<wire x1="-3.1242" y1="7.8232" x2="-2.7432" y2="7.4676" width="0.127" layer="51"/>
+<wire x1="-2.7432" y1="7.4676" x2="-3.1242" y2="7.1374" width="0.127" layer="51"/>
+<wire x1="-3.1242" y1="7.1374" x2="-2.7178" y2="6.7564" width="0.127" layer="51"/>
+<wire x1="-2.7178" y1="6.7564" x2="-3.1242" y2="6.4262" width="0.127" layer="51"/>
+<wire x1="-3.1242" y1="6.4262" x2="-2.7686" y2="6.096" width="0.127" layer="51"/>
+<wire x1="-2.7686" y1="6.096" x2="-3.0988" y2="5.715" width="0.127" layer="51"/>
+<wire x1="-3.0988" y1="5.715" x2="-2.7432" y2="5.334" width="0.127" layer="51"/>
+<wire x1="-2.7432" y1="5.334" x2="-3.175" y2="4.953" width="0.127" layer="51"/>
+<wire x1="-3.175" y1="4.953" x2="-2.7686" y2="4.6736" width="0.127" layer="51"/>
+<wire x1="-2.7686" y1="4.6736" x2="-2.794" y2="4.6228" width="0.127" layer="51"/>
+<wire x1="-2.794" y1="4.6228" x2="-2.8194" y2="4.572" width="0.127" layer="51"/>
+<wire x1="-2.8194" y1="4.572" x2="-2.5654" y2="4.318" width="0.127" layer="51"/>
+<wire x1="2.667" y1="8.7376" x2="2.794" y2="8.6106" width="0.127" layer="51"/>
+<wire x1="2.794" y1="8.6106" x2="2.7686" y2="8.5852" width="0.127" layer="51"/>
+<wire x1="2.7686" y1="8.5852" x2="2.7178" y2="8.5344" width="0.127" layer="51"/>
+<wire x1="2.7178" y1="8.5344" x2="3.1242" y2="8.2042" width="0.127" layer="51"/>
+<wire x1="3.1242" y1="8.2042" x2="3.0226" y2="8.1026" width="0.127" layer="51"/>
+<wire x1="3.0226" y1="8.1026" x2="2.7178" y2="7.7978" width="0.127" layer="51"/>
+<wire x1="2.7178" y1="7.7978" x2="3.1242" y2="7.4676" width="0.127" layer="51"/>
+<wire x1="3.1242" y1="7.4676" x2="2.7178" y2="7.0866" width="0.127" layer="51"/>
+<wire x1="2.7178" y1="7.0866" x2="3.1242" y2="6.7564" width="0.127" layer="51"/>
+<wire x1="3.1242" y1="6.7564" x2="2.7432" y2="6.4008" width="0.127" layer="51"/>
+<wire x1="2.7432" y1="6.4008" x2="3.0988" y2="6.0706" width="0.127" layer="51"/>
+<wire x1="3.0988" y1="6.0706" x2="2.7432" y2="5.715" width="0.127" layer="51"/>
+<wire x1="2.7432" y1="5.715" x2="3.0988" y2="5.3594" width="0.127" layer="51"/>
+<wire x1="3.0988" y1="5.3594" x2="2.7178" y2="5.0038" width="0.127" layer="51"/>
+<wire x1="2.7178" y1="5.0038" x2="2.9718" y2="4.7752" width="0.127" layer="51"/>
+<wire x1="2.9718" y1="4.7752" x2="2.54" y2="4.2926" width="0.127" layer="51"/>
+<wire x1="-2.9718" y1="8.4074" x2="2.7686" y2="8.5852" width="0.127" layer="51"/>
+<wire x1="2.667" y1="8.4582" x2="-2.7432" y2="8.1788" width="0.127" layer="51"/>
+<wire x1="-3.0734" y1="7.8486" x2="3.0226" y2="8.1026" width="0.127" layer="51"/>
+<wire x1="2.7178" y1="7.7978" x2="-2.7432" y2="7.5184" width="0.127" layer="51"/>
+<wire x1="-3.0226" y1="7.1628" x2="3.0734" y2="7.4422" width="0.127" layer="51"/>
+<wire x1="2.667" y1="7.0866" x2="-2.7178" y2="6.7818" width="0.127" layer="51"/>
+<wire x1="-3.0734" y1="6.4262" x2="3.048" y2="6.7056" width="0.127" layer="51"/>
+<wire x1="2.7178" y1="6.4008" x2="-2.794" y2="6.096" width="0.127" layer="51"/>
+<wire x1="-3.0226" y1="5.7404" x2="2.9972" y2="6.0198" width="0.127" layer="51"/>
+<wire x1="2.7178" y1="5.715" x2="-2.7686" y2="5.3594" width="0.127" layer="51"/>
+<wire x1="-3.0226" y1="5.0292" x2="3.048" y2="5.3086" width="0.127" layer="51"/>
+<wire x1="2.6924" y1="4.9784" x2="-2.7432" y2="4.6736" width="0.127" layer="51"/>
+<wire x1="-2.794" y1="4.6228" x2="2.8956" y2="4.7498" width="0.127" layer="51"/>
+<wire x1="-1.4224" y1="1.6764" x2="1.4224" y2="1.651" width="0.127" layer="51" curve="-64.9435"/>
+<circle x="-0.0254" y="2.921" radius="0.340775" width="0.127" layer="51"/>
+<circle x="0" y="2.921" radius="0.127" width="0.127" layer="51"/>
+<smd name="GND@3" x="0" y="-2.7686" dx="5.5372" dy="8.128" layer="16" rot="R90" thermals="no" cream="no"/>
+<smd name="GND@2" x="2.1844" y="-2.7686" dx="5.5372" dy="3.7465" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<smd name="GND@1" x="-2.1844" y="-2.7686" dx="5.5372" dy="3.7465" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<rectangle x1="-4.191" y1="-5.588" x2="-0.381" y2="0.127" layer="29"/>
+<rectangle x1="0.381" y1="-5.588" x2="4.191" y2="0.127" layer="29"/>
+<rectangle x1="-0.2286" y1="-0.9398" x2="0.2032" y2="0.127" layer="29"/>
 </package>
 </packages>
 <symbols>
+<symbol name="GND">
+<pin name="GND" x="0" y="0" visible="off" length="short" direction="sup" rot="R270"/>
+<wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="-3.81" x2="1.905" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-0.635" y1="-5.08" x2="0.635" y2="-5.08" width="0.254" layer="94"/>
+</symbol>
 <symbol name="COAX_JACK">
 <pin name="CENTER" x="-7.62" y="0" visible="off" length="middle"/>
 <pin name="SHIELD" x="0" y="-10.16" visible="off" length="middle" rot="R90"/>
@@ -1171,177 +183,28 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SMA-EDGE-LAUNCH" prefix="J" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="COAX_JACK" x="0" y="0"/>
-</gates>
-<devices>
-<device name="4010" package="SMA_EDGE_LAUNCH_2L_4010">
-<connects>
-<connect gate="G$1" pin="CENTER" pad="CENTER@1"/>
-<connect gate="G$1" pin="SHIELD" pad="BOTTOM_GND GND@1 GND@2 GND@3 GND@4 GND@5 GND@6 GND@7 GND@8 GND@11 GND@12 GND@14 GND@15 GND@16 GND@17 GND_PAD1 GND_PAD2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="4015" package="SMA_EDGE_LAUNCH_2L_4015">
-<connects>
-<connect gate="G$1" pin="CENTER" pad="CENTER@1"/>
-<connect gate="G$1" pin="SHIELD" pad="BOTTOM_GND GND@1 GND@2 GND@3 GND@4 GND@5 GND@6 GND@7 GND@8 GND@11 GND@12 GND@14 GND@15 GND@16 GND@17 GND_PAD1 GND_PAD2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="4020" package="SMA_EDGE_LAUNCH_2L_4020">
-<connects>
-<connect gate="G$1" pin="CENTER" pad="CENTER@1"/>
-<connect gate="G$1" pin="SHIELD" pad="BOTTOM_GND GND@1 GND@2 GND@3 GND@4 GND@5 GND@6 GND@7 GND@8 GND@11 GND@12 GND@14 GND@15 GND@16 GND@17 GND_PAD1 GND_PAD2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="4025" package="SMA_EDGE_LAUNCH_2L_4025">
-<connects>
-<connect gate="G$1" pin="CENTER" pad="CENTER@1"/>
-<connect gate="G$1" pin="SHIELD" pad="BOTTOM_GND GND@1 GND@2 GND@3 GND@4 GND@5 GND@6 GND@7 GND@8 GND@11 GND@12 GND@14 GND@15 GND@16 GND@17 GND_PAD1 GND_PAD2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="4030" package="SMA_EDGE_LAUNCH_2L_4030">
-<connects>
-<connect gate="G$1" pin="CENTER" pad="CENTER@1"/>
-<connect gate="G$1" pin="SHIELD" pad="BOTTOM_GND GND@1 GND@2 GND@3 GND@4 GND@5 GND@6 GND@7 GND@8 GND@11 GND@12 GND@14 GND@15 GND@16 GND@17 GND_PAD1 GND_PAD2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="4035" package="SMA_EDGE_LAUNCH_2L_4035">
-<connects>
-<connect gate="G$1" pin="CENTER" pad="CENTER@1"/>
-<connect gate="G$1" pin="SHIELD" pad="BOTTOM_GND GND@1 GND@2 GND@3 GND@4 GND@5 GND@6 GND@7 GND@8 GND@11 GND@12 GND@14 GND@15 GND@16 GND@17 GND_PAD1 GND_PAD2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="4040" package="SMA_EDGE_LAUNCH_2L_4040">
-<connects>
-<connect gate="G$1" pin="CENTER" pad="CENTER@1"/>
-<connect gate="G$1" pin="SHIELD" pad="BOTTOM_GND GND@1 GND@2 GND@3 GND@4 GND@5 GND@6 GND@7 GND@8 GND@11 GND@12 GND@14 GND@15 GND@16 GND@17 GND_PAD1 GND_PAD2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="4020_TAPER" package="SMA_EDGE_LAUNCH_2L_4020_TAPER">
-<connects>
-<connect gate="G$1" pin="CENTER" pad="CENTER@1"/>
-<connect gate="G$1" pin="SHIELD" pad="BOTTOM_GND GND@1 GND@2 GND@3 GND@4 GND@5 GND@6 GND@7 GND@8 GND@14 GND@15 GND@16 GND@17 GND_PAD1 GND_PAD2 P$1 P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="4L_4030_TAPER" package="SMA_EDGE_LAUNCH_4L_4030_TAPER">
-<connects>
-<connect gate="G$1" pin="CENTER" pad="CENTER@1"/>
-<connect gate="G$1" pin="SHIELD" pad="BOTTOM_GND GND@1 GND@2 GND@3 GND@4 GND@5 GND@6 GND@7 GND@8 GND@14 GND@15 GND@16 GND@17 GND_PAD1 GND_PAD2 P$1 P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="4L_4035_TAPER" package="SMA_EDGE_LAUNCH_4L_4035_TAPER">
-<connects>
-<connect gate="G$1" pin="CENTER" pad="CENTER@1"/>
-<connect gate="G$1" pin="SHIELD" pad="BOTTOM_GND GND@1 GND@2 GND@3 GND@4 GND@5 GND@6 GND@7 GND@8 GND@14 GND@15 GND@16 GND@17 GND_PAD1 GND_PAD2 P$1 P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="4L_4040_TAPER" package="SMA_EDGE_LAUNCH_4L_4040_TAPER">
-<connects>
-<connect gate="G$1" pin="CENTER" pad="CENTER@1"/>
-<connect gate="G$1" pin="SHIELD" pad="BOTTOM_GND GND@1 GND@2 GND@3 GND@4 GND@5 GND@6 GND@7 GND@8 GND@14 GND@15 GND@16 GND@17 GND_PAD1 GND_PAD2 P$1 P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="4L_4025_TAPER" package="SMA_EDGE_LAUNCH_4L_4025_TAPER">
-<connects>
-<connect gate="G$1" pin="CENTER" pad="CENTER@1"/>
-<connect gate="G$1" pin="SHIELD" pad="BOTTOM_GND GND@1 GND@2 GND@3 GND@4 GND@5 GND@6 GND@7 GND@8 GND@14 GND@15 GND@16 GND@17 GND_PAD1 GND_PAD2 P$1 P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="4L_4020_TAPER" package="SMA_EDGE_LAUNCH_4L_4020_TAPER">
-<connects>
-<connect gate="G$1" pin="CENTER" pad="CENTER@1"/>
-<connect gate="G$1" pin="SHIELD" pad="BOTTOM_GND GND@1 GND@2 GND@3 GND@4 GND@5 GND@6 GND@7 GND@8 GND@14 GND@15 GND@16 GND@17 GND_PAD1 GND_PAD2 P$1 P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="4L_4045_TAPER" package="SMA_EDGE_LAUNCH_4L_4045_TAPER">
-<connects>
-<connect gate="G$1" pin="CENTER" pad="CENTER@1"/>
-<connect gate="G$1" pin="SHIELD" pad="BOTTOM_GND GND@1 GND@2 GND@3 GND@4 GND@5 GND@6 GND@7 GND@8 GND@14 GND@15 GND@16 GND@17 GND_PAD1 GND_PAD2 P$1 P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="" package="SMA_EDGE_LAUNCH_2L_4020_TAPER_FIXED">
-<connects>
-<connect gate="G$1" pin="CENTER" pad="CENTER@1 P$3"/>
-<connect gate="G$1" pin="SHIELD" pad="BOTTOM_GND GND@1 GND@2 GND@3 GND@4 GND@5 GND@6 GND@7 GND@8 GND@14 GND@15 GND@16 GND@17 GND_PAD1 GND_PAD2 P$1 P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="4L-4020-TAPER-FIXED" package="SMA_EDGE_LAUNCH_4L_4020_TAPER_FIXED">
-<connects>
-<connect gate="G$1" pin="CENTER" pad="CENTER@1 P$3"/>
-<connect gate="G$1" pin="SHIELD" pad="BOTTOM_GND GND@1 GND@2 GND@3 GND@4 GND@5 GND@6 GND@7 GND@8 GND@14 GND@15 GND@16 GND@17 GND_PAD1 GND_PAD2 P$1 P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="yapo">
-<packages>
-</packages>
-<symbols>
-<symbol name="GND">
-<pin name="GND" x="0" y="0" visible="off" length="short" direction="sup" rot="R270"/>
-<wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-1.905" y1="-3.81" x2="1.905" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="-0.635" y1="-5.08" x2="0.635" y2="-5.08" width="0.254" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
 <deviceset name="GND">
 <gates>
 <gate name="G$1" symbol="GND" x="0" y="2.54"/>
 </gates>
 <devices>
 <device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SMA-CINCH-142-0761-881" prefix="J">
+<gates>
+<gate name="G$1" symbol="COAX_JACK" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SMA-CINCH-142-0761-881">
+<connects>
+<connect gate="G$1" pin="CENTER" pad="CENTER"/>
+<connect gate="G$1" pin="SHIELD" pad="GND@1 GND@2 GND@3 HOLE@1 HOLE@2 HOLE@3 HOLE@4 VIA@1 VIA@2 VIA@3 VIA@4 VIA@5 VIA@6"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -1358,173 +221,50 @@
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
-<class number="1" name="13-5" width="0.3429" drill="0">
-</class>
-<class number="2" name="13-75" width="0.34925" drill="0">
-</class>
-<class number="3" name="14-00" width="0.3556" drill="0">
-</class>
-<class number="4" name="14-25" width="0.36195" drill="0">
-</class>
-<class number="5" name="14-50" width="0.3683" drill="0">
+<class number="1" name="12.5-6-cpwg" width="0.3175" drill="0">
+<clearance class="1" value="0.1524"/>
 </class>
 </classes>
 <parts>
-<part name="J1" library="sma_footprint_2l" deviceset="SMA-EDGE-LAUNCH" device="4L-4020-TAPER-FIXED"/>
-<part name="J2" library="sma_footprint_2l" deviceset="SMA-EDGE-LAUNCH" device="4L-4020-TAPER-FIXED"/>
-<part name="U$1" library="yapo" deviceset="GND" device=""/>
-<part name="U$2" library="yapo" deviceset="GND" device=""/>
-<part name="J3" library="sma_footprint_2l" deviceset="SMA-EDGE-LAUNCH" device="4L-4020-TAPER-FIXED"/>
-<part name="J4" library="sma_footprint_2l" deviceset="SMA-EDGE-LAUNCH" device="4L-4020-TAPER-FIXED"/>
-<part name="U$3" library="yapo" deviceset="GND" device=""/>
-<part name="U$4" library="yapo" deviceset="GND" device=""/>
-<part name="J5" library="sma_footprint_2l" deviceset="SMA-EDGE-LAUNCH" device="4L-4020-TAPER-FIXED"/>
-<part name="J6" library="sma_footprint_2l" deviceset="SMA-EDGE-LAUNCH" device="4L-4020-TAPER-FIXED"/>
 <part name="U$5" library="yapo" deviceset="GND" device=""/>
 <part name="U$6" library="yapo" deviceset="GND" device=""/>
-<part name="J7" library="sma_footprint_2l" deviceset="SMA-EDGE-LAUNCH" device="4L-4020-TAPER-FIXED"/>
-<part name="J8" library="sma_footprint_2l" deviceset="SMA-EDGE-LAUNCH" device="4L-4020-TAPER-FIXED"/>
-<part name="U$7" library="yapo" deviceset="GND" device=""/>
-<part name="U$8" library="yapo" deviceset="GND" device=""/>
-<part name="J9" library="sma_footprint_2l" deviceset="SMA-EDGE-LAUNCH" device="4L-4020-TAPER-FIXED"/>
-<part name="J10" library="sma_footprint_2l" deviceset="SMA-EDGE-LAUNCH" device="4L-4020-TAPER-FIXED"/>
-<part name="U$9" library="yapo" deviceset="GND" device=""/>
-<part name="U$10" library="yapo" deviceset="GND" device=""/>
+<part name="J1" library="yapo" deviceset="SMA-CINCH-142-0761-881" device=""/>
+<part name="J2" library="yapo" deviceset="SMA-CINCH-142-0761-881" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="J1" gate="G$1" x="144.78" y="53.34" smashed="yes">
-<attribute name="NAME" x="149.86" y="58.42" size="1.27" layer="95"/>
-<attribute name="VALUE" x="149.86" y="55.88" size="1.27" layer="96"/>
-</instance>
-<instance part="J2" gate="G$1" x="96.52" y="53.34" smashed="yes" rot="MR0">
-<attribute name="NAME" x="91.44" y="58.42" size="1.27" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="91.44" y="55.88" size="1.27" layer="96" rot="MR0"/>
-</instance>
-<instance part="U$1" gate="G$1" x="96.52" y="43.18" smashed="yes"/>
-<instance part="U$2" gate="G$1" x="144.78" y="43.18" smashed="yes"/>
-<instance part="J3" gate="G$1" x="144.78" y="27.94" smashed="yes">
-<attribute name="NAME" x="149.86" y="33.02" size="1.27" layer="95"/>
-<attribute name="VALUE" x="149.86" y="30.48" size="1.27" layer="96"/>
-</instance>
-<instance part="J4" gate="G$1" x="96.52" y="27.94" smashed="yes" rot="MR0">
-<attribute name="NAME" x="91.44" y="33.02" size="1.27" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="91.44" y="30.48" size="1.27" layer="96" rot="MR0"/>
-</instance>
-<instance part="U$3" gate="G$1" x="96.52" y="17.78" smashed="yes"/>
-<instance part="U$4" gate="G$1" x="144.78" y="17.78" smashed="yes"/>
-<instance part="J5" gate="G$1" x="144.78" y="2.54" smashed="yes">
+<instance part="U$5" gate="G$1" x="96.52" y="-7.62" smashed="yes"/>
+<instance part="U$6" gate="G$1" x="144.78" y="-7.62" smashed="yes"/>
+<instance part="J1" gate="G$1" x="144.78" y="2.54" smashed="yes">
 <attribute name="NAME" x="149.86" y="7.62" size="1.27" layer="95"/>
 <attribute name="VALUE" x="149.86" y="5.08" size="1.27" layer="96"/>
 </instance>
-<instance part="J6" gate="G$1" x="96.52" y="2.54" smashed="yes" rot="MR0">
+<instance part="J2" gate="G$1" x="96.52" y="2.54" smashed="yes" rot="MR0">
 <attribute name="NAME" x="91.44" y="7.62" size="1.27" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="91.44" y="5.08" size="1.27" layer="96" rot="MR0"/>
 </instance>
-<instance part="U$5" gate="G$1" x="96.52" y="-7.62" smashed="yes"/>
-<instance part="U$6" gate="G$1" x="144.78" y="-7.62" smashed="yes"/>
-<instance part="J7" gate="G$1" x="144.78" y="78.74" smashed="yes">
-<attribute name="NAME" x="149.86" y="83.82" size="1.27" layer="95"/>
-<attribute name="VALUE" x="149.86" y="81.28" size="1.27" layer="96"/>
-</instance>
-<instance part="J8" gate="G$1" x="96.52" y="78.74" smashed="yes" rot="MR0">
-<attribute name="NAME" x="91.44" y="83.82" size="1.27" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="91.44" y="81.28" size="1.27" layer="96" rot="MR0"/>
-</instance>
-<instance part="U$7" gate="G$1" x="96.52" y="68.58" smashed="yes"/>
-<instance part="U$8" gate="G$1" x="144.78" y="68.58" smashed="yes"/>
-<instance part="J9" gate="G$1" x="144.78" y="101.6" smashed="yes">
-<attribute name="NAME" x="149.86" y="106.68" size="1.27" layer="95"/>
-<attribute name="VALUE" x="149.86" y="104.14" size="1.27" layer="96"/>
-</instance>
-<instance part="J10" gate="G$1" x="96.52" y="101.6" smashed="yes" rot="MR0">
-<attribute name="NAME" x="91.44" y="106.68" size="1.27" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="91.44" y="104.14" size="1.27" layer="96" rot="MR0"/>
-</instance>
-<instance part="U$9" gate="G$1" x="96.52" y="91.44" smashed="yes"/>
-<instance part="U$10" gate="G$1" x="144.78" y="91.44" smashed="yes"/>
 </instances>
 <busses>
 </busses>
 <nets>
+<net name="N$3" class="1">
+<segment>
+<wire x1="104.14" y1="2.54" x2="137.16" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="CENTER"/>
+<pinref part="J2" gate="G$1" pin="CENTER"/>
+</segment>
+</net>
 <net name="GND" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="SHIELD"/>
-<pinref part="U$1" gate="G$1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="SHIELD"/>
-<pinref part="U$2" gate="G$1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="J4" gate="G$1" pin="SHIELD"/>
-<pinref part="U$3" gate="G$1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="J3" gate="G$1" pin="SHIELD"/>
-<pinref part="U$4" gate="G$1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="J6" gate="G$1" pin="SHIELD"/>
-<pinref part="U$5" gate="G$1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="J5" gate="G$1" pin="SHIELD"/>
 <pinref part="U$6" gate="G$1" pin="GND"/>
+<pinref part="J1" gate="G$1" pin="SHIELD"/>
 </segment>
 <segment>
-<pinref part="J8" gate="G$1" pin="SHIELD"/>
-<pinref part="U$7" gate="G$1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="J7" gate="G$1" pin="SHIELD"/>
-<pinref part="U$8" gate="G$1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="J10" gate="G$1" pin="SHIELD"/>
-<pinref part="U$9" gate="G$1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="J9" gate="G$1" pin="SHIELD"/>
-<pinref part="U$10" gate="G$1" pin="GND"/>
-</segment>
-</net>
-<net name="N$1" class="1">
-<segment>
-<pinref part="J2" gate="G$1" pin="CENTER"/>
-<pinref part="J1" gate="G$1" pin="CENTER"/>
-<wire x1="104.14" y1="53.34" x2="137.16" y2="53.34" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$2" class="2">
-<segment>
-<pinref part="J4" gate="G$1" pin="CENTER"/>
-<pinref part="J3" gate="G$1" pin="CENTER"/>
-<wire x1="104.14" y1="27.94" x2="137.16" y2="27.94" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$3" class="3">
-<segment>
-<pinref part="J6" gate="G$1" pin="CENTER"/>
-<pinref part="J5" gate="G$1" pin="CENTER"/>
-<wire x1="104.14" y1="2.54" x2="137.16" y2="2.54" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$4" class="4">
-<segment>
-<pinref part="J8" gate="G$1" pin="CENTER"/>
-<pinref part="J7" gate="G$1" pin="CENTER"/>
-<wire x1="104.14" y1="78.74" x2="137.16" y2="78.74" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$5" class="5">
-<segment>
-<pinref part="J10" gate="G$1" pin="CENTER"/>
-<pinref part="J9" gate="G$1" pin="CENTER"/>
-<wire x1="104.14" y1="101.6" x2="137.16" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="GND"/>
+<pinref part="J2" gate="G$1" pin="SHIELD"/>
 </segment>
 </net>
 </nets>

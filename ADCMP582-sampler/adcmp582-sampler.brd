@@ -3,7 +3,7 @@
 <eagle version="9.4.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
@@ -1998,7 +1998,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="22.479" y="38.862"/>
 <vertex x="22.479" y="36.83"/>
 <vertex x="21.082" y="36.83"/>
-<vertex x="21.082" y="38.862"/>
 </polygon>
 <wire x1="23.54" y1="41.078" x2="23.54" y2="41.878" width="0.4064" layer="1"/>
 <via x="26.5176" y="46.6852" extent="1-16" drill="0.35"/>
