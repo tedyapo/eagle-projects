@@ -67,6 +67,7 @@
 <wire x1="101.6" y1="0" x2="101.6" y2="10.16" width="0" layer="20"/>
 <wire x1="101.6" y1="10.16" x2="0" y2="10.16" width="0" layer="20"/>
 <wire x1="0" y1="10.16" x2="0" y2="0" width="0" layer="20"/>
+<text x="5.08" y="1.27" size="1.4224" layer="21">30.5/6</text>
 </plain>
 <libraries>
 <library name="sma_footprint_2l">
@@ -444,24 +445,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="92.075" y="3.81" extent="1-16" drill="0.4"/>
 <via x="94.615" y="3.81" extent="1-16" drill="0.4"/>
 <via x="96.52" y="3.81" extent="1-16" drill="0.4"/>
-<wire x1="96.52" y1="3.81" x2="96.52" y2="6.35" width="0" layer="19" extent="1-1"/>
-<wire x1="100.457" y1="6.731" x2="96.52" y2="6.35" width="0" layer="19" extent="1-1"/>
-<wire x1="99.187" y1="6.731" x2="100.457" y2="6.731" width="0" layer="19" extent="1-1"/>
-<wire x1="97.917" y1="6.731" x2="99.187" y2="6.731" width="0" layer="19" extent="1-1"/>
-<wire x1="97.155" y1="6.223" x2="97.917" y2="6.731" width="0" layer="19" extent="1-1"/>
-<wire x1="99.314" y1="5.08" x2="99.187" y2="6.731" width="0" layer="19" extent="16-16"/>
-<wire x1="4.445" y1="6.223" x2="5.715" y2="6.35" width="0" layer="19" extent="1-1"/>
-<wire x1="3.683" y1="6.731" x2="4.445" y2="6.223" width="0" layer="19" extent="1-1"/>
-<wire x1="4.445" y1="3.937" x2="5.715" y2="3.81" width="0" layer="19" extent="1-1"/>
-<wire x1="3.683" y1="3.429" x2="4.445" y2="3.937" width="0" layer="19" extent="1-1"/>
-<wire x1="2.413" y1="6.731" x2="3.683" y2="6.731" width="0" layer="19" extent="1-1"/>
-<wire x1="1.143" y1="6.731" x2="2.413" y2="6.731" width="0" layer="19" extent="1-1"/>
-<wire x1="2.413" y1="3.429" x2="3.683" y2="3.429" width="0" layer="19" extent="1-1"/>
-<wire x1="1.143" y1="3.429" x2="2.413" y2="3.429" width="0" layer="19" extent="1-1"/>
-<wire x1="99.187" y1="3.429" x2="99.314" y2="1.778" width="0" layer="19" extent="1-1"/>
-<wire x1="100.457" y1="3.429" x2="99.187" y2="3.429" width="0" layer="19" extent="1-1"/>
-<wire x1="97.917" y1="3.429" x2="99.187" y2="3.429" width="0" layer="19" extent="1-1"/>
-<wire x1="97.155" y1="3.937" x2="97.917" y2="3.429" width="0" layer="19" extent="1-1"/>
+<wire x1="96.52" y1="6.35" x2="97.155" y2="6.223" width="0" layer="19" extent="1-1"/>
+<wire x1="97.155" y1="3.937" x2="96.52" y2="3.81" width="0" layer="19" extent="1-1"/>
+<wire x1="4.445" y1="6.223" x2="3.683" y2="6.731" width="0" layer="19" extent="1-1"/>
+<wire x1="4.445" y1="3.937" x2="3.683" y2="3.429" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1" class="1">
 <contactref element="U$2" pad="CENTER@1"/>
