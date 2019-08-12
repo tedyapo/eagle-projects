@@ -1266,7 +1266,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="16.764" y="22.606" extent="1-16" drill="0.35"/>
 <via x="12.573" y="27.178" extent="1-16" drill="0.35"/>
 <via x="12.573" y="25.908" extent="1-16" drill="0.35"/>
-<polygon width="0.127" layer="1" thermals="no" rank="2">
+<polygon width="0.127" layer="1" orphans="yes" thermals="no" rank="2">
 <vertex x="0" y="0"/>
 <vertex x="64.262" y="0"/>
 <vertex x="64.262" y="74.422"/>

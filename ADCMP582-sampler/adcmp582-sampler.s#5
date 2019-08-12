@@ -3216,6 +3216,12 @@
 <part name="U$142" library="yapo" deviceset="GND" device=""/>
 <part name="U$143" library="yapo" deviceset="GND" device=""/>
 <part name="U$144" library="yapo" deviceset="VCC2" device="" value="VCC2"/>
+<part name="C37" library="yapo" deviceset="C" device="0603"/>
+<part name="U$145" library="yapo" deviceset="VCC2" device="" value="VCC2"/>
+<part name="U$146" library="yapo" deviceset="GND" device=""/>
+<part name="C38" library="yapo" deviceset="C" device="0603"/>
+<part name="U$147" library="yapo" deviceset="VCC2" device="" value="VCC2"/>
+<part name="U$148" library="yapo" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3844,6 +3850,22 @@
 <instance part="U$144" gate="G$1" x="502.92" y="-93.98" smashed="yes">
 <attribute name="VALUE" x="504.19" y="-91.44" size="1.27" layer="96"/>
 </instance>
+<instance part="C37" gate="G$1" x="490.22" y="-68.58" smashed="yes">
+<attribute name="NAME" x="492.76" y="-63.5" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="492.76" y="-66.04" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="U$145" gate="G$1" x="490.22" y="-63.5" smashed="yes">
+<attribute name="VALUE" x="491.49" y="-60.96" size="1.27" layer="96"/>
+</instance>
+<instance part="U$146" gate="G$1" x="490.22" y="-73.66" smashed="yes"/>
+<instance part="C38" gate="G$1" x="502.92" y="-68.58" smashed="yes">
+<attribute name="NAME" x="505.46" y="-63.5" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="505.46" y="-66.04" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="U$147" gate="G$1" x="502.92" y="-63.5" smashed="yes">
+<attribute name="VALUE" x="504.19" y="-60.96" size="1.27" layer="96"/>
+</instance>
+<instance part="U$148" gate="G$1" x="502.92" y="-73.66" smashed="yes"/>
 </instances>
 <busses>
 <bus name="D0,D1,D2,D3,D4,D5,D6,D7,D8,D9">
@@ -4170,6 +4192,14 @@
 <segment>
 <pinref part="U$140" gate="G$1" pin="GND"/>
 <pinref part="U$143" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C37" gate="G$1" pin="P$1"/>
+<pinref part="U$146" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C38" gate="G$1" pin="P$1"/>
+<pinref part="U$148" gate="G$1" pin="GND"/>
 </segment>
 </net>
 <net name="INPUT" class="0">
@@ -4897,6 +4927,14 @@
 <segment>
 <pinref part="U$140" gate="G$1" pin="VCC"/>
 <pinref part="U$141" gate="G$1" pin="VCC2"/>
+</segment>
+<segment>
+<pinref part="C37" gate="G$1" pin="P$2"/>
+<pinref part="U$145" gate="G$1" pin="VCC2"/>
+</segment>
+<segment>
+<pinref part="C38" gate="G$1" pin="P$2"/>
+<pinref part="U$147" gate="G$1" pin="VCC2"/>
 </segment>
 </net>
 <net name="ICSPCLK" class="0">

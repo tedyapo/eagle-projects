@@ -573,6 +573,12 @@
 <vertex x="4.572" y="-1.2446"/>
 <vertex x="0" y="-1.27"/>
 </polygon>
+<polygon width="0" layer="1" pour="cutout">
+<vertex x="0" y="1.016"/>
+<vertex x="0" y="-1.016"/>
+<vertex x="4.572" y="-1.016"/>
+<vertex x="4.572" y="1.016"/>
+</polygon>
 </package>
 </packages>
 </library>
@@ -1266,7 +1272,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="16.764" y="22.606" extent="1-16" drill="0.35"/>
 <via x="12.573" y="27.178" extent="1-16" drill="0.35"/>
 <via x="12.573" y="25.908" extent="1-16" drill="0.35"/>
-<polygon width="0.127" layer="1" orphans="yes" thermals="no" rank="2">
+<polygon width="0.127" layer="1" thermals="no" rank="2">
 <vertex x="0" y="0"/>
 <vertex x="64.262" y="0"/>
 <vertex x="64.262" y="74.422"/>
@@ -1588,6 +1594,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="30.988" y="23.622" extent="1-16" drill="0.4"/>
 <via x="25.654" y="23.241" extent="1-16" drill="0.4"/>
 <via x="27.305" y="19.177" extent="1-16" drill="0.4"/>
+<polygon width="0.127" layer="1" pour="cutout" thermals="no">
+<vertex x="4.699" y="49.276"/>
+<vertex x="4.699" y="48.26"/>
+<vertex x="7.112" y="48.26"/>
+<vertex x="7.112" y="49.276"/>
+</polygon>
 <wire x1="3.81" y1="50.419" x2="4.318" y2="49.911" width="0" layer="19" extent="1-1"/>
 <wire x1="4.318" y1="47.625" x2="3.81" y2="47.117" width="0" layer="19" extent="1-1"/>
 <wire x1="4.445" y1="27.686" x2="3.937" y2="28.194" width="0" layer="19" extent="1-1"/>
@@ -2042,20 +2054,20 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="C1" pad="P$2"/>
 <contactref element="U$1" pad="4"/>
 <contactref element="R15" pad="P$1"/>
-<via x="5.207" y="47.752" extent="1-16" drill="0.35"/>
-<wire x1="5.207" y1="47.752" x2="5.334" y2="47.879" width="0.34925" layer="16"/>
+<via x="5.461" y="47.752" extent="1-16" drill="0.35"/>
+<wire x1="5.461" y1="47.752" x2="5.334" y2="47.879" width="0.34925" layer="16"/>
 <wire x1="5.334" y1="47.879" x2="5.334" y2="53.086" width="0.34925" layer="16"/>
 <via x="5.334" y="53.086" extent="1-16" drill="0.35"/>
 <wire x1="5.334" y1="53.086" x2="5.334" y2="54.241" width="0.34925" layer="1"/>
 <wire x1="5.334" y1="54.241" x2="5.449" y2="54.356" width="0.34925" layer="1"/>
 <wire x1="6.703" y1="47.764" x2="6.703" y2="48.264" width="0.3048" layer="1"/>
-<wire x1="6.703" y1="48.264" x2="5.719" y2="48.264" width="0.3048" layer="1"/>
-<wire x1="5.719" y1="48.264" x2="5.207" y2="47.752" width="0.3048" layer="1"/>
 <wire x1="8.001" y1="64.68" x2="5.334" y2="62.013" width="0.34925" layer="1"/>
 <wire x1="5.334" y1="62.013" x2="5.334" y2="54.241" width="0.34925" layer="1"/>
 <contactref element="P1" pad="P$1"/>
 <wire x1="3.556" y1="61.849" x2="5.17" y2="61.849" width="0.3048" layer="1"/>
 <wire x1="5.17" y1="61.849" x2="5.334" y2="62.013" width="0.3048" layer="1"/>
+<wire x1="6.703" y1="47.764" x2="6.691" y2="47.752" width="0.34925" layer="1"/>
+<wire x1="6.691" y1="47.752" x2="5.461" y2="47.752" width="0.34925" layer="1"/>
 </signal>
 <signal name="N$5">
 <contactref element="R6" pad="P$2"/>

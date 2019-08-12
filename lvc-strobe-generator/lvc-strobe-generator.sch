@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1896,11 +1896,11 @@
 <part name="U$7" library="yapo" deviceset="+5V" device=""/>
 <part name="U$8" library="yapo" deviceset="GND" device=""/>
 <part name="U$9" library="yapo" deviceset="GND" device=""/>
-<part name="R3" library="yapo" deviceset="R" device="0603"/>
+<part name="R3" library="yapo" deviceset="R" device="0402"/>
 <part name="C2" library="yapo" deviceset="C" device=""/>
-<part name="J1" library="sma_footprint_2l" deviceset="SMA-EDGE-LAUNCH" device="4020_TAPER"/>
-<part name="J2" library="sma_footprint_2l" deviceset="SMA-EDGE-LAUNCH" device="4020_TAPER"/>
-<part name="J3" library="sma_footprint_2l" deviceset="SMA-EDGE-LAUNCH" device="4020_TAPER"/>
+<part name="J1" library="sma_footprint_2l" deviceset="SMA-EDGE-LAUNCH" device="4L-4020-TAPER-FIXED"/>
+<part name="J2" library="sma_footprint_2l" deviceset="SMA-EDGE-LAUNCH" device="4L-4020-TAPER-FIXED"/>
+<part name="J3" library="sma_footprint_2l" deviceset="SMA-EDGE-LAUNCH" device="4L-4020-TAPER-FIXED"/>
 <part name="R4" library="yapo" deviceset="R" device="0603"/>
 <part name="R5" library="yapo" deviceset="R" device="0603"/>
 <part name="U$10" library="yapo" deviceset="GND" device=""/>
@@ -1920,6 +1920,9 @@
 <part name="U$20" library="yapo" deviceset="+5V" device=""/>
 <part name="C6" library="yapo" deviceset="C" device=""/>
 <part name="U$21" library="yapo" deviceset="GND" device=""/>
+<part name="C7" library="yapo" deviceset="C" device="0603"/>
+<part name="U$22" library="yapo" deviceset="GND" device=""/>
+<part name="U$23" library="yapo" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2032,6 +2035,14 @@
 <attribute name="VALUE" x="116.84" y="78.74" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="U$21" gate="G$1" x="114.3" y="71.12" smashed="yes"/>
+<instance part="C7" gate="G$1" x="198.12" y="93.98" smashed="yes">
+<attribute name="NAME" x="200.66" y="99.06" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="200.66" y="96.52" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="U$22" gate="G$1" x="198.12" y="86.36" smashed="yes"/>
+<instance part="U$23" gate="G$1" x="198.12" y="104.14" smashed="yes">
+<attribute name="VALUE" x="199.39" y="104.14" size="1.27" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -2088,6 +2099,11 @@
 <pinref part="C5" gate="G$1" pin="P$2"/>
 <pinref part="U$20" gate="G$1" pin="+5V"/>
 <wire x1="187.96" y1="99.06" x2="187.96" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C7" gate="G$1" pin="P$2"/>
+<pinref part="U$23" gate="G$1" pin="+5V"/>
+<wire x1="198.12" y1="99.06" x2="198.12" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -2150,6 +2166,11 @@
 <segment>
 <pinref part="C6" gate="G$1" pin="P$1"/>
 <pinref part="U$21" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$22" gate="G$1" pin="GND"/>
+<pinref part="C7" gate="G$1" pin="P$1"/>
+<wire x1="198.12" y1="86.36" x2="198.12" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -2216,7 +2237,7 @@
 <pinref part="R5" gate="G$1" pin="P$3"/>
 </segment>
 </net>
-<net name="N$7" class="2">
+<net name="N$7" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="CENTER"/>
 <pinref part="IC2" gate="G$1" pin="CP"/>

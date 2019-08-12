@@ -3149,7 +3149,6 @@
 <sheets>
 <sheet>
 <plain>
-<text x="325.12" y="68.58" size="5.08" layer="91">samples on wrong clock edge</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="370.84" y="-109.22" smashed="yes">

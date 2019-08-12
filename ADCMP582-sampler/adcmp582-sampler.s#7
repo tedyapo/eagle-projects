@@ -4854,6 +4854,7 @@
 <pinref part="IC8" gate="G$1" pin="Q5"/>
 <wire x1="101.6" y1="101.6" x2="111.76" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="101.6" x2="111.76" y2="38.1" width="0.1524" layer="91"/>
+<label x="40.64" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SAMPLE-CLOCK" class="0">

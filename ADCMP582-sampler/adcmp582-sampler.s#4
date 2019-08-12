@@ -3116,7 +3116,6 @@
 <part name="R29" library="yapo" deviceset="R" device="0603"/>
 <part name="R30" library="yapo" deviceset="R" device="0603"/>
 <part name="U$55" library="yapo" deviceset="GND" device=""/>
-<part name="U$56" library="yapo" deviceset="NO_CONNECT" device=""/>
 <part name="U$57" library="yapo" deviceset="NO_CONNECT" device=""/>
 <part name="U$86" library="yapo" deviceset="NO_CONNECT" device=""/>
 <part name="U$87" library="yapo" deviceset="NO_CONNECT" device=""/>
@@ -3613,7 +3612,6 @@
 <attribute name="VALUE" x="124.46" y="10.16" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="U$55" gate="G$1" x="134.62" y="-2.54" smashed="yes"/>
-<instance part="U$56" gate="G$1" x="83.82" y="20.32" smashed="yes"/>
 <instance part="U$57" gate="G$1" x="83.82" y="17.78" smashed="yes"/>
 <instance part="U$86" gate="G$1" x="83.82" y="15.24" smashed="yes"/>
 <instance part="U$87" gate="G$1" x="83.82" y="12.7" smashed="yes"/>
@@ -4996,11 +4994,13 @@
 </net>
 <net name="SAMPLE-CLOCK" class="0">
 <segment>
-<pinref part="IC4" gate="G$1" pin="RB5"/>
-<wire x1="33.02" y1="-30.48" x2="15.24" y2="-30.48" width="0.1524" layer="91"/>
 <pinref part="IC8" gate="G$1" pin="CLK1"/>
-<wire x1="15.24" y1="-30.48" x2="15.24" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="104.14" x2="66.04" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="104.14" x2="66.04" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="104.14" x2="45.72" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="60.96" x2="91.44" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="60.96" x2="91.44" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="IC4" gate="G$1" pin="RC0"/>
+<wire x1="91.44" y1="20.32" x2="78.74" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TRIGGER" class="0">
@@ -5141,12 +5141,6 @@
 <wire x1="106.68" y1="2.54" x2="106.68" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="R30" gate="G$1" pin="P$3"/>
 <wire x1="106.68" y1="7.62" x2="119.38" y2="7.62" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$46" class="0">
-<segment>
-<pinref part="IC4" gate="G$1" pin="RC0"/>
-<pinref part="U$56" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="N$47" class="0">

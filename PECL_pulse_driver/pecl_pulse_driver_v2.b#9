@@ -859,15 +859,17 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="31.115" y="15.875" extent="1-16" drill="0.6"/>
 <via x="31.115" y="18.415" extent="1-16" drill="0.6"/>
 <via x="31.115" y="13.335" extent="1-16" drill="0.6"/>
+<via x="11.43" y="8.89" extent="1-16" drill="0.6"/>
+<via x="29.591" y="1.27" extent="1-16" drill="0.6"/>
+<via x="33.401" y="1.27" extent="1-16" drill="0.6"/>
 <wire x1="41.021" y1="17.526" x2="40.513" y2="17.018" width="0" layer="19" extent="1-1"/>
 <wire x1="40.513" y1="14.732" x2="41.021" y2="14.224" width="0" layer="19" extent="1-1"/>
 <wire x1="4.191" y1="24.16175" x2="3.683" y2="24.66975" width="0" layer="19" extent="1-1"/>
 <wire x1="4.191" y1="21.87575" x2="3.683" y2="21.36775" width="0" layer="19" extent="1-1"/>
 <wire x1="4.191" y1="9.87425" x2="3.683" y2="10.38225" width="0" layer="19" extent="1-1"/>
 <wire x1="4.191" y1="7.58825" x2="3.683" y2="7.08025" width="0" layer="19" extent="1-1"/>
-<via x="11.43" y="8.89" extent="1-16" drill="0.6"/>
-<via x="29.591" y="1.27" extent="1-16" drill="0.6"/>
-<via x="33.401" y="1.27" extent="1-16" drill="0.6"/>
+<via x="37.465" y="18.796" extent="1-16" drill="0.35"/>
+<via x="37.465" y="12.954" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="+5V">
 <contactref element="IC1" pad="8"/>
@@ -915,7 +917,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="12.446" y1="7.747" x2="11.75" y2="7.051" width="0.6096" layer="1"/>
 <wire x1="11.75" y1="7.051" x2="11.75" y2="6.35" width="0.6096" layer="1"/>
 <wire x1="13.81" y1="13.97" x2="14.224" y2="21.045" width="0" layer="19" extent="1-1"/>
-<wire x1="12.573" y1="12.815" x2="13.81" y2="13.97" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IN+">
 <contactref element="IC1" pad="7"/>

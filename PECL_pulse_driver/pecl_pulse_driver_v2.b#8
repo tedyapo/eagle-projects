@@ -63,9 +63,9 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="44.811" y2="0" width="0" layer="20"/>
-<wire x1="44.811" y1="0" x2="44.831" y2="30.48" width="0" layer="20"/>
-<wire x1="44.831" y1="30.48" x2="0" y2="30.48" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="44.684" y2="0" width="0" layer="20"/>
+<wire x1="44.684" y1="0" x2="44.704" y2="30.48" width="0" layer="20"/>
+<wire x1="44.704" y1="30.48" x2="0" y2="30.48" width="0" layer="20"/>
 <wire x1="0" y1="30.48" x2="0" y2="0" width="0" layer="20"/>
 <text x="17.78" y="26.035" size="1.778" layer="21" font="vector" ratio="13">ECL Strobed Sampler</text>
 <text x="5.334" y="8.128" size="1.4224" layer="21" font="vector" ratio="12">IN+</text>
@@ -691,14 +691,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="C11" pad="P$1"/>
 <polygon width="0.1524" layer="1" thermals="no" rank="2">
 <vertex x="0" y="0"/>
-<vertex x="44.831" y="0"/>
-<vertex x="44.831" y="30.48"/>
+<vertex x="44.704" y="0"/>
+<vertex x="44.704" y="30.48"/>
 <vertex x="0" y="30.48"/>
 </polygon>
 <polygon width="0.1524" layer="16" thermals="no">
 <vertex x="0" y="0"/>
-<vertex x="44.831" y="0"/>
-<vertex x="44.831" y="30.48"/>
+<vertex x="44.704" y="0"/>
+<vertex x="44.704" y="30.48"/>
 <vertex x="0" y="30.48"/>
 </polygon>
 <via x="7.62" y="29.21" extent="1-16" drill="0.6"/>
@@ -862,6 +862,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="11.43" y="8.89" extent="1-16" drill="0.6"/>
 <via x="29.591" y="1.27" extent="1-16" drill="0.6"/>
 <via x="33.401" y="1.27" extent="1-16" drill="0.6"/>
+<via x="37.465" y="18.796" extent="1-16" drill="0.35"/>
+<via x="37.465" y="12.954" extent="1-16" drill="0.35"/>
 <wire x1="41.021" y1="17.526" x2="40.513" y2="17.018" width="0" layer="19" extent="1-1"/>
 <wire x1="40.513" y1="14.732" x2="41.021" y2="14.224" width="0" layer="19" extent="1-1"/>
 <wire x1="4.191" y1="24.16175" x2="3.683" y2="24.66975" width="0" layer="19" extent="1-1"/>

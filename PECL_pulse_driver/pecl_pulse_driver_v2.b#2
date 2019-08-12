@@ -864,6 +864,17 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="33.401" y="1.27" extent="1-16" drill="0.6"/>
 <via x="37.465" y="18.796" extent="1-16" drill="0.35"/>
 <via x="37.465" y="12.954" extent="1-16" drill="0.35"/>
+<via x="5.969" y="24.765" extent="1-16" drill="0.6"/>
+<via x="5.969" y="21.336" extent="1-16" drill="0.6"/>
+<via x="8.509" y="23.495" extent="1-16" drill="0.6"/>
+<via x="9.779" y="21.59" extent="1-16" drill="0.6"/>
+<via x="9.779" y="19.05" extent="1-16" drill="0.6"/>
+<via x="6.604" y="19.05" extent="1-16" drill="0.6"/>
+<via x="7.239" y="15.875" extent="1-16" drill="0.6"/>
+<via x="6.604" y="13.335" extent="1-16" drill="0.6"/>
+<via x="5.969" y="10.414" extent="1-16" drill="0.6"/>
+<via x="5.969" y="6.985" extent="1-16" drill="0.6"/>
+<via x="8.509" y="8.255" extent="1-16" drill="0.6"/>
 <wire x1="41.021" y1="17.526" x2="40.513" y2="17.018" width="0" layer="19" extent="1-1"/>
 <wire x1="40.513" y1="14.732" x2="41.021" y2="14.224" width="0" layer="19" extent="1-1"/>
 <wire x1="4.191" y1="24.16175" x2="3.683" y2="24.66975" width="0" layer="19" extent="1-1"/>

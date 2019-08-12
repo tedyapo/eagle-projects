@@ -5001,6 +5001,7 @@
 <wire x1="91.44" y1="60.96" x2="91.44" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="IC4" gate="G$1" pin="RC0"/>
 <wire x1="91.44" y1="20.32" x2="78.74" y2="20.32" width="0.1524" layer="91"/>
+<label x="68.58" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TRIGGER" class="0">
