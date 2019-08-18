@@ -2748,6 +2748,12 @@
 <vertex x="4.572" y="-1.2446"/>
 <vertex x="0" y="-1.27"/>
 </polygon>
+<polygon width="0" layer="1" pour="cutout">
+<vertex x="0" y="1.016"/>
+<vertex x="0" y="-1.016"/>
+<vertex x="4.572" y="-1.016"/>
+<vertex x="4.572" y="1.016"/>
+</polygon>
 </package>
 </packages>
 <symbols>

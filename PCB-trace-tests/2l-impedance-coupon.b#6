@@ -67,7 +67,9 @@
 <wire x1="63.5" y1="0" x2="63.5" y2="10.16" width="0" layer="20"/>
 <wire x1="63.5" y1="10.16" x2="0" y2="10.16" width="0" layer="20"/>
 <wire x1="0" y1="10.16" x2="0" y2="0" width="0" layer="20"/>
-<text x="5.08" y="0.635" size="1.6764" layer="21" font="vector" ratio="12">29/6 CPWG</text>
+<text x="6.985" y="1.27" size="1.4224" layer="21" font="vector" ratio="12">29/6 CPWG</text>
+<text x="48.006" y="7.493" size="1.4224" layer="21" font="vector" ratio="12">20190808</text>
+<rectangle x1="5.08" y1="1.27" x2="58.42" y2="8.89" layer="22"/>
 </plain>
 <libraries>
 <library name="yapo">
@@ -158,7 +160,7 @@
 <clearance class="1" value="0.1524"/>
 </class>
 </classes>
-<designrules name="oshpark-2layer">
+<designrules name="oshpark-2layer *">
 <description language="en">&lt;b&gt;OSH Park Design Rules&lt;/b&gt;
 &lt;p&gt;
 Please make sure your boards conform to these design rules.
@@ -220,7 +222,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <param name="mlMaxStopFrame" value="2.5mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="0mil"/>
+<param name="mlViaStopLimit" value="20mil"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
@@ -479,28 +481,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="59.182" y1="4.064" x2="59.817" y2="3.429" width="0" layer="19" extent="1-1"/>
 <wire x1="4.318" y1="6.096" x2="3.683" y2="6.731" width="0" layer="19" extent="1-1"/>
 <wire x1="4.318" y1="4.064" x2="3.683" y2="3.429" width="0" layer="19" extent="1-1"/>
-<wire x1="58.42" y1="0.762" x2="59.817" y2="1.143" width="0" layer="19" extent="1-1"/>
-<wire x1="56.515" y1="0.762" x2="58.42" y2="0.762" width="0" layer="19" extent="1-1"/>
-<wire x1="5.715" y1="0.762" x2="3.683" y2="1.143" width="0" layer="19" extent="1-1"/>
-<wire x1="53.975" y1="0.762" x2="53.975" y2="3.175" width="0" layer="19" extent="1-1"/>
-<wire x1="51.435" y1="0.762" x2="51.435" y2="3.175" width="0" layer="19" extent="1-1"/>
-<wire x1="48.895" y1="0.762" x2="48.895" y2="3.175" width="0" layer="19" extent="1-1"/>
-<wire x1="46.355" y1="0.762" x2="46.355" y2="3.175" width="0" layer="19" extent="1-1"/>
-<wire x1="43.815" y1="0.762" x2="43.815" y2="3.175" width="0" layer="19" extent="1-1"/>
-<wire x1="41.275" y1="0.762" x2="41.275" y2="3.175" width="0" layer="19" extent="1-1"/>
-<wire x1="38.735" y1="0.762" x2="38.735" y2="3.175" width="0" layer="19" extent="1-1"/>
-<wire x1="36.195" y1="0.762" x2="36.195" y2="3.175" width="0" layer="19" extent="1-1"/>
-<wire x1="33.655" y1="0.762" x2="33.655" y2="3.175" width="0" layer="19" extent="1-1"/>
-<wire x1="31.115" y1="0.762" x2="31.115" y2="3.175" width="0" layer="19" extent="1-1"/>
-<wire x1="28.575" y1="0.762" x2="28.575" y2="3.175" width="0" layer="19" extent="1-1"/>
-<wire x1="26.035" y1="0.762" x2="26.035" y2="3.175" width="0" layer="19" extent="1-1"/>
-<wire x1="23.495" y1="0.762" x2="23.495" y2="3.175" width="0" layer="19" extent="1-1"/>
-<wire x1="20.955" y1="0.762" x2="20.955" y2="3.175" width="0" layer="19" extent="1-1"/>
-<wire x1="18.415" y1="0.762" x2="18.415" y2="3.175" width="0" layer="19" extent="1-1"/>
-<wire x1="15.875" y1="0.762" x2="15.875" y2="3.175" width="0" layer="19" extent="1-1"/>
-<wire x1="13.335" y1="0.762" x2="13.335" y2="3.175" width="0" layer="19" extent="1-1"/>
-<wire x1="10.795" y1="0.762" x2="10.795" y2="3.175" width="0" layer="19" extent="1-1"/>
-<wire x1="8.255" y1="0.762" x2="8.255" y2="3.175" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1" class="1">
 <contactref element="J2" pad="CENTER@1"/>
@@ -516,6 +496,34 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
+<errors>
+<approved hash="21,19,d1dcd15cd351535e"/>
+<approved hash="21,19,6d26ed26ef24efa3"/>
+<approved hash="21,19,575ed75ed55cd5d3"/>
+<approved hash="21,19,eba4eb24e9216926"/>
+<approved hash="5,1,c899001b440f00c6"/>
+<approved hash="5,1,2f48f817f8da2c8d"/>
+<approved hash="5,1,274b551755d22486"/>
+<approved hash="5,1,24a834e667f3fbf5"/>
+<approved hash="4,1,fef9229a4f49525b"/>
+<approved hash="4,1,b53129ba143589b8"/>
+<approved hash="4,1,12843e6acf82221d"/>
+<approved hash="4,1,01221926cb8e312b"/>
+<approved hash="4,1,0f4e8c72b0c833b4"/>
+<approved hash="4,1,08b08ac2b74e343a"/>
+<approved hash="4,1,178e88c4ab4e2b2a"/>
+<approved hash="4,1,aa2135ba16339686"/>
+<approved hash="4,1,b2bf2e3c12858e46"/>
+<approved hash="4,1,c893201a4d594771"/>
+<approved hash="4,16,172e8b42a8c82b24"/>
+<approved hash="4,16,aa2f363c15b59626"/>
+<approved hash="6,1,77276ebaa5fa4adc"/>
+<approved hash="6,1,b6693723983cefcd"/>
+<approved hash="3,1,df263a49fa481f27"/>
+<approved hash="3,1,d51234b5f4b41513"/>
+<approved hash="3,1,d9807827b8261981"/>
+<approved hash="3,1,d77c7213b212177d"/>
+</errors>
 </board>
 </drawing>
 </eagle>

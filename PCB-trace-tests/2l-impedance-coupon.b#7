@@ -67,7 +67,8 @@
 <wire x1="63.5" y1="0" x2="63.5" y2="10.16" width="0" layer="20"/>
 <wire x1="63.5" y1="10.16" x2="0" y2="10.16" width="0" layer="20"/>
 <wire x1="0" y1="10.16" x2="0" y2="0" width="0" layer="20"/>
-<text x="5.08" y="0.635" size="1.6764" layer="21" font="vector" ratio="12">29/6 CPWG</text>
+<text x="6.985" y="1.27" size="1.4224" layer="21" font="vector" ratio="12">29/6 CPWG</text>
+<text x="48.006" y="7.493" size="1.4224" layer="21" font="vector" ratio="12">20190808</text>
 </plain>
 <libraries>
 <library name="yapo">
@@ -158,7 +159,7 @@
 <clearance class="1" value="0.1524"/>
 </class>
 </classes>
-<designrules name="oshpark-2layer">
+<designrules name="oshpark-2layer *">
 <description language="en">&lt;b&gt;OSH Park Design Rules&lt;/b&gt;
 &lt;p&gt;
 Please make sure your boards conform to these design rules.
@@ -220,7 +221,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <param name="mlMaxStopFrame" value="2.5mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="0mil"/>
+<param name="mlViaStopLimit" value="20mil"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
@@ -453,18 +454,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="56.515" y="3.175" extent="1-16" drill="0.45"/>
 <via x="58.42" y="6.985" extent="1-16" drill="0.45"/>
 <via x="58.42" y="3.175" extent="1-16" drill="0.45"/>
-<wire x1="59.817" y1="6.731" x2="59.182" y2="6.096" width="0" layer="19" extent="1-1"/>
-<wire x1="59.182" y1="4.064" x2="59.817" y2="3.429" width="0" layer="19" extent="1-1"/>
-<wire x1="4.318" y1="6.096" x2="3.683" y2="6.731" width="0" layer="19" extent="1-1"/>
-<wire x1="4.318" y1="4.064" x2="3.683" y2="3.429" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$1" class="1">
-<contactref element="J2" pad="CENTER@1"/>
-<contactref element="J1" pad="CENTER@1"/>
-<wire x1="1.905" y1="5.08" x2="44.45" y2="5.08" width="0.7366" layer="1"/>
-<wire x1="44.45" y1="5.08" x2="61.595" y2="5.08" width="0.7366" layer="1"/>
-</signal>
-<signal name="GND1">
 <via x="5.715" y="0.762" extent="1-16" drill="0.45"/>
 <via x="8.255" y="0.762" extent="1-16" drill="0.45"/>
 <via x="10.795" y="0.762" extent="1-16" drill="0.45"/>
@@ -487,6 +476,16 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="53.975" y="0.762" extent="1-16" drill="0.45"/>
 <via x="56.515" y="0.762" extent="1-16" drill="0.45"/>
 <via x="58.42" y="0.762" extent="1-16" drill="0.45"/>
+<wire x1="59.817" y1="6.731" x2="59.182" y2="6.096" width="0" layer="19" extent="1-1"/>
+<wire x1="59.182" y1="4.064" x2="59.817" y2="3.429" width="0" layer="19" extent="1-1"/>
+<wire x1="4.318" y1="6.096" x2="3.683" y2="6.731" width="0" layer="19" extent="1-1"/>
+<wire x1="4.318" y1="4.064" x2="3.683" y2="3.429" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$1" class="1">
+<contactref element="J2" pad="CENTER@1"/>
+<contactref element="J1" pad="CENTER@1"/>
+<wire x1="1.905" y1="5.08" x2="44.45" y2="5.08" width="0.7366" layer="1"/>
+<wire x1="44.45" y1="5.08" x2="61.595" y2="5.08" width="0.7366" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
@@ -496,6 +495,34 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
+<errors>
+<approved hash="21,19,d1dcd15cd351535e"/>
+<approved hash="21,19,6d26ed26ef24efa3"/>
+<approved hash="21,19,575ed75ed55cd5d3"/>
+<approved hash="21,19,eba4eb24e9216926"/>
+<approved hash="5,1,c899001b440f00c6"/>
+<approved hash="5,1,2f48f817f8da2c8d"/>
+<approved hash="5,1,274b551755d22486"/>
+<approved hash="5,1,24a834e667f3fbf5"/>
+<approved hash="4,1,fef9229a4f49525b"/>
+<approved hash="4,1,b53129ba143589b8"/>
+<approved hash="4,1,12843e6acf82221d"/>
+<approved hash="4,1,01221926cb8e312b"/>
+<approved hash="4,1,0f4e8c72b0c833b4"/>
+<approved hash="4,1,08b08ac2b74e343a"/>
+<approved hash="4,1,178e88c4ab4e2b2a"/>
+<approved hash="4,1,aa2135ba16339686"/>
+<approved hash="4,1,b2bf2e3c12858e46"/>
+<approved hash="4,1,c893201a4d594771"/>
+<approved hash="4,16,172e8b42a8c82b24"/>
+<approved hash="4,16,aa2f363c15b59626"/>
+<approved hash="6,1,77276ebaa5fa4adc"/>
+<approved hash="6,1,b6693723983cefcd"/>
+<approved hash="3,1,df263a49fa481f27"/>
+<approved hash="3,1,d51234b5f4b41513"/>
+<approved hash="3,1,d9807827b8261981"/>
+<approved hash="3,1,d77c7213b212177d"/>
+</errors>
 </board>
 </drawing>
 </eagle>

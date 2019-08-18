@@ -1,0 +1,6 @@
+[ ] fix op-amp input pins - currently reversed in schematic
+[ ] add input termination resistors 
+    vishay beyschlag fc series 0402 look good, but expensive. Wrap-around 
+    termination 100-ohms is flat to 15 GHz
+[ ] use quality sma jack; cinch version, for input
+[ ] 
