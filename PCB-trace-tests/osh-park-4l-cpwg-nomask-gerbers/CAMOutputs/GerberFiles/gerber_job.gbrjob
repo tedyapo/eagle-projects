@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-08-25T15:36:51Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.4.1"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.640844,
+        "LayerNumber": 4,
+        "Name": {
+            "ProjectId": "4-layer-cpwg-nomask-osh"
+        },
+        "Owner": "Ted Yapo <ted.yapo@gmail.com>",
+        "Size": {
+            "X": 50.8,
+            "Y": 33.02
+        }
+    }
+}

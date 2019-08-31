@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-08-24T21:25:11Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.4.1"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.640844,
+        "LayerNumber": 4,
+        "Name": {
+            "ProjectId": "ONET1191P-breakout"
+        },
+        "Owner": "Ted Yapo <ted.yapo@gmail.com>",
+        "Size": {
+            "X": 24.13,
+            "Y": 25.4
+        }
+    }
+}

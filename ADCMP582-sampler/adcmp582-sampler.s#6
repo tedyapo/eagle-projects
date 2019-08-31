@@ -444,30 +444,6 @@
 <text x="2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
 <text x="2.54" y="1.27" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="TSSOP-16">
-<smd name="4" x="-0.325" y="-2.54" dx="1.5" dy="0.45" layer="1" roundness="10" rot="R90"/>
-<smd name="3" x="-0.975" y="-2.54" dx="1.5" dy="0.45" layer="1" roundness="10" rot="R90"/>
-<smd name="2" x="-1.625" y="-2.54" dx="1.5" dy="0.45" layer="1" roundness="10" rot="R90"/>
-<smd name="1" x="-2.275" y="-2.54" dx="1.5" dy="0.45" layer="1" roundness="10" rot="R90"/>
-<smd name="5" x="0.325" y="-2.54" dx="1.5" dy="0.45" layer="1" roundness="10" rot="R90"/>
-<smd name="6" x="0.975" y="-2.54" dx="1.5" dy="0.45" layer="1" roundness="10" rot="R90"/>
-<smd name="7" x="1.625" y="-2.54" dx="1.5" dy="0.45" layer="1" roundness="10" rot="R90"/>
-<smd name="8" x="2.275" y="-2.54" dx="1.5" dy="0.45" layer="1" roundness="10" rot="R90"/>
-<smd name="13" x="-0.325" y="2.54" dx="1.5" dy="0.45" layer="1" roundness="10" rot="R90"/>
-<smd name="14" x="-0.975" y="2.54" dx="1.5" dy="0.45" layer="1" roundness="10" rot="R90"/>
-<smd name="15" x="-1.625" y="2.54" dx="1.5" dy="0.45" layer="1" roundness="10" rot="R90"/>
-<smd name="16" x="-2.275" y="2.54" dx="1.4" dy="0.35" layer="1" roundness="10" rot="R90"/>
-<smd name="12" x="0.325" y="2.54" dx="1.5" dy="0.45" layer="1" roundness="10" rot="R90"/>
-<smd name="11" x="0.975" y="2.54" dx="1.5" dy="0.45" layer="1" roundness="10" rot="R90"/>
-<smd name="10" x="1.625" y="2.54" dx="1.5" dy="0.45" layer="1" roundness="10" rot="R90"/>
-<smd name="9" x="2.275" y="2.54" dx="1.5" dy="0.45" layer="1" roundness="10" rot="R90"/>
-<wire x1="-2.505" y1="2.25" x2="2.505" y2="2.25" width="0.127" layer="51"/>
-<wire x1="2.505" y1="2.25" x2="2.505" y2="-2.25" width="0.127" layer="21"/>
-<wire x1="2.505" y1="-2.25" x2="-2.505" y2="-2.25" width="0.127" layer="51"/>
-<wire x1="-2.505" y1="-2.25" x2="-2.505" y2="2.25" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-1.1" x2="-1.5" y2="-1.1" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="-1.1" x2="-1.5" y2="-1.7" width="0.127" layer="21"/>
-</package>
 <package name="HEADER_3PIN">
 <pad name="2" x="0" y="0" drill="1" diameter="1.9304" shape="octagon"/>
 <pad name="1" x="-2.54" y="0" drill="1" diameter="1.9304" shape="octagon"/>
@@ -1517,27 +1493,6 @@
 <gate name="G$1" symbol="SI53360" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="TSSOP-16">
-<connects>
-<connect gate="G$1" pin="CLK0" pad="8"/>
-<connect gate="G$1" pin="CLK1" pad="9"/>
-<connect gate="G$1" pin="CLK_SEL" pad="16"/>
-<connect gate="G$1" pin="GND" pad="7 10"/>
-<connect gate="G$1" pin="OE" pad="1"/>
-<connect gate="G$1" pin="Q0" pad="3"/>
-<connect gate="G$1" pin="Q1" pad="4"/>
-<connect gate="G$1" pin="Q2" pad="5"/>
-<connect gate="G$1" pin="Q3" pad="6"/>
-<connect gate="G$1" pin="Q4" pad="11"/>
-<connect gate="G$1" pin="Q5" pad="12"/>
-<connect gate="G$1" pin="Q6" pad="13"/>
-<connect gate="G$1" pin="Q7" pad="14"/>
-<connect gate="G$1" pin="VDD" pad="2 15"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
 <device name="TSSOP16" package="TSSOP16">
 <connects>
 <connect gate="G$1" pin="CLK0" pad="8"/>
@@ -3116,7 +3071,6 @@
 <part name="R29" library="yapo" deviceset="R" device="0603"/>
 <part name="R30" library="yapo" deviceset="R" device="0603"/>
 <part name="U$55" library="yapo" deviceset="GND" device=""/>
-<part name="U$56" library="yapo" deviceset="NO_CONNECT" device=""/>
 <part name="U$57" library="yapo" deviceset="NO_CONNECT" device=""/>
 <part name="U$86" library="yapo" deviceset="NO_CONNECT" device=""/>
 <part name="U$87" library="yapo" deviceset="NO_CONNECT" device=""/>
@@ -3613,7 +3567,6 @@
 <attribute name="VALUE" x="124.46" y="10.16" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="U$55" gate="G$1" x="134.62" y="-2.54" smashed="yes"/>
-<instance part="U$56" gate="G$1" x="83.82" y="20.32" smashed="yes"/>
 <instance part="U$57" gate="G$1" x="83.82" y="17.78" smashed="yes"/>
 <instance part="U$86" gate="G$1" x="83.82" y="15.24" smashed="yes"/>
 <instance part="U$87" gate="G$1" x="83.82" y="12.7" smashed="yes"/>
@@ -4996,11 +4949,14 @@
 </net>
 <net name="SAMPLE-CLOCK" class="0">
 <segment>
-<pinref part="IC4" gate="G$1" pin="RB5"/>
-<wire x1="33.02" y1="-30.48" x2="15.24" y2="-30.48" width="0.1524" layer="91"/>
 <pinref part="IC8" gate="G$1" pin="CLK1"/>
-<wire x1="15.24" y1="-30.48" x2="15.24" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="104.14" x2="66.04" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="104.14" x2="66.04" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="104.14" x2="45.72" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="60.96" x2="91.44" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="60.96" x2="91.44" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="IC4" gate="G$1" pin="RC0"/>
+<wire x1="91.44" y1="20.32" x2="78.74" y2="20.32" width="0.1524" layer="91"/>
+<label x="68.58" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TRIGGER" class="0">
@@ -5141,12 +5097,6 @@
 <wire x1="106.68" y1="2.54" x2="106.68" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="R30" gate="G$1" pin="P$3"/>
 <wire x1="106.68" y1="7.62" x2="119.38" y2="7.62" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$46" class="0">
-<segment>
-<pinref part="IC4" gate="G$1" pin="RC0"/>
-<pinref part="U$56" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="N$47" class="0">

@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-08-24T19:50:37Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.4.1"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.640844,
+        "LayerNumber": 4,
+        "Name": {
+            "ProjectId": "adcmp572-pulser-v2"
+        },
+        "Owner": "Ted Yapo <ted.yapo@gmail.com>",
+        "Size": {
+            "X": 22.225,
+            "Y": 22.86
+        }
+    }
+}

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.1">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8,22 +8,22 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -32,8 +32,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -41,12 +41,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -2748,6 +2748,12 @@
 <vertex x="4.572" y="-1.2446"/>
 <vertex x="0" y="-1.27"/>
 </polygon>
+<polygon width="0" layer="1" pour="cutout">
+<vertex x="0" y="1.016"/>
+<vertex x="0" y="-1.016"/>
+<vertex x="4.572" y="-1.016"/>
+<vertex x="4.572" y="1.016"/>
+</polygon>
 </package>
 </packages>
 <symbols>
@@ -2972,9 +2978,9 @@
 <part name="U$27" library="yapo" deviceset="NO_CONNECT" device=""/>
 <part name="U$28" library="yapo" deviceset="NO_CONNECT" device=""/>
 <part name="U$29" library="yapo" deviceset="NO_CONNECT" device=""/>
-<part name="R12" library="yapo" deviceset="R" device="0603"/>
-<part name="R13" library="yapo" deviceset="R" device="0603"/>
-<part name="R14" library="yapo" deviceset="R" device="0603"/>
+<part name="R12" library="yapo" deviceset="R" device="0603" value="20k"/>
+<part name="R13" library="yapo" deviceset="R" device="0603" value="10k"/>
+<part name="R14" library="yapo" deviceset="R" device="0603" value="10k"/>
 <part name="IC7" library="yapo" deviceset="MCP1501" device="SOIC8"/>
 <part name="U$37" library="yapo" deviceset="GND" device=""/>
 <part name="U$39" library="yapo" deviceset="+5V" device=""/>
@@ -4593,6 +4599,7 @@
 <segment>
 <pinref part="IC4" gate="G$1" pin="RB0"/>
 <wire x1="33.02" y1="-17.78" x2="20.32" y2="-17.78" width="0.1524" layer="91"/>
+<label x="22.86" y="-17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VREF-SDI" class="0">
@@ -4604,6 +4611,7 @@
 <segment>
 <pinref part="IC4" gate="G$1" pin="RB2"/>
 <wire x1="33.02" y1="-22.86" x2="20.32" y2="-22.86" width="0.1524" layer="91"/>
+<label x="22.86" y="-22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VREF-SCK" class="0">
@@ -4615,6 +4623,7 @@
 <segment>
 <pinref part="IC4" gate="G$1" pin="RB1"/>
 <wire x1="33.02" y1="-20.32" x2="20.32" y2="-20.32" width="0.1524" layer="91"/>
+<label x="22.86" y="-20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VDAC" class="0">
@@ -4642,6 +4651,7 @@
 <segment>
 <pinref part="IC4" gate="G$1" pin="RD0"/>
 <wire x1="78.74" y1="-2.54" x2="86.36" y2="-2.54" width="0.1524" layer="91"/>
+<label x="81.28" y="-2.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D1" class="0">
@@ -4653,6 +4663,7 @@
 <segment>
 <pinref part="IC4" gate="G$1" pin="RD1"/>
 <wire x1="78.74" y1="-5.08" x2="86.36" y2="-5.08" width="0.1524" layer="91"/>
+<label x="81.28" y="-5.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D2" class="0">
@@ -4664,6 +4675,7 @@
 <segment>
 <pinref part="IC4" gate="G$1" pin="RD2"/>
 <wire x1="78.74" y1="-7.62" x2="86.36" y2="-7.62" width="0.1524" layer="91"/>
+<label x="81.28" y="-7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D3" class="0">
@@ -4675,6 +4687,7 @@
 <segment>
 <pinref part="IC4" gate="G$1" pin="RD3"/>
 <wire x1="78.74" y1="-10.16" x2="86.36" y2="-10.16" width="0.1524" layer="91"/>
+<label x="81.28" y="-10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D4" class="0">
@@ -4686,6 +4699,7 @@
 <segment>
 <pinref part="IC4" gate="G$1" pin="RD4"/>
 <wire x1="78.74" y1="-12.7" x2="86.36" y2="-12.7" width="0.1524" layer="91"/>
+<label x="81.28" y="-12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D5" class="0">
@@ -4697,6 +4711,7 @@
 <segment>
 <pinref part="IC4" gate="G$1" pin="RD5"/>
 <wire x1="78.74" y1="-15.24" x2="86.36" y2="-15.24" width="0.1524" layer="91"/>
+<label x="81.28" y="-15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D6" class="0">
@@ -4708,6 +4723,7 @@
 <segment>
 <pinref part="IC4" gate="G$1" pin="RD6"/>
 <wire x1="78.74" y1="-17.78" x2="86.36" y2="-17.78" width="0.1524" layer="91"/>
+<label x="81.28" y="-17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D7" class="0">
@@ -4719,6 +4735,7 @@
 <segment>
 <pinref part="IC4" gate="G$1" pin="RD7"/>
 <wire x1="78.74" y1="-20.32" x2="86.36" y2="-20.32" width="0.1524" layer="91"/>
+<label x="81.28" y="-20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D8" class="0">
@@ -4730,6 +4747,7 @@
 <segment>
 <pinref part="IC4" gate="G$1" pin="RE0"/>
 <wire x1="78.74" y1="-25.4" x2="86.36" y2="-25.4" width="0.1524" layer="91"/>
+<label x="81.28" y="-25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$35" class="0">
@@ -4748,6 +4766,7 @@
 <segment>
 <pinref part="IC4" gate="G$1" pin="RE1"/>
 <wire x1="78.74" y1="-27.94" x2="86.36" y2="-27.94" width="0.1524" layer="91"/>
+<label x="81.28" y="-27.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VIN3.3" class="0">
@@ -4933,6 +4952,7 @@
 <pinref part="IC9" gate="G$1" pin="Q"/>
 <wire x1="515.62" y1="-111.76" x2="523.24" y2="-111.76" width="0.1524" layer="91"/>
 <wire x1="523.24" y1="-111.76" x2="523.24" y2="-198.12" width="0.1524" layer="91"/>
+<label x="22.86" y="-25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="COMP-CLK" class="0">
@@ -4945,6 +4965,7 @@
 <wire x1="101.6" y1="101.6" x2="111.76" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="101.6" x2="111.76" y2="38.1" width="0.1524" layer="91"/>
 <label x="40.64" y="38.1" size="1.778" layer="95"/>
+<label x="27.94" y="-27.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SAMPLE-CLOCK" class="0">
@@ -4957,6 +4978,7 @@
 <pinref part="IC4" gate="G$1" pin="RC0"/>
 <wire x1="91.44" y1="20.32" x2="78.74" y2="20.32" width="0.1524" layer="91"/>
 <label x="68.58" y="60.96" size="1.778" layer="95"/>
+<label x="81.28" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TRIGGER" class="0">
@@ -4986,6 +5008,7 @@
 <pinref part="IC8" gate="G$1" pin="CLK_SEL"/>
 <wire x1="58.42" y1="99.06" x2="66.04" y2="99.06" width="0.1524" layer="91"/>
 <label x="78.74" y="48.26" size="1.778" layer="95"/>
+<label x="81.28" y="-30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$36" class="0">
@@ -5173,6 +5196,7 @@
 <pinref part="IC4" gate="G$1" pin="RC5"/>
 <wire x1="78.74" y1="7.62" x2="91.44" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="7.62" x2="91.44" y2="-157.48" width="0.1524" layer="91"/>
+<label x="81.28" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$18" class="0">

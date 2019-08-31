@@ -977,14 +977,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="10.16" y="9.271" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="8.89" y="9.271" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="J3" library="sma_footprint_2l" package="SMA_EDGE_LAUNCH_4L_4020_TAPER_FIXED" value="" x="0.254" y="11.811" smashed="yes"/>
+<element name="J3" library="sma_footprint_2l" package="SMA_EDGE_LAUNCH_4L_4020_TAPER_FIXED" value="" x="0" y="11.811" smashed="yes"/>
 <element name="IC8" library="yapo" package="TSSOP16" value="" x="15.113" y="26.543" smashed="yes"/>
 <element name="R18" library="yapo" package="R0603" value="" x="16.764" y="32.258" smashed="yes">
 <attribute name="NAME" x="19.304" y="33.528" size="1.27" layer="25"/>
 <attribute name="VALUE" x="19.304" y="30.988" size="1.27" layer="27"/>
 </element>
-<element name="J1" library="sma_footprint_2l" package="SMA_EDGE_LAUNCH_4L_4020_TAPER_FIXED" value="" x="0.127" y="48.768" smashed="yes"/>
-<element name="J4" library="sma_footprint_2l" package="SMA_EDGE_LAUNCH_4L_4020_TAPER_FIXED" value="" x="0.254" y="26.543" smashed="yes"/>
+<element name="J1" library="sma_footprint_2l" package="SMA_EDGE_LAUNCH_4L_4020_TAPER_FIXED" value="" x="0" y="48.768" smashed="yes"/>
+<element name="J4" library="sma_footprint_2l" package="SMA_EDGE_LAUNCH_4L_4020_TAPER_FIXED" value="" x="0" y="26.543" smashed="yes"/>
 <element name="R19" library="yapo" package="0402" value="" x="7.239" y="27.051" smashed="yes" rot="R180">
 <attribute name="NAME" x="4.699" y="25.781" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="4.699" y="28.321" size="1.27" layer="27" rot="R180"/>
@@ -1595,34 +1595,33 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="25.654" y="23.241" extent="1-16" drill="0.4"/>
 <via x="27.305" y="19.177" extent="1-16" drill="0.4"/>
 <polygon width="0.127" layer="1" pour="cutout" thermals="no">
-<vertex x="4.699" y="49.276"/>
-<vertex x="4.699" y="48.26"/>
+<vertex x="4.572" y="49.276"/>
+<vertex x="4.572" y="48.26"/>
 <vertex x="7.112" y="48.26"/>
 <vertex x="7.112" y="49.276"/>
 </polygon>
-<polygon width="0.127" layer="16" thermals="no">
+<polygon width="0.127" layer="16" thermals="no" rank="2">
 <vertex x="0" y="0"/>
 <vertex x="64.262" y="0"/>
 <vertex x="64.262" y="74.422"/>
 <vertex x="0" y="74.422"/>
 </polygon>
-<wire x1="3.81" y1="50.419" x2="4.318" y2="49.911" width="0" layer="19" extent="1-1"/>
-<wire x1="4.318" y1="47.625" x2="3.81" y2="47.117" width="0" layer="19" extent="1-1"/>
-<wire x1="4.445" y1="27.686" x2="3.937" y2="28.194" width="0" layer="19" extent="1-1"/>
-<wire x1="4.445" y1="25.4" x2="3.937" y2="24.892" width="0" layer="19" extent="1-1"/>
-<wire x1="4.445" y1="12.954" x2="3.937" y2="13.462" width="0" layer="19" extent="1-1"/>
-<wire x1="4.445" y1="10.668" x2="3.937" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="3.683" y1="50.419" x2="4.191" y2="49.911" width="0" layer="19" extent="1-1"/>
+<wire x1="4.191" y1="47.625" x2="3.683" y2="47.117" width="0" layer="19" extent="1-1"/>
+<wire x1="4.191" y1="27.686" x2="3.683" y2="28.194" width="0" layer="19" extent="1-1"/>
+<wire x1="4.191" y1="25.4" x2="3.683" y2="24.892" width="0" layer="19" extent="1-1"/>
+<wire x1="4.191" y1="12.954" x2="3.683" y2="13.462" width="0" layer="19" extent="1-1"/>
+<wire x1="4.191" y1="10.668" x2="3.683" y2="10.16" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="INPUT">
 <contactref element="U$1" pad="2"/>
 <contactref element="J1" pad="CENTER@1"/>
 <contactref element="J1" pad="P$3"/>
-<wire x1="2.036" y1="48.764" x2="2.032" y2="48.768" width="0.34925" layer="1"/>
 <wire x1="6.0452" y1="48.768" x2="5.715" y2="48.768" width="0.34925" layer="1"/>
-<wire x1="5.715" y1="48.768" x2="2.032" y2="48.768" width="0.34925" layer="1"/>
+<wire x1="5.715" y1="48.768" x2="1.905" y2="48.768" width="0.34925" layer="1"/>
 <wire x1="6.703" y1="48.764" x2="6.0492" y2="48.764" width="0.3048" layer="1"/>
 <wire x1="6.0492" y1="48.764" x2="6.0452" y2="48.768" width="0.3048" layer="1"/>
-<wire x1="4.318" y1="48.768" x2="5.715" y2="48.768" width="0.3048" layer="1"/>
+<wire x1="4.191" y1="48.768" x2="5.715" y2="48.768" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="U$1" pad="14"/>
@@ -2340,7 +2339,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="D6">
 <contactref element="IC3" pad="31"/>
-<wire x1="29.845" y1="35.383" x2="29.94" y2="35.478" width="0.254" layer="1"/>
 <contactref element="IC4" pad="4"/>
 <wire x1="29.94" y1="35.478" x2="29.94" y2="34.004" width="0.254" layer="1"/>
 <wire x1="29.94" y1="34.004" x2="28.829" y2="32.893" width="0.254" layer="1"/>
@@ -2621,7 +2619,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="ICSPCLK">
 <contactref element="IC4" pad="16"/>
 <contactref element="J2" pad="5"/>
-<wire x1="35.164" y1="19.774" x2="35.44674375" y2="19.774" width="0.34925" layer="1"/>
 <wire x1="35.164" y1="19.774" x2="36.487" y2="19.774" width="0.254" layer="1"/>
 <wire x1="36.487" y1="19.774" x2="36.957" y2="19.304" width="0.254" layer="1"/>
 <wire x1="36.957" y1="19.304" x2="36.957" y2="8.128" width="0.254" layer="1"/>
@@ -2668,7 +2665,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="SAMPLE-CLOCK">
 <contactref element="IC8" pad="9"/>
-<wire x1="17.388" y1="29.243" x2="17.421" y2="29.21" width="0.34925" layer="1"/>
 <contactref element="IC4" pad="32"/>
 <wire x1="17.388" y1="29.243" x2="24.732" y2="29.243" width="0.34925" layer="1"/>
 <wire x1="24.732" y1="29.243" x2="26.289" y2="27.686" width="0.34925" layer="1"/>
@@ -2679,8 +2675,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="J3" pad="CENTER@1"/>
 <contactref element="J3" pad="P$3"/>
 <contactref element="U$36" pad="2"/>
-<wire x1="6.42" y1="11.811" x2="4.445" y2="11.811" width="0.34925" layer="1"/>
-<wire x1="2.159" y1="11.811" x2="4.445" y2="11.811" width="0" layer="19" extent="1-1"/>
+<wire x1="6.42" y1="11.811" x2="4.191" y2="11.811" width="0.34925" layer="1"/>
+<wire x1="1.905" y1="11.811" x2="4.191" y2="11.811" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$23">
 <contactref element="IC8" pad="8"/>
@@ -2730,9 +2726,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="6.731" y1="26.543" x2="6.739" y2="26.535" width="0.34925" layer="1"/>
 <wire x1="6.739" y1="25.908" x2="6.739" y2="26.535" width="0.34925" layer="1"/>
 <wire x1="6.739" y1="25.908" x2="6.739" y2="24.765" width="0.34925" layer="1"/>
-<wire x1="4.445" y1="26.543" x2="2.159" y2="26.543" width="0.127" layer="1"/>
+<wire x1="4.191" y1="26.543" x2="1.905" y2="26.543" width="0.127" layer="1"/>
 <wire x1="6.739" y1="26.535" x2="6.739" y2="26.543" width="0.34925" layer="1"/>
-<wire x1="6.739" y1="26.543" x2="2.159" y2="26.543" width="0.34925" layer="1"/>
+<wire x1="6.739" y1="26.543" x2="1.905" y2="26.543" width="0.34925" layer="1"/>
 </signal>
 <signal name="N$38">
 <contactref element="R28" pad="1"/>
@@ -2966,6 +2962,84 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
+<errors>
+<approved hash="5,1,937850d2126d79b8"/>
+<approved hash="5,1,1f9f83b9921af0cb"/>
+<approved hash="5,1,9b4692eeadcdf09a"/>
+<approved hash="5,1,1e5fb5f0a635f033"/>
+<approved hash="5,1,1f9f8c7d1c617033"/>
+<approved hash="21,19,47e345e145e147e3"/>
+<approved hash="21,19,f6e2f6e2f4e0f4e0"/>
+<approved hash="21,19,ffe0ffe0fde2fde2"/>
+<approved hash="21,19,7dfc7dfc7ffe7ffe"/>
+<approved hash="21,19,74f774f776f776f5"/>
+<approved hash="21,19,0d820d820f800f80"/>
+<approved hash="21,19,74f774f776f376f5"/>
+<approved hash="4,1,361ca6c49a4f0ba7"/>
+<approved hash="4,1,37dea9248aad0b47"/>
+<approved hash="4,1,1c56f62cfe71e212"/>
+<approved hash="4,1,8d1eb8cfe0a3b115"/>
+<approved hash="4,1,b737293c14a58bae"/>
+<approved hash="4,1,b735283e14f78afe"/>
+<approved hash="4,1,b635293e14758b7c"/>
+<approved hash="4,1,375ca82495af0bc7"/>
+<approved hash="4,1,3716a85495cd0baf"/>
+<approved hash="4,1,1c16e5caed17e1d2"/>
+<approved hash="4,1,3748a93a95af0adf"/>
+<approved hash="4,1,372ea8b6954d0a87"/>
+<approved hash="4,1,9f1c147a5b96a1e9"/>
+<approved hash="4,1,9d50e15ca8f0a1d5"/>
+<approved hash="4,1,ef5eac7593c9d1c9"/>
+<approved hash="4,16,3618a95a954f0b2f"/>
+<approved hash="4,16,b637293c15758afe"/>
+<approved hash="4,16,37dea926952d0bc7"/>
+<approved hash="19,1,f413f55e7118723d"/>
+<approved hash="19,1,31ea6a676a9add74"/>
+<approved hash="19,1,2e12732bf119405e"/>
+<approved hash="19,1,f0d7ef8f6b3b76f9"/>
+<approved hash="19,1,88e58e7f86e27f55"/>
+<approved hash="19,1,cff966722e9a8504"/>
+<approved hash="19,1,e9ade818b236b383"/>
+<approved hash="19,1,dc78db97bdb9ba56"/>
+<approved hash="19,1,6dad6c1c52325383"/>
+<approved hash="19,1,ae8faa9a30b434a1"/>
+<approved hash="19,1,928c969da8b3aca2"/>
+<approved hash="19,1,568a529da0b3a4a4"/>
+<approved hash="19,1,de8cda9bbcb5b8a2"/>
+<approved hash="19,1,21ad201a46344783"/>
+<approved hash="19,1,93149feda1c3ad3a"/>
+<approved hash="19,1,a9aba81c5a325b85"/>
+<approved hash="19,1,51ae501bca35cb80"/>
+<approved hash="19,1,df14d3ebb5c5b93a"/>
+<approved hash="19,1,57125beda9c3a53c"/>
+<approved hash="19,1,af17a3ea39c43539"/>
+<approved hash="19,1,ac7bab9631b83655"/>
+<approved hash="19,1,90789791a9bfae56"/>
+<approved hash="19,1,547e5391a1bfa650"/>
+<approved hash="19,1,168c129948b74ca2"/>
+<approved hash="19,1,17141be941c74d3a"/>
+<approved hash="19,1,1478139549bb4e56"/>
+<approved hash="19,1,8d938ba1b18fb7bd"/>
+<approved hash="19,1,8e8f8e95b4bbb4a1"/>
+<approved hash="19,1,8f1f83e9b9c7b531"/>
+<approved hash="19,1,1ed1185c3e7238ff"/>
+<approved hash="19,1,1d951ba43d8a3bbb"/>
+<approved hash="19,1,d191d7a0498e4fbf"/>
+<approved hash="19,1,d2d5d4584a764cfb"/>
+<approved hash="19,1,1e891e9038be38a7"/>
+<approved hash="19,1,968e969a84b484a0"/>
+<approved hash="19,1,6d2790358ee67ca8"/>
+<approved hash="19,1,ea6012290c79f5e8"/>
+<approved hash="19,1,1770ef1ef1fd0e87"/>
+<approved hash="19,1,9d1563a67ee4809b"/>
+<approved hash="19,1,8ed78859b277b4f9"/>
+<approved hash="19,1,959293ae818087bc"/>
+<approved hash="19,1,96d69056827884f8"/>
+<approved hash="19,1,d28dd2944cba4ca3"/>
+<approved hash="19,1,d31ddfe841c64d33"/>
+<approved hash="19,1,971e9be689c88530"/>
+<approved hash="19,1,1f1913ec35c23937"/>
+</errors>
 </board>
 </drawing>
 </eagle>

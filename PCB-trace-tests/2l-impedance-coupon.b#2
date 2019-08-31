@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -68,7 +68,7 @@
 <wire x1="63.5" y1="10.16" x2="0" y2="10.16" width="0" layer="20"/>
 <wire x1="0" y1="10.16" x2="0" y2="0" width="0" layer="20"/>
 <text x="6.985" y="1.27" size="1.4224" layer="21" font="vector" ratio="12">29/6 CPWG</text>
-<text x="48.006" y="7.493" size="1.4224" layer="21" font="vector" ratio="12">20190814</text>
+<text x="48.006" y="7.493" size="1.4224" layer="21" font="vector" ratio="12">20190823</text>
 <rectangle x1="5.08" y1="1.27" x2="58.42" y2="8.89" layer="22"/>
 </plain>
 <libraries>

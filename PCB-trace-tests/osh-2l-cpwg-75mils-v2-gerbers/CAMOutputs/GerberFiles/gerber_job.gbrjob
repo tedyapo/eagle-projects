@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-08-28T13:35:09Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.4.1"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.671119,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "osh-2l-cpwg-via75-v2"
+        },
+        "Owner": "Ted Yapo <ted.yapo@gmail.com>",
+        "Size": {
+            "X": 76.2,
+            "Y": 40.64
+        }
+    }
+}

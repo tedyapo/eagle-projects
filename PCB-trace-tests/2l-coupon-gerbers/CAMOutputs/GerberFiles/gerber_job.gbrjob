@@ -1,11 +1,11 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2019-08-17T02:11:36Z",
+        "CreationDate": "2019-08-27T12:45:15Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
-            "Version": "9.4.2"
+            "Version": "9.4.1"
         },
         "Part": "Single"
     },

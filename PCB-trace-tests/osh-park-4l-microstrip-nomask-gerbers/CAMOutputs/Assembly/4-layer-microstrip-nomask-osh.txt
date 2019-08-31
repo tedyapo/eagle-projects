@@ -1,0 +1,4 @@
+Partlist exported from /home/tyapo/EAGLE/projects/PCB-trace-tests/4-layer-microstrip-nomask-osh.sch at 8/25/19 10:18 AM
+
+Qty Value Device                             Package                             Parts                  Description 
+6         SMA-EDGE-LAUNCH4L-4020-TAPER-FIXED SMA_EDGE_LAUNCH_4L_4020_TAPER_FIXED J1, J2, J3, J4, J5, J6             

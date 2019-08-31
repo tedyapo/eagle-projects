@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2957,7 +2957,7 @@
 <part name="U$13" library="yapo" deviceset="GND" device=""/>
 <part name="U$14" library="yapo" deviceset="+3.3V" device=""/>
 <part name="U$15" library="yapo" deviceset="+3.3V" device=""/>
-<part name="C1" library="yapo" deviceset="C" device="0603"/>
+<part name="C1" library="yapo" deviceset="C" device="0603" value="0"/>
 <part name="U$16" library="yapo" deviceset="GND" device=""/>
 <part name="R6" library="yapo" deviceset="R" device="0603"/>
 <part name="R7" library="yapo" deviceset="R" device="0603"/>
@@ -2981,17 +2981,17 @@
 <part name="R12" library="yapo" deviceset="R" device="0603" value="20k"/>
 <part name="R13" library="yapo" deviceset="R" device="0603" value="10k"/>
 <part name="R14" library="yapo" deviceset="R" device="0603" value="10k"/>
-<part name="IC7" library="yapo" deviceset="MCP1501" device="SOIC8"/>
+<part name="IC7" library="yapo" deviceset="MCP1501" device="SOIC8" value="MCP1501"/>
 <part name="U$37" library="yapo" deviceset="GND" device=""/>
 <part name="U$39" library="yapo" deviceset="+5V" device=""/>
 <part name="U$40" library="yapo" deviceset="-5V" device=""/>
-<part name="C4" library="yapo" deviceset="C" device="0603"/>
+<part name="C4" library="yapo" deviceset="C" device="0603" value="0"/>
 <part name="U$41" library="yapo" deviceset="GND" device=""/>
 <part name="U$42" library="yapo" deviceset="GND" device=""/>
-<part name="R15" library="yapo" deviceset="R" device="0603"/>
-<part name="IC1" library="yapo" deviceset="MCP49X1" device=""/>
+<part name="R15" library="yapo" deviceset="R" device="0603" value="0"/>
+<part name="IC1" library="yapo" deviceset="MCP49X1" device="" value="MCP4921"/>
 <part name="U$20" library="yapo" deviceset="GND" device=""/>
-<part name="C5" library="yapo" deviceset="C" device="0603"/>
+<part name="C5" library="yapo" deviceset="C" device="0603" value="0"/>
 <part name="U$45" library="yapo" deviceset="GND" device=""/>
 <part name="U$49" library="yapo" deviceset="GND" device=""/>
 <part name="R16" library="yapo" deviceset="R" device="0603"/>
@@ -3004,8 +3004,8 @@
 <part name="U$63" library="yapo" deviceset="GND" device=""/>
 <part name="U$64" library="yapo" deviceset="+3.3V" device=""/>
 <part name="U$65" library="yapo" deviceset="+3.3V" device=""/>
-<part name="IC10" library="yapo" deviceset="AZ1117E" device=""/>
-<part name="IC11" library="yapo" deviceset="AZ1117E" device=""/>
+<part name="IC10" library="yapo" deviceset="AZ1117E" device="" value="AZ1117E"/>
+<part name="IC11" library="yapo" deviceset="AZ1117E" device="" value="AZ1117E"/>
 <part name="U$66" library="yapo" deviceset="GND" device=""/>
 <part name="U$67" library="yapo" deviceset="GND" device=""/>
 <part name="C6" library="yapo" deviceset="C" device="1206"/>
@@ -3043,8 +3043,8 @@
 <part name="C18" library="yapo" deviceset="C" device="0402_NO_THERMALS"/>
 <part name="U$82" library="yapo" deviceset="GND" device=""/>
 <part name="U$83" library="yapo" deviceset="+5V" device=""/>
-<part name="C20" library="yapo" deviceset="C" device="0603"/>
-<part name="IC4" library="yapo" deviceset="PIC16F15376" device=""/>
+<part name="C20" library="yapo" deviceset="C" device="0603" value="0"/>
+<part name="IC4" library="yapo" deviceset="PIC16F15376" device="" value="PIC16F15376"/>
 <part name="U$4" library="yapo" deviceset="GND" device=""/>
 <part name="U$30" library="yapo" deviceset="GND" device=""/>
 <part name="U$31" library="yapo" deviceset="VCC2" device="" value="VCC2"/>
@@ -3053,16 +3053,16 @@
 <part name="U$33" library="yapo" deviceset="GND" device=""/>
 <part name="U$44" library="yapo" deviceset="VCC2" device="" value="VCC2"/>
 <part name="R17" library="yapo" deviceset="R" device="0603"/>
-<part name="IC5" library="yapo" deviceset="ADA4000" device=""/>
-<part name="IC6" library="yapo" deviceset="MC100LVELT20" device=""/>
+<part name="IC5" library="yapo" deviceset="ADA4000" device="" value="ADA4000"/>
+<part name="IC6" library="yapo" deviceset="MC100LVELT20" device="" value="MC100LVELT20"/>
 <part name="U$34" library="yapo" deviceset="GND" device=""/>
 <part name="U$35" library="yapo" deviceset="+3.3V" device=""/>
-<part name="U$36" library="yapo" deviceset="74LVC1G17" device=""/>
+<part name="U$36" library="yapo" deviceset="74LVC1G17" device="" value="74LVC1G17"/>
 <part name="U$46" library="yapo" deviceset="GND" device=""/>
 <part name="U$47" library="yapo" deviceset="VCC2" device="" value="VCC2"/>
 <part name="J3" library="sma_footprint_2l" deviceset="SMA-EDGE-LAUNCH" device="4L-4020-TAPER-FIXED"/>
 <part name="U$48" library="yapo" deviceset="GND" device=""/>
-<part name="IC8" library="yapo" deviceset="SI53360" device="TSSOP16"/>
+<part name="IC8" library="yapo" deviceset="SI53360" device="TSSOP16" value="SI53360"/>
 <part name="U$52" library="yapo" deviceset="GND" device=""/>
 <part name="R18" library="yapo" deviceset="R" device="0603"/>
 <part name="J1" library="sma_footprint_2l" deviceset="SMA-EDGE-LAUNCH" device="4L-4020-TAPER-FIXED"/>
@@ -3154,7 +3154,7 @@
 <part name="C35" library="yapo" deviceset="C" device="0603"/>
 <part name="U$135" library="yapo" deviceset="GND" device=""/>
 <part name="U$134" library="yapo" deviceset="-5V" device=""/>
-<part name="X1" library="yapo" deviceset="XTAL_OSC" device=""/>
+<part name="X1" library="yapo" deviceset="XTAL_OSC" device="" value="XTAL-3.2X5-8MHz"/>
 <part name="U$97" library="yapo" deviceset="GND" device=""/>
 <part name="U$136" library="yapo" deviceset="VCC2" device="" value="VCC2"/>
 <part name="C36" library="yapo" deviceset="C" device="0603"/>
@@ -3171,7 +3171,7 @@
 <part name="P6" library="yapo" deviceset="ICSP_PAD" device=""/>
 <part name="P7" library="yapo" deviceset="ICSP_PAD" device=""/>
 <part name="U$140" library="yapo" deviceset="74LVC1G04" device=""/>
-<part name="IC9" library="yapo" deviceset="74LVC1G79" device=""/>
+<part name="IC9" library="yapo" deviceset="74LVC1G79" device="" value="74LVC1G79"/>
 <part name="U$141" library="yapo" deviceset="VCC2" device="" value="VCC2"/>
 <part name="U$142" library="yapo" deviceset="GND" device=""/>
 <part name="U$143" library="yapo" deviceset="GND" device=""/>
