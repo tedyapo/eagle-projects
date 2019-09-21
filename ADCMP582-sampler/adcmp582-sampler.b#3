@@ -826,11 +826,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="24.892" y="66.675" size="1.27" layer="25"/>
 <attribute name="VALUE" x="24.892" y="64.135" size="1.27" layer="27"/>
 </element>
-<element name="IC10" library="yapo" package="SOT-223" value="" x="49.784" y="31.369" smashed="yes" rot="R90">
+<element name="IC10" library="yapo" package="SOT-223" value="AZ1117E" x="49.784" y="31.369" smashed="yes" rot="R90">
 <attribute name="NAME" x="47.184" y="35.669" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="48.984" y="35.669" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="IC11" library="yapo" package="SOT-223" value="" x="46.482" y="16.129" smashed="yes" rot="R90">
+<element name="IC11" library="yapo" package="SOT-223" value="AZ1117E" x="46.482" y="16.129" smashed="yes" rot="R90">
 <attribute name="NAME" x="43.882" y="20.429" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="45.682" y="20.429" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -953,7 +953,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="18.415" y="61.468" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="15.875" y="61.468" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="IC4" library="yapo" package="TQFP44" value="" x="29.464" y="20.574" smashed="yes" rot="R90">
+<element name="IC4" library="yapo" package="TQFP44" value="PIC16F15376" x="29.464" y="20.574" smashed="yes" rot="R90">
 <attribute name="NAME" x="23.964" y="27.574" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="25.464" y="27.574" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -969,7 +969,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="15.748" y="66.675" size="1.27" layer="25"/>
 <attribute name="VALUE" x="15.748" y="64.135" size="1.27" layer="27"/>
 </element>
-<element name="IC6" library="yapo" package="SOIC8" value="" x="41.402" y="40.005" smashed="yes" rot="R180">
+<element name="IC6" library="yapo" package="SOIC8" value="MC100LVELT20" x="41.402" y="40.005" smashed="yes" rot="R180">
 <attribute name="NAME" x="37.592" y="38.735" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="37.592" y="41.275" size="1.27" layer="27" rot="R180"/>
 </element>
@@ -978,7 +978,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="8.89" y="9.271" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="J3" library="sma_footprint_2l" package="SMA_EDGE_LAUNCH_4L_4020_TAPER_FIXED" value="" x="0" y="11.811" smashed="yes"/>
-<element name="IC8" library="yapo" package="TSSOP16" value="" x="15.113" y="26.543" smashed="yes"/>
+<element name="IC8" library="yapo" package="TSSOP16" value="SI53360" x="15.113" y="26.543" smashed="yes"/>
 <element name="R18" library="yapo" package="R0603" value="" x="16.764" y="32.258" smashed="yes">
 <attribute name="NAME" x="19.304" y="33.528" size="1.27" layer="25"/>
 <attribute name="VALUE" x="19.304" y="30.988" size="1.27" layer="27"/>
@@ -1081,7 +1081,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="8.128" y="54.229" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="8.128" y="56.769" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="X1" library="yapo" package="XTAL_3.2X5" value="" x="36.322" y="29.591" smashed="yes" rot="R180"/>
+<element name="X1" library="yapo" package="XTAL_3.2X5" value="XTAL-3.2X5-8MHz" x="36.322" y="29.591" smashed="yes" rot="R180"/>
 <element name="C36" library="yapo" package="C0603" value="" x="40.259" y="29.591" smashed="yes" rot="R270">
 <attribute name="NAME" x="41.529" y="25.781" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="38.989" y="25.781" size="1.27" layer="27" rot="R270"/>
@@ -1116,7 +1116,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="27.686" y="4.572" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="26.416" y="4.572" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="IC9" library="yapo" package="SOT23-5" value="" x="31.115" y="7.112" smashed="yes" rot="R270">
+<element name="IC9" library="yapo" package="SOT23-5" value="74LVC1G79" x="31.115" y="7.112" smashed="yes" rot="R270">
 <attribute name="NAME" x="33.655" y="4.572" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="32.385" y="4.572" size="1.27" layer="27" rot="R270"/>
 </element>

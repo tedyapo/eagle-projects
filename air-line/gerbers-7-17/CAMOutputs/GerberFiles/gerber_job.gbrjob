@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-09-08T22:25:36Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.5.0"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.671119,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "air-line-7-17-32"
+        },
+        "Owner": "Ted Yapo <ted.yapo@gmail.com>",
+        "Size": {
+            "X": 9.525,
+            "Y": 16.51
+        }
+    }
+}

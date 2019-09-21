@@ -1,0 +1,20 @@
+[Eagle]
+Version="09 05 00"
+Platform="Linux"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibraryUrn="urn:adsk.eagle:library:229"
+UsedLibrary="/home/tyapo/EAGLE/libraries/sma-temp.lbr"
+UsedLibrary="/home/tyapo/EAGLE/libraries/sma_footprint_2l.lbr"
+UsedLibrary="/home/tyapo/checkout/eagle-library/yapo.lbr"
+
+[Win_1]
+Type="Control Panel"
+Number=0
+
+[Desktop]
+Screen="3840 1080"
+Window="Win_1"
