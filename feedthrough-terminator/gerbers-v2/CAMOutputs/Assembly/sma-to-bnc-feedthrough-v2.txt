@@ -1,0 +1,6 @@
+Partlist exported from /home/tyapo/checkout/eagle-projects/feedthrough-terminator/sma-to-bnc-feedthrough-v2.sch at 6/15/20 3:26 PM
+
+Qty Value         Device        Package      Parts      Description 
+3   150           R0603         R0603        R1, R2, R3             
+1   BNC-M         BNC_MALE_PCB  BNC_MALE_PCB J2                     
+1   SMA_FEMALE_RA SMA_FEMALE_RA SMA_RA_PCB   J1                     

@@ -1,0 +1,10 @@
+Partlist exported from /home/tyapo/checkout/eagle-projects/denary-cpu/inverter-adc-demo.sch at 6/28/20 5:57 PM
+
+Qty Value  Device      Package     Parts              Description 
+1          C100MIL     C-100MIL    C1                             
+2          HEADER_2PIN HEADER_2PIN J1, J2                         
+1          HEADER_6PIN HEADER_6PIN J3                             
+3          LED5MM      LED-5MM     D1, D2, D3                     
+5   10k    RTH-0.25W   R-0.25W     R3, R4, R6, R8, R9             
+4   20k    RTH-0.25W   R-0.25W     R1, R2, R5, R7                 
+1   74xC04 74XX04DIP   DIP14       IC1                            

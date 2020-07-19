@@ -1,0 +1,4 @@
+Partlist exported from /home/tyapo/checkout/eagle-projects/PCB-trace-tests/2l-impedance-coupon-22-6.sch at 7/15/20 2:26 PM
+
+Qty Value Device          Package                          Parts  Description 
+2         SMA-EDGE-LAUNCH SMA_EDGE_LAUNCH_4L_4020_TAPER_22 J1, J2             

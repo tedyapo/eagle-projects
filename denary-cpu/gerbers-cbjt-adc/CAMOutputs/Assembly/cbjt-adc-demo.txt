@@ -1,0 +1,11 @@
+Partlist exported from /home/tyapo/checkout/eagle-projects/denary-cpu/cbjt-adc-demo.sch at 6/30/20 2:25 PM
+
+Qty Value  Device       Package     Parts                                                                                            Description 
+2          C100MIL      C-100MIL    C1, C2                                                                                                       
+2          HEADER_2PIN  HEADER_2PIN J1, J2                                                                                                       
+3          LED5MM       LED-5MM     D1, D2, D3                                                                                                   
+1          LM317        TO-220      IC1                                                                                                          
+21  1k     RTH-0.25W    R-0.25W     R1, R4, R5, R6, R7, R8, R9, R10, R11, R12, R15, R16, R17, R18, R19, R20, R21, R22, R23, R24, R26             
+18  2N3904 NPNTO-92-EBC TO-92       Q1, Q2, Q3, Q7, Q9, Q11, Q13, Q15, Q17, Q19, Q21, Q23, Q25, Q27, Q29, Q31, Q33, Q35                          
+15  2N3906 PNPTO-92-EBC TO-92       Q8, Q10, Q12, Q14, Q16, Q18, Q20, Q22, Q24, Q26, Q28, Q30, Q32, Q34, Q36                                     
+4   2k     RTH-0.25W    R-0.25W     R2, R3, R13, R14                                                                                             

@@ -1,0 +1,11 @@
+Partlist exported from /home/tyapo/checkout/eagle-projects/RGB-light/RGB-light.sch at 6/9/20 1:18 PM
+
+Qty Value          Device                Package           Parts      Description 
+3   100            R1206                 R1206             R1, R2, R3             
+1   150u           C-POLARIZEDTANTALUM-C C-TANTALUM-CODE-C C2                     
+1   1u             C0603                 C0603             C1                     
+1   33             R0603                 R0603             R4                     
+1   CHANZON 3W RGB LED-RGB-3W            LED_3W_RGB        D1                     
+2   HEADER_3PIN    HEADER_3PIN           HEADER_3PIN       U$14, U$15             
+3   IRML6244       ZXMN3B01FSOT23        SOT-23            Q1, Q2, Q3             
+1   PIC12LF1572    PIC12LF1571           SOIC8             IC1                    
